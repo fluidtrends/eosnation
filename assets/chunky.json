@@ -1,0 +1,44 @@
+{
+  "name": "EOS Nation",
+  "template": "default",
+  "env": "production",
+  "id": "io.eosnation",
+  "androidSdkDir": "~/Library/Android/sdk",
+  "sections": {
+    "start": {
+      "stack": [
+        "intro",
+        "docs"
+      ]
+    }
+  },
+  "transitions": [
+    "replace://start"
+  ],
+  "provisioning": {},
+  "theme": {
+    "logoImage": "header-logo.png",
+    "logoLightImage": "header-logo.png",
+    "headerColor": "#FF5722",
+    "textColor": "#546E7A",
+    "linkColor": "#0288D1",
+    "linkHoverColor": "#64B5F6",
+    "linkHoverBackgroundColor": "#F5F5F5",
+    "progressColor": "rgba(50,50,50,0.9)",
+    "primaryColor": "#0097A7",
+    "statusBarLight": false,
+    "navigationColor": "#2c4858",
+    "stickyNavigation": true,
+    "navigationTintColor": "#fff",
+    "backgroundColor": "#999999",
+    "footerTintColor": "#CFD8DC",
+    "footerHeaderColor": "#90A4AE",
+    "footerColor": "#546E7A",
+    "footerBottomColor": "#37474F"
+  },
+  "info": {
+    "copyright": "© 2018",
+    "watermark": "Created with Chunky.",
+    "title": "EOS Nation"
+  }
+}
