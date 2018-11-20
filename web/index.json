@@ -34,6 +34,14 @@
           }
         ]
       }
-    ]
+    ],
+    "socialMediaLinks": {
+      "facebook": "https://www.facebook.com/EOSNATIONBP/",
+      "medium": "https://medium.com/@eosnationbp",
+      "instagram": "https://www.instagram.com/explore/tags/eosnation/",
+      "github": "https://github.com/EOS-Nation",
+      "youtube": "https://www.youtube.com/channel/UCjiQXohOk0pBmJ6PFElQL-g",
+      "twitter": "https://twitter.com/EOS_Nation/"
+    }
   }
 }

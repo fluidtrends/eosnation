@@ -7,6 +7,7 @@ import footerLogo from '../../../assets/eosnation_footer_logo.png';
 class Footer extends React.PureComponent {
   render() {
     const { links } = this.props;
+    console.log(this.props.footer)
     return (
       <FooterWrapper>
         <Grid>
