@@ -1,4 +1,4 @@
-# eos-nation-website
+# EOS Nation
 
 #### You can see a demo in here:
 https://fluidtrends.github.io/eosnation
