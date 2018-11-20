@@ -1,5 +1,7 @@
 import React from 'react'
 import { Screen, Components } from 'react-dom-chunky'
+import * as CustomComponents from "../components";
+
 
 export default class MainTeamScreen extends Screen {
   constructor(props) {
@@ -11,15 +13,14 @@ export default class MainTeamScreen extends Screen {
     super.componentDidMount()
   }
 
-  get cover() {
-    return Object.assign({}, this.props.cover)
-  }
-
-  renderContent() {
-    return	<div>aaa</div>
+  loadCustomComponent(props) {
+    return (props) => {
+      const CustomComponent = CustomComponents[props.source];
+      return (<CustomComponent {...props} />);
+    }
   }
 
   components() {
-    return super.components().concat(this.renderContent())
+    return super.components().concat([])
   }
 }

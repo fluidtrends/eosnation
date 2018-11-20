@@ -23,7 +23,7 @@ class UserSection extends Component {
 
     return <div className="storybook-container team-section">
       <Heading4 center className="section-header padding-top-large margin-bottom-large">
-        Meet the Team
+        {title}
       </Heading4>
       <div className="user-card-wrapper align-center">
         {users.map((user) => (
