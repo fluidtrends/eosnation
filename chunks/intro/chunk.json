@@ -25,6 +25,11 @@
           "id": "tech",
           "title": "Tech",
           "path": "/tech"
+        },
+        {
+          "id": "blog",
+          "title": "Blog",
+          "path": "/blog"
         }
       ],
       "xcover": {
@@ -568,6 +573,56 @@
             "margin": "40px"
           }
         },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "http://google.com",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "http://google.com",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "http://google.com",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "http://google.com",
+              "text": "BP.json"
+            },
+            {
+              "url": "http://google.com",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "icon": "favorite",
+      "path": "/blog",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog",
+        "type": "default",
+        "image": "mountains.png"
+      },
+      "components": {
+        
         "footer": {
           "source": "footerSection",
           "links": [

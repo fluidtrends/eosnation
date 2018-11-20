@@ -3,7 +3,7 @@ import { Screen, Components } from 'react-dom-chunky'
 import * as CustomComponents from "../components";
 
 
-export default class MainTeamScreen extends Screen {
+export default class MainTechScreen extends Screen {
   constructor(props) {
     super(props)
     this.state = { ...this.state }
