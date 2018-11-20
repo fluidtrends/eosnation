@@ -20,8 +20,10 @@ class Footer extends React.PureComponent {
                   <a href={url} target="_blank" className="footer-link"><Body2>{text}</Body2></a>
                 </GridCell>
               ))}
-              <Components.SocialIcons socialMediaLinks={this.props.footer.socialMediaLinks} size={24}/>
             </GridInner>
+            <div style={{marginTop: '30px'}}>
+              <Components.SocialIcons socialMediaLinks={this.props.footer.socialMediaLinks} size={24}/>
+            </div>
           </GridCell>
           <GridCell span="5" phone="12" tablet="12">
             <label><Body2 bold>Get the latest updates</Body2></label>
