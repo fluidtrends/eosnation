@@ -1,0 +1,419 @@
+html, body, div {
+  font-family: "Roboto", sans-serif;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px 50px;
+}
+
+.card-container {
+  background: #EBEDEE;
+  padding: 20px 50px;
+  max-width: 360px;
+  margin: 10px 40px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-description {
+  min-width: 280px;
+}
+
+.card-image-icon {
+  font-size: 6.5rem;
+  color: #fff;
+  margin-top: 25px;
+  /*margin-top: 10px;*/
+}
+
+.card-image-wrapper {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  background: #324856;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.sub-header {
+  color: #324856;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0.38px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.section-header {
+  color: #324856;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 0.66px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.paragraph {
+  color: #324856;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 22px;
+  letter-spacing: 0.19px;
+  line-height: 30px;
+}
+
+/*utilities*/
+.display-inline-block {
+  display: inline-block;
+}
+
+.padding-remove {
+  padding: 0 !important;
+}
+
+.padding-medium {
+  padding: 20px !important;
+}
+
+.padding-top-large {
+  padding-top: 50px;
+}
+
+.padding-bottom-large {
+  padding-bottom: 50px;
+}
+
+.padding-left {
+  padding-left: 20px !important;
+}
+
+.padding-horizontal {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.facebook-custom-icon {
+  padding-left: 9px !important;
+  padding-right: 9px !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.margin-top-large {
+  margin-top: 50px;
+}
+
+.margin-bottom-large {
+  margin-bottom: 50px;
+}
+
+.margin-bottom-medium {
+  margin-bottom: 20px;
+}
+
+.margin-left-medium {
+  margin-left: 20px;
+}
+
+.margin-right-medium {
+  margin-right: 20px;
+}
+
+.margin-right-large {
+  margin-right: 50px;
+}
+
+.margin-right-small {
+  margin-right: 5px;
+}
+
+.margin-top-medium {
+  margin-top: 20px;
+}
+
+.width-1-1 {
+  width: 100%;
+}
+
+.width-1-2 {
+  width: 50%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*buttons*/
+.btn {
+  height: 60px;
+  width: 240px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  display: inherit;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 16px;
+  letter-spacing: 0.38px;
+  line-height: 3.8;
+  text-align: center;
+}
+
+.btn.btn-link {
+  text-decoration: none;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: #D66C44;
+}
+
+.btn.btn-secondary {
+  color: #fff;
+  background-color: #324856;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.input {
+  height: 60px;
+  padding: 0 20px;
+  border: 1px solid #979797;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.footer-email-input {
+  height: 59px;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  width: 280px;
+  border-right-width: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.footer-subscribe-btn {
+  width: 200px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  display: inline-block;
+}
+
+@media (max-width: 1330px) {
+  .footer-email-input {
+    display: block;
+    width: 80%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .footer-subscribe-btn {
+    margin-top: 20px;
+    display: block;
+    width: 86%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 75% !important;
+  padding-top: 20px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.team-section {
+  background-size: cover;
+  background-position: center;
+  background-color: #324856;
+}
+
+.user-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+.user-card-container {
+  background: #fff;
+  width: 380px;
+}
+
+.twitter-card-container{
+  border-radius: 5px;
+  border: 1px solid #324856;
+  width: 350px;
+  height: 190px;
+}
+
+.twitter-wrapper{
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 50px;
+  justify-content: space-around;
+}
+
+@media (max-width: 920px) {
+  .user-card-wrapper {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 480px) {
+  /*.user-card-container {*/
+  /*width: 250px;*/
+  /*}*/
+}
+
+@media (max-width: 850px) {
+  /*.user-card-container {*/
+  /*width: 300px;*/
+  /*}*/
+}
+
+.user-description {
+  margin: 10px 0;
+  height: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 780px) {
+  .calendar-social-links {
+    text-align: left;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+
+  .values-wrapper {
+    flex-direction: column;
+  }
+
+  .card-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .footer-email-input {
+    width: calc(100% - 40px);
+  }
+
+  .footer-subscribe-btn {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+  }
+
+  .section-header {
+    padding: 20px;
+  }
+
+  .footer-social-links {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    padding-bottom: 20px;
+  }
+
+  .footer-social-links a {
+    /*margin-top: 20px;*/
+    margin-right: 20px;
+  }
+
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+}
+
+.no-text-shadow {
+  box-shadow: none!important;
+}
+
+.title {
+  text-align: center;
+  padding: 5px 0 0 0;
+  font-family: 'GAMECUBEN';
+  font-size: 32px;
+  color: #324856;
+}

@@ -1,16 +1,20 @@
 import React from 'react'
 import { Screen } from 'react-dom-chunky'
-import * as CustomComponents from "../components"
+import * as CustomComponents from "../components";
 
+export default class MainIntroScreen extends Screen {
 
-export default class MainScreen extends Screen {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = { ...this.state }
   }
 
-  componentDidMount () {
+  componentDidMount() {
     super.componentDidMount()
+  }
+
+  get features() {
+    return ([])
   }
 
   loadCustomComponent(props) {
@@ -20,8 +24,8 @@ export default class MainScreen extends Screen {
     }
   }
 
-  components () {
-    return super.components().concat([])
+  components() {
+    return super.components()
+      .concat(this.features)
   }
-  
 }

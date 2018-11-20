@@ -4,15 +4,16 @@
     "main": {
       "title": "Welcome",
       "icon": "home",
+      "noFooter": "true",
+      "forceNavigation": true,
       "path": "/",
-      "cover": {
-        "image": "cover.r.png",
-        "opacity": 0.5,
-        "navigation": true,
-        "title": "Eos Nation",
-        "subtitle": "Imagine A World Beyond The Code And Start Creating.",
-        "type": "default",
-        "primaryActionTitle": "Let's do this"
+      "events": {
+        "cover": "local://docs",
+        "feature-web": "local://platform/web",
+        "feature-mobile": "local://platform/mobile",
+        "feature-cloud": "local://platform/cloud",
+        "feature-devops": "local://platform/devops",
+        "feature-integrations": "local://platform/integrations"
       },
       "extendedMenu": [
         {
@@ -21,6 +22,18 @@
           "path": "/about"
         }
       ],
+      "xcover": {
+        "image": "cover.r.png",
+        "backgroundColor": "#ffffff",
+        "align": "bottom",
+        "opacity": 0.2,
+        "navigation": true,
+        "title": "Eos Nation",
+        "subtitle": "Imagine A World Beyond The Code And Start Creating.",
+        "type": "default",
+        "primaryActionTitle": "Get Started",
+        "primaryActionLink": "/start"
+      },
       "components": {
         "cover": {
           "source": "coverSection",
@@ -277,6 +290,43 @@
           "textColor": "#ffcc000",
           "backgroundColor": "#FAFAFA"
         }
+      }
+    },
+    "about": {
+      "title": "About us",
+      "icon": "favorite",
+      "path": "/about",
+      "action": true,
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "About us",
+        "subtitle": "We are a group of dedicated, passionate and ambitious individuals aiming to contribute positively to the preservation of the EOS platform and its community.",
+        "subtitleStyle": {
+          "textAlign": "center",
+          "marginLeft": "150px",
+          "marginRight": "150px"
+        },
+        "type": "default",
+        "image": "mountains.png"
+      },
+      "components": {
+        "features": [
+          {
+            "id": "chris",
+            "source": "feature",
+            "text": "github://fluidtrends/carmel/content/product/stakeholders/chris",
+            "image": "learning.png",
+            "backgroundColor": "#ffffff",
+            "textColor": "#0686d8",
+            "animation": true
+          }
+        ]
       }
     }
   }

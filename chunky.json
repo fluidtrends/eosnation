@@ -1,7 +1,7 @@
 {
-  "name": "EOS Nation",
+  "name": "eosnation",
   "env": "dev",
-  "id": "io.eosnation",
+  "id": "io.chunky",
   "androidSdkDir": "~/Library/Android/sdk",
   "sections": {
     "start": {
@@ -35,7 +35,7 @@
     "footerBottomColor": "#37474F"
   },
   "info": {
-    "copyright": "© 2018",
+    "copyright": "2018",
     "watermark": "Created with Carmel",
     "title": "EOS Nation"
   },
