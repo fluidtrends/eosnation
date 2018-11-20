@@ -20,6 +20,11 @@
           "id": "about",
           "title": "About us",
           "path": "/about"
+        },
+        {
+          "id": "tech",
+          "title": "Tech",
+          "path": "/tech"
         }
       ],
       "xcover": {
@@ -506,6 +511,62 @@
           ],
           "textColor": "#ffcc000",
           "backgroundColor": "#FAFAFA"
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "http://google.com",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "http://google.com",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "http://google.com",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "http://google.com",
+              "text": "BP.json"
+            },
+            {
+              "url": "http://google.com",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "tech": {
+      "title": "Tech",
+      "icon": "favorite",
+      "path": "/tech",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "EOS Nation - Block Producer",
+        "type": "default",
+        "image": "mountains.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://tech",
+          "style": {
+            "margin": "40px"
+          }
         },
         "footer": {
           "source": "footerSection",
