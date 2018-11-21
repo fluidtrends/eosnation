@@ -140,58 +140,46 @@
           "title": "Meet the Team",
           "users": [
             {
-              "name": "Adam Dorfman",
-              "role": "cto",
-              "imageURL": "local://AdamDorfman.jpg",
-              "link": "http://google.com"
-            },
-            {
-              "name": "Dallas Rushing",
-              "role": "cto",
-              "imageURL": "local://DallasRushing.jpg",
-              "link": "http://google.com"
+              "name": "YVES LA ROSE",
+              "role": "ceo",
+              "imageURL": "local://YvesLaRose.jpg",
+              "link": "http://eosnation.io"
             },
             {
               "name": "Daniel Keys",
-              "role": "cto",
+              "role": "coo",
               "imageURL": "local://DanielKeys.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "David Requenez",
-              "role": "cto",
+              "role": "cmo",
               "imageURL": "local://DavidRequenez.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "local://DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
-              "name": "Elim Herr",
-              "role": "cto",
-              "imageURL": "local://ElimHerr.jpg",
-              "link": "http://google.com"
+              "name": "LENNY GOUDREAULT",
+              "role": "pmo",
+              "imageURL": "local://LennyGoudreault.jpg",
+              "link": "http://eosnation.io"
             },
             {
-              "name": "Emmanuel Babalola",
-              "role": "cto",
-              "imageURL": "local://Emmanuel_Babalola.jpeg",
-              "link": "http://google.com"
+              "name": "STEPHANE BISSON",
+              "role": "cdo",
+              "imageURL": "local://StephaneBisson.jpg",
+              "link": "http://eosnation.io"
             },
             {
-              "name": "Grace Anajuba",
-              "role": "cto",
-              "imageURL": "local://GraceAnajuba.jpeg",
-              "link": "http://google.com"
-            },
-            {
-              "name": "Kaka Toritseju",
-              "role": "cto",
-              "imageURL": "local://KakaToritseju.jpeg",
-              "link": "http://google.com"
+              "name": "VINCENT GRENIER, P.Eng",
+              "role": "cfo",
+              "imageURL": "local://Vincent_Grenier.jpg",
+              "link": "http://eosnation.io"
             }
           ],
           "textColor": "#ffcc000",
@@ -208,7 +196,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "@einarinau",
@@ -218,7 +206,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "@einarinau",
@@ -228,7 +216,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "@einarinau",
@@ -238,7 +226,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "@einarinau",
@@ -248,7 +236,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "@einarinau",
@@ -258,7 +246,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "@einarinau",
@@ -268,7 +256,7 @@
               "kudos": "5",
               "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
               "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             }
           ],
           "title": "Twitter Feed",
@@ -279,23 +267,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP.json"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Code of Conduct"
             }
           ],
@@ -470,55 +458,55 @@
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "../../assets/DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
               "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://google.com"
+              "link": "http://eosnation.io"
             }
           ],
           "textColor": "#ffcc000",
@@ -528,23 +516,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP.json"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Code of Conduct"
             }
           ],
@@ -584,23 +572,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP.json"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Code of Conduct"
             }
           ],
@@ -668,23 +656,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "BP.json"
             },
             {
-              "url": "http://google.com",
+              "url": "http://eosnation.io",
               "text": "Code of Conduct"
             }
           ],

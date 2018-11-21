@@ -1,10 +1,12 @@
-html, body, div {
-  font-family: "Roboto", sans-serif;
+html,
+body,
+div {
+  font-family: 'Roboto', sans-serif;
 }
 
-body a{
+body a {
   text-decoration: none;
-  }
+}
 
 .cards-wrapper {
   display: flex;
@@ -17,7 +19,7 @@ body a{
 
 .card-container {
   max-width: 350px;
-  background: #EBEDEE;
+  background: #ebedee;
   padding: 20px 50px;
   margin: 0 20px 50px 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -43,54 +45,54 @@ body a{
   border-radius: 50%;
 }
 
-.carousel-card-container {	
-  height: 297.63px;	
-  width: 260px;	
-  background-color: #FFFFFF;
+.carousel-card-container {
+  height: 297.63px;
+  width: 260px;
+  background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   margin: 20px;
 }
- .carousel-card-img{
+.carousel-card-img {
   max-height: 199.41px;
   width: 260px;
 }
- .carousel-card-img img{
+.carousel-card-img img {
   width: 100%;
 }
- .carousel-card-info {
+.carousel-card-info {
   height: 120px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
- .carousel-container {
-    height: 581.4px;
-    width: 100vw;
-    background: linear-gradient(to right, grey, #272D2D);
-  }
- .carousel-info {
+.carousel-container {
+  height: 581.4px;
+  width: 100%;
+  background: linear-gradient(to right, grey, #272d2d);
+}
+.carousel-info {
   height: 100%;
   width: 300px;
   padding: 10px 10px 10px 20px;
   justify-content: center;
   align-items: center;
 }
- .carousel-cards{
-background: none;
-align-items: center;
-margin-left: 50px;
+.carousel-cards {
+  background: none;
+  align-items: center;
+  margin-left: 50px;
 }
- .carousel-slider {
+.carousel-slider {
   max-width: 1000px;
 }
- .carousel-slider .slick-next {
+.carousel-slider .slick-next {
   right: 2px;
 }
 
 .sub-header {
   color: #324856;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 26px;
   font-weight: bold;
   letter-spacing: 0.38px;
@@ -100,7 +102,7 @@ margin-left: 50px;
 
 .section-header {
   color: #324856;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 46px;
   font-weight: bold;
   letter-spacing: 0.66px;
@@ -110,7 +112,7 @@ margin-left: 50px;
 
 .paragraph {
   color: #324856;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   letter-spacing: 0.19px;
   line-height: 30px;
@@ -118,21 +120,20 @@ margin-left: 50px;
 
 .section-text {
   color: #324856;
-  font-family: "SF Pro Display";
+  font-family: 'SF Pro Display';
   font-size: 16px;
   letter-spacing: 0.13px;
   line-height: 19px;
   text-align: center;
 }
- .section-text a {
+.section-text a {
   color: #324856;
 }
- .section-text a:hover {
+.section-text a:hover {
   color: #324856;
 }
- .text-white
-{
-color: white;
+.text-white {
+  color: white;
 }
 
 /*utilities*/
@@ -231,30 +232,30 @@ color: white;
   display: flex;
   flex-direction: column;
 }
- .flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
 }
- .flex-row-space-between{
+.flex-row-space-between {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
- .flex-row-start{
+.flex-row-start {
   display: flex;
   flex-direction: row;
   justify-content: start;
 }
- .flex-col-space-between{
+.flex-col-space-between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
- .flex-center{
+.flex-center {
   display: flex;
   justify-content: center;
 }
- .flex-1{
+.flex-1 {
   flex: 1;
 }
 
@@ -263,9 +264,9 @@ color: white;
   height: 60px;
   width: 240px;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inherit;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.38px;
   line-height: 3.8;
@@ -278,7 +279,7 @@ color: white;
 
 .btn.btn-primary {
   color: #fff;
-  background-color: #D66C44;
+  background-color: #d66c44;
 }
 
 .btn.btn-secondary {
@@ -291,19 +292,87 @@ color: white;
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -312,8 +381,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -321,16 +399,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -345,12 +427,12 @@ table {
   padding: 0 20px;
   border: 1px solid #979797;
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .footer-email-input {
   height: 59px;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
@@ -417,7 +499,7 @@ table {
   width: 380px;
 }
 
-.twitter-card-container{
+.twitter-card-container {
   border-radius: 5px;
   border: 1px solid #324856;
   width: 100%;
@@ -425,7 +507,7 @@ table {
   margin: 15px;
 }
 
-.twitter-wrapper{
+.twitter-wrapper {
   max-width: 1300px;
   display: flex;
   flex-wrap: wrap;
@@ -523,7 +605,7 @@ table {
   .footer-links-wrapper {
     margin-left: initial !important;
   }
-  .user-card-container{
+  .user-card-container {
     width: 100%;
   }
   .user-card-wrapper {
@@ -535,13 +617,13 @@ table {
 .twitter-wrapper {
   margin-left: 30px;
 }
- .values-wrapper {
+.values-wrapper {
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .no-text-shadow {
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
 
 .title {
