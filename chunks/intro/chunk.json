@@ -325,7 +325,7 @@
             "text": "local://members",
             "image": "polarizez.jpg",
             "backgroundColor": "#2c4858",
-            "textColor": "#0686d8",
+            "textColor": "#FFFFFF",
             "animation": true
           },
           {
@@ -344,7 +344,7 @@
             "text": "local://producer",
             "image": "climber.jpg",
             "backgroundColor": "#2c4858",
-            "textColor": "#0686d8",
+            "textColor": "#FFFFFF",
             "animation": true
           },
           {
@@ -363,7 +363,7 @@
             "text": "local://mission",
             "image": "climber.jpg",
             "backgroundColor": "#2c4858",
-            "textColor": "#0686d8",
+            "textColor": "#FFFFFF",
             "animation": true
           },
           {
@@ -382,7 +382,7 @@
             "text": "local://block-producer",
             "image": "road.jpg",
             "backgroundColor": "#2c4858",
-            "textColor": "#0686d8",
+            "textColor": "#FFFFFF",
             "animation": true
           },
           {
@@ -401,8 +401,20 @@
             "subtitle": "Having good governance in a network is very important. The role of the constitution of EOS will aim to frame and indicate everything that will be done on the network. It will be the guideline that will structure the community, but also how it will be managed. It will allow the community to govern themselves and reduce inequalities among community members. It will therefore be important for us to follow it to the letter and apply it so that each of us is equal.",
             "image": "governance.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
-            "type": "section"
+            "color": "#ffffff",
+            "type": "section",
+            "titleStyle": {
+              "dispaly": "flex",
+              "align-self": "flex-end",
+              "paddingRight": "40%",
+              "marginRight": 0
+            },
+            "subtitleStyle": {
+              "paddingRight": "100px",
+              "dispaly": "flex",
+              "align-self": "flex-end",
+              "paddingLeft": "40%"
+            }
           },
           {
             "source": "cover",
@@ -410,8 +422,19 @@
             "subtitle": "Our first goal is educating people about this new technology. As a Block Producer, we want to encourage the creation of events to inform the public about the good things that the EOS protocol will bring to our society. We want to encourage people in the community to contribute to the movement by hosting engagement sessions around the world. We also aim to create informative content that would be accessible to everyone, no matter where they reside, while being available in multiple languages so that everyone can promote the EOS ecosystem.",
             "image": "education.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
-            "type": "section"
+            "color": "#ffffff",
+            "type": "section",
+            "titleStyle": {
+              "dispaly": "flex",
+              "align-self": "flex-start",
+              "paddingLeft": "100px"
+            },
+            "subtitleStyle": {
+              "paddingLeft": "100px",
+              "dispaly": "flex",
+              "align-self": "flex-start",
+              "paddingRight": "40%"
+            }
           },
           {
             "source": "cover",
@@ -419,8 +442,19 @@
             "subtitle": "Our second goal is community support. As a Block Producer, we want to support the development of projects that will be designed on the EOS protocol. It is therefore our intention to contribute financially to the production of Decentralized Applications (DApps) to foster innovation within our community. Moreover, we also aim to create different initiatives to encourage the promotion of EOS in their environment. Our educational and promotional content will be made public so that our community can access it at any time for use during community engagement events.",
             "image": "prizes.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
-            "type": "section"
+            "color": "#ffffff",
+            "type": "section",
+            "titleStyle": {
+              "dispaly": "flex",
+              "align-self": "flex-start",
+              "paddingLeft": "100px"
+            },
+            "subtitleStyle": {
+              "paddingLeft": "100px",
+              "dispaly": "flex",
+              "align-self": "flex-start",
+              "paddingRight": "40%"
+            }
           },
           {
             "source": "cover",
@@ -428,8 +462,20 @@
             "subtitle": "Our last goal is sharing with the community. As Block Producers, we want to give back to the community and share our knowledge with them. Whether it is through the funding of projects, the creation of initiatives to promote EOS, or the redistribution of proceeds to token holders, we want to give the community recognition for making this unprecedented movement a reality. Being accessible to the community and putting you at the center of our thoughts is a way for us to seek your support in promoting this initiative in your communities.",
             "image": "sharing.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
-            "type": "section"
+            "color": "#ffffff",
+            "type": "section",
+            "titleStyle": {
+              "dispaly": "flex",
+              "align-self": "flex-end",
+              "paddingRight": "40%",
+              "marginRight": 0
+            },
+            "subtitleStyle": {
+              "paddingRight": "100px",
+              "dispaly": "flex",
+              "align-self": "flex-end",
+              "paddingLeft": "40%"
+            }
           },
           {
             "source": "cover",
@@ -437,8 +483,21 @@
             "subtitle": "The community is the focal point of EOS Nation, the strength of it is crucial to our success. Being resilient and united, the community must be dedicated to promoting our shared vision. Being a Block Producer means creating different initiatives that will have an impact on the entire community. Moreover, all that is beneficial for the community is beneficial for the Block Producer since both are reliant on each other. This reliance loop solicits each one of us to pour our hearts and souls in this project as guardians of this ecosystem.",
             "image": "community.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
-            "type": "section"
+            "color": "#ffffff",
+            "type": "section",
+            "titleStyle": {
+              "dispaly": "flex",
+              "align-self": "flex-end",
+              "paddingRight": "40%",
+              "marginRight": 0,
+              "marginLeft": 0
+            },
+            "subtitleStyle": {
+              "paddingRight": "100px",
+              "dispaly": "flex",
+              "align-self": "flex-end",
+              "paddingLeft": "40%"
+            }
           },
           {
             "source": "cover",
@@ -446,8 +505,19 @@
             "subtitle": "As a Block Producer we aim to defend your interests at the highest echelon of the EOS community. We, like you, are proud members of the EOS community and we share the same ambitions and vision for the future of our society. Join us. Be part of EOS Nation!",
             "image": "road.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
-            "type": "section"
+            "color": "#ffffff",
+            "type": "section",
+            "titleStyle": {
+              "dispaly": "flex",
+              "align-self": "flex-start",
+              "paddingLeft": "100px"
+            },
+            "subtitleStyle": {
+              "paddingLeft": "100px",
+              "dispaly": "flex",
+              "align-self": "flex-start",
+              "paddingRight": "40%"
+            }
           }
         ],
         "team": {
@@ -455,57 +525,45 @@
           "title": "Meet the Core Team",
           "users": [
             {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "../../assets/DenisCarriere.jpg",
+              "name": "YVES LA ROSE",
+              "role": "ceo",
+              "imageURL": "local://YvesLaRose.jpg",
+              "link": "http://eosnation.io"
+            },
+            {
+              "name": "Daniel Keys",
+              "role": "coo",
+              "imageURL": "local://DanielKeys.jpg",
+              "link": "http://eosnation.io"
+            },
+            {
+              "name": "David Requenez",
+              "role": "cmo",
+              "imageURL": "local://DavidRequenez.jpg",
               "link": "http://eosnation.io"
             },
             {
               "name": "Denis Carriere",
               "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
+              "imageURL": "local://DenisCarriere.jpg",
               "link": "http://eosnation.io"
             },
             {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
+              "name": "LENNY GOUDREAULT",
+              "role": "pmo",
+              "imageURL": "local://LennyGoudreault.jpg",
               "link": "http://eosnation.io"
             },
             {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
+              "name": "STEPHANE BISSON",
+              "role": "cdo",
+              "imageURL": "local://StephaneBisson.jpg",
               "link": "http://eosnation.io"
             },
             {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
+              "name": "VINCENT GRENIER, P.Eng",
+              "role": "cfo",
+              "imageURL": "local://Vincent_Grenier.jpg",
               "link": "http://eosnation.io"
             }
           ],
