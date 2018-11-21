@@ -642,13 +642,28 @@
           "source": "blogSection",
           "news": [
             {
-              "text": "aaa"
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
+              "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/IMG_%28business%29.svg/1200px-IMG_%28business%29.svg.png",
+              "date": "NOV 12 2018"
             },
             {
               "text": "bbb"
             },
             {
               "text": "cccc"
+            }
+          ],
+          "featured": [
+            {
+              "rank": "01",
+              "title": "EOS Governance - Executive and Judicial",
+              "date": "OCT 12 2015"
+            },
+            {
+              "rank": "01",
+              "title": "EOS Governance - Executive and Judicial",
+              "date": "OCT 12 2015"
             }
           ]
         },

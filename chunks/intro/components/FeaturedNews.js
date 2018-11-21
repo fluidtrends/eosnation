@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { PostTitle, PostSummary, PostImg, PostDate } from './StyledComponents';
+import { FeaturedRank, FeaturedTitle, PostDate } from './StyledComponents';
 
-class News extends React.PureComponent {
+class FeaturedNews extends React.PureComponent {
   renderNewsCard(post) {
-    const { title, summary, image, date } = post;
+    const { title, rank, date } = post;
     return (
       <Row
         style={{
@@ -14,13 +14,12 @@ class News extends React.PureComponent {
           marginBottom: '15px'
         }}
       >
-        <Col span={17}>
-          <PostTitle>{title}</PostTitle>
-          <PostSummary>{summary}</PostSummary>
-          <PostDate>{date}</PostDate>
+        <Col span={4}>
+          <FeaturedRank>{rank}</FeaturedRank>
         </Col>
-        <Col span={6} offset={1}>
-          <PostImg src={image} />
+        <Col span={19} offset={1}>
+          <FeaturedTitle>{title}</FeaturedTitle>
+          <PostDate>{date}</PostDate>
         </Col>
       </Row>
     );
@@ -36,4 +35,4 @@ class News extends React.PureComponent {
   }
 }
 
-export default News;
+export default FeaturedNews;
