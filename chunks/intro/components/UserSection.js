@@ -28,7 +28,7 @@ class UserSection extends Component {
       <div className="user-card-wrapper align-center">
         {users.map((user) => (
             <UserCard
-              link={user.link} imageURL={user.userURL} name={user.name} role={user.role} 
+              link={user.link} imageURL={user.imageURL} name={user.name} role={user.role} 
             />))}
       </div>
     </div>

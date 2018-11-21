@@ -5,6 +5,7 @@ import { Grid, GridCell } from 'rmwc';
 class UserCard extends React.PureComponent {
   render() {
     const { name, link, imageURL, role } = this.props;
+    console.log(imageURL)
     return (
       <div className="margin-right-large margin-bottom-large user-card-container">
         <Grid>

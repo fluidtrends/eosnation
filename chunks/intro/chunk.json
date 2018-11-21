@@ -142,7 +142,7 @@
             {
               "name": "Denis Carriere",
               "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
+              "imageURL": "../../assets/DenisCarriere.jpg",
               "link": "http://google.com"
             },
             {
@@ -469,7 +469,7 @@
             {
               "name": "Denis Carriere",
               "role": "cto",
-              "imageURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
+              "imageURL": "../../assets/DenisCarriere.jpg",
               "link": "http://google.com"
             },
             {
@@ -629,7 +629,18 @@
         "image": "mountains.png"
       },
       "components": {
-        
+        "text": {
+          "source": "text",
+          "textSource": "local://blog-title",
+          "style": {
+            "margin": "40px",
+            "display": "flex",
+            "alignItems": "flex-start"
+          }
+        },
+        "blog": {
+          "source": "blogSection"
+        },
         "footer": {
           "source": "footerSection",
           "links": [

@@ -23,7 +23,7 @@ class Footer extends React.PureComponent {
               ))}
             </GridInner>
             <div style={{marginTop: '20px', marginLeft: '20px'}}>
-              <Components.SocialIcons socialMediaLinks={this.props.footer.socialMediaLinks} size={24}/>
+              <Components.SocialIcons iconColor={'#ffffff'} iconColorHover={'#607D8B'} socialMediaLinks={this.props.footer.socialMediaLinks} size={24}/>
             </div>
           </GridCell>
           <GridCell span="5" phone="12" tablet="12">
