@@ -78,6 +78,13 @@
           "textColor": "#ffcc000",
           "backgroundColor": "#FAFAFA"
         },
+        "gallery": {
+          "source": "carouselSection",
+          "carouselTitle": "Community",
+          "carouselDescription": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+          "carouselBtnText": "Explore more",
+          "carouselBtnLink": "https://github.com/grigio/eosfilestore-web"
+        },
         "events": {
           "source": "eventsSection",
           "title": "EOS Nation Sponsored Projects & Events",

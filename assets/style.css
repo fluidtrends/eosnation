@@ -2,6 +2,10 @@ html, body, div {
   font-family: "Roboto", sans-serif;
 }
 
+body a{
+  text-decoration: none;
+  }
+
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +43,51 @@ html, body, div {
   border-radius: 50%;
 }
 
+.carousel-card-container {	
+  height: 297.63px;	
+  width: 260px;	
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+ .carousel-card-img{
+  max-height: 199.41px;
+  width: 260px;
+}
+ .carousel-card-img img{
+  width: 100%;
+}
+ .carousel-card-info {
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+ .carousel-container {
+    height: 581.4px;
+    width: 100vw;
+    background: linear-gradient(to right, grey, #272D2D);
+  }
+ .carousel-info {
+  height: 100%;
+  width: 300px;
+  padding: 10px 10px 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+ .carousel-cards{
+background: none;
+align-items: center;
+margin-left: 50px;
+}
+ .carousel-slider {
+  max-width: 1000px;
+}
+ .carousel-slider .slick-next {
+  right: 2px;
+}
+
 .sub-header {
   color: #324856;
   font-family: 'Roboto', sans-serif;;
@@ -65,6 +114,25 @@ html, body, div {
   font-size: 22px;
   letter-spacing: 0.19px;
   line-height: 30px;
+}
+
+.section-text {
+  color: #324856;
+  font-family: "SF Pro Display";
+  font-size: 16px;
+  letter-spacing: 0.13px;
+  line-height: 19px;
+  text-align: center;
+}
+ .section-text a {
+  color: #324856;
+}
+ .section-text a:hover {
+  color: #324856;
+}
+ .text-white
+{
+color: white;
 }
 
 /*utilities*/
@@ -157,6 +225,37 @@ html, body, div {
 .align-center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+ .flex-row{
+  display: flex;
+  flex-direction: row;
+}
+ .flex-row-space-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ .flex-row-start{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+ .flex-col-space-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ .flex-center{
+  display: flex;
+  justify-content: center;
+}
+ .flex-1{
+  flex: 1;
 }
 
 /*buttons*/
