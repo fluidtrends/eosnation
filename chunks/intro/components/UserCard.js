@@ -5,12 +5,14 @@ import { Grid, GridCell } from 'rmwc';
 class UserCard extends React.PureComponent {
   render() {
     const { name, link, imageURL, role } = this.props;
-    console.log(imageURL)
+
+    const img = imageURL.includes('local://') ? `../../assets/${imageURL.replace('local://', '')}` : imageURL
+
     return (
       <div className="margin-right-large margin-bottom-large user-card-container">
         <Grid>
           <GridCell tablet="3" phone="2">
-            <img src={imageURL} style={{ width: "120px", height: "120px", borderRadius: "50%" }} />
+            <img src={img} style={{ width: "120px", height: "120px", borderRadius: "50%" }} />
           </GridCell>
           <GridCell desktop="8" tablet="5" phone="2">
             <div className="padding-left user-description">
