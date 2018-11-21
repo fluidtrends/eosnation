@@ -5,6 +5,11 @@ import { PostTitle, PostSummary, PostImg, PostDate } from './StyledComponents';
 class News extends React.PureComponent {
   renderNewsCard(post) {
     const { title, summary, image, date } = post;
+    const imageURL =
+      image && image.includes('local://')
+        ? `../../assets/${image.replace('local://', '')}`
+        : image;
+
     return (
       <Row
         style={{
@@ -20,7 +25,7 @@ class News extends React.PureComponent {
           <PostDate>{date}</PostDate>
         </Col>
         <Col span={6} offset={1}>
-          <PostImg src={image} />
+          <PostImg src={imageURL} />
         </Col>
       </Row>
     );
