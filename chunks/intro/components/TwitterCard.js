@@ -11,16 +11,16 @@ class TwitterCard extends React.PureComponent {
     return (
       <div className="margin-right-large margin-bottom-large twitter-card-container">
         <Grid>
-          <GridCell span="2">
+          <GridCell phone="1" tablet="1" desktop="2">
             <UserProfileSmall src={userURL} />
           </GridCell>
-          <GridCell span="10">
+          <GridCell phone="3" tablet="7" desktop="10">
             <GridInner>
-              <GridCell span="9" style={{ marginTop: '5px', marginLeft: '10px' }}>
+              <GridCell phone="3" tablet="7" desktop="9" style={{ marginTop: '5px', marginLeft: '10px' }}>
                 <Body2 bold primary>{name}</Body2>
                 <Body2 bold primary>{author}</Body2>
               </GridCell>
-              <GridCell span="3">
+              <GridCell phone="1" tablet="1" desktop="3">
                 <Icon className="fab fab fa-twitter no-text-shadow" style={{fontSize:"25px"}}/>
               </GridCell>
             </GridInner>

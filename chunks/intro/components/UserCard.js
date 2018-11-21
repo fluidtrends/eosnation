@@ -8,10 +8,10 @@ class UserCard extends React.PureComponent {
     return (
       <div className="margin-right-large margin-bottom-large user-card-container">
         <Grid>
-          <GridCell>
+          <GridCell tablet="3" phone="2">
             <img src={imageURL} style={{ width: "120px", height: "120px", borderRadius: "50%" }} />
           </GridCell>
-          <GridCell span="8" tablet="2">
+          <GridCell desktop="8" tablet="5" phone="2">
             <div className="padding-left user-description">
               <span>
               <Body2 uppercase bold primary>{name}</Body2>

@@ -22,7 +22,7 @@ class Footer extends React.PureComponent {
                 </GridCell>
               ))}
             </GridInner>
-            <div style={{marginTop: '30px'}}>
+            <div style={{marginTop: '20px', marginLeft: '20px'}}>
               <Components.SocialIcons socialMediaLinks={this.props.footer.socialMediaLinks} size={24}/>
             </div>
           </GridCell>
