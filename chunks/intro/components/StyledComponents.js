@@ -86,3 +86,14 @@ export const UserProfileSmall = styled.img`
   height: 50px;
   border-radius: 50%;
 `;
+
+export const BlogTtile = styled.h3`
+	color: #324856;
+	font-size: 36px;
+`
+
+export const Line = styled.div`
+	height: 3px;
+	background-color: #B0BEC5;
+	width: 100%;
+`

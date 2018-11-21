@@ -639,7 +639,18 @@
           }
         },
         "blog": {
-          "source": "blogSection"
+          "source": "blogSection",
+          "news": [
+            {
+              "text": "aaa"
+            },
+            {
+              "text": "bbb"
+            },
+            {
+              "text": "cccc"
+            }
+          ]
         },
         "footer": {
           "source": "footerSection",

@@ -1,13 +1,22 @@
 import React from 'react';
 import { Row, Col } from 'antd'
+import News from './News'
+import { BlogTtile, Line } from './StyledComponents'
 
 class Blog extends React.PureComponent {
   render() {
-    const { name, link, imageURL, role } = this.props;
+    const { news } = this.props;
     return (
-      <Row>
-				<Col span={18} push={6}>Latest news</Col>
-      	<Col span={6} pull={18}>Features</Col>
+      <Row style={{paddingLeft: '40px', paddingRight: '40px', paddingTop: '10px'}}>
+				<Col span={17}>
+					<BlogTtile>Latest News</BlogTtile>
+					<Line/>
+					<News news={news}/>
+				</Col>
+      	<Col span={6} offset={1}>
+				<BlogTtile>Featured</BlogTtile>
+					<Line/>
+				</Col>
 			</Row>
     )
   }
