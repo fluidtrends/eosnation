@@ -17,7 +17,7 @@ class FeaturedNews extends React.PureComponent {
         <Col span={4}>
           <FeaturedRank>{rank}</FeaturedRank>
         </Col>
-        <Col span={19} offset={1}>
+        <Col span={19} offset={1} style={{ height: '120px' }}>
           <FeaturedTitle>{title}</FeaturedTitle>
           <PostDate>{date}</PostDate>
         </Col>

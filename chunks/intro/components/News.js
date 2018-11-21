@@ -16,10 +16,11 @@ class News extends React.PureComponent {
           boxShadow: '0 5px 20px 0 rgba(0,0,0,.15)',
           padding: '15px',
           marginTop: '15px',
-          marginBottom: '15px'
+          marginBottom: '15px',
+          maxHeight: '250px'
         }}
       >
-        <Col span={17}>
+        <Col span={17} style={{ height: '200px' }}>
           <PostTitle>{title}</PostTitle>
           <PostSummary>{summary}</PostSummary>
           <PostDate>{date}</PostDate>

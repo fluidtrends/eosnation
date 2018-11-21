@@ -126,6 +126,8 @@ export const PostImg = styled.img`
 export const PostDate = styled.p`
   font-size: 16px;
   color: #4a746a;
+  position: absolute;
+  bottom: 0;
 `;
 
 export const FeaturedRank = styled.p`

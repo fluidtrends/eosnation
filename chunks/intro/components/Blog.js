@@ -15,12 +15,12 @@ class Blog extends React.PureComponent {
           paddingTop: '10px'
         }}
       >
-        <Col span={17}>
+        <Col xl={{ span: 17 }} xs={{ span: 24 }}>
           <BlogTtile>Latest News</BlogTtile>
           <Line />
           <News news={news} />
         </Col>
-        <Col span={6} offset={1}>
+        <Col xl={{ span: 6, offset: 1 }} xs={{ span: 24 }}>
           <BlogTtile>Featured</BlogTtile>
           <Line />
           <FeaturedNews news={featured} />
