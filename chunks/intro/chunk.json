@@ -619,15 +619,6 @@
       "events": {
         "cover": "system://team"
       },
-      "cover": {
-        "backgroundColor": "#61AFE1",
-        "align": "bottom",
-        "opacity": 0.6,
-        "navigation": true,
-        "title": "Blog",
-        "type": "default",
-        "image": "mountains.png"
-      },
       "components": {
         "text": {
           "source": "text",
@@ -639,7 +630,39 @@
           }
         },
         "blog": {
-          "source": "blogSection"
+          "source": "blogSection",
+          "news": [
+            {
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
+              "image": "local://doors.jpg",
+              "date": "NOV 12 2018"
+            },
+            {
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
+              "image": "local://doors.jpg",
+              "date": "NOV 12 2018"
+            },
+            {
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
+              "image": "local://doors.jpg",
+              "date": "NOV 12 2018"
+            }
+          ],
+          "featured": [
+            {
+              "rank": "01",
+              "title": "EOS Governance - Executive and Judicial",
+              "date": "OCT 12 2015"
+            },
+            {
+              "rank": "01",
+              "title": "EOS Governance - Executive and Judicial",
+              "date": "OCT 12 2015"
+            }
+          ]
         },
         "footer": {
           "source": "footerSection",
