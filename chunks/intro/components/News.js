@@ -20,12 +20,12 @@ class News extends React.PureComponent {
           maxHeight: '250px'
         }}
       >
-        <Col span={17} style={{ height: '200px' }}>
+        <Col xl={{ span: 17 }} xs={{ span: 16 }} style={{ height: '200px' }}>
           <PostTitle>{title}</PostTitle>
           <PostSummary>{summary}</PostSummary>
           <PostDate>{date}</PostDate>
         </Col>
-        <Col span={6} offset={1}>
+        <Col xl={{ span: 6, offset: 1 }} xs={{ span: 6, offset: 2 }}>
           <PostImg src={imageURL} />
         </Col>
       </Row>

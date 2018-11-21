@@ -120,7 +120,8 @@ export const PostSummary = styled.p`
 
 export const PostImg = styled.img`
   height: 200px;
-  width: 250px;
+  width: 100%;
+  min-width: 200px;
 `;
 
 export const PostDate = styled.p`
