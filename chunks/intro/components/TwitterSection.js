@@ -1,12 +1,14 @@
 import React from 'react'
 import { Component } from 'react-dom-chunky'
 import TwitterCard from './TwitterCard'
-import { Heading4 } from './StyledComponents';
+import { LinearProgress } from '@rmwc/linear-progress'
+import { Typography } from '@rmwc/typography'
+import { ListDivider } from '@rmwc/list'
+import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
 class TwitterSection extends Component {
   constructor(props) {
     super(props)
-    this._done = this.done.bind(this)
     this.state = { ...super.state }
   }
 
@@ -14,27 +16,27 @@ class TwitterSection extends Component {
     super.componentDidMount()
   }
 
-  done() {
-  }
-
   renderComponent() {
-    const { users, title, textColor  } = this.props
+    const { width, isSmallScreen } = this.props
+    console.log(this.props)
 
-    return <div>
-      <Heading4 center className="section-header padding-top-large margin-bottom-large" style={{color: textColor}}>
-        {title}
-      </Heading4>
-      <div style={{display: 'flex', flexFlow: 'wrap', justifyContent: 'center'}}>
-        {users.map((user) => (
-              <TwitterCard
-                link={user.link} userURL={user.userURL} name={user.name} time={user.time} date={user.date}
-                author={user.author} kudos={user.kudos} description={user.description}
-              />
-            )
-          )
-        }
-        </div>
+    return (
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          margin: '20px',
+          justifyContent: 'center'
+        }}
+      >
+        <TwitterTimelineEmbed
+          sourceType={'timeline'}
+          userId={'969360576584577024'}
+          theme={'dark'}
+          options={{ height: isSmallScreen ? 600 : 1000, width: width / 2 }}
+        />
       </div>
+    )
   }
 }
 
