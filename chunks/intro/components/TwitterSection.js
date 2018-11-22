@@ -33,7 +33,7 @@ class TwitterSection extends Component {
           sourceType={'timeline'}
           userId={'969360576584577024'}
           theme={'dark'}
-          options={{ height: isSmallScreen ? 600 : 1000, width: width / 2 }}
+          options={{ height: isSmallScreen ? 600 : 800, width: width / 2 }}
         />
       </div>
     )
