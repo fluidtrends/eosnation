@@ -29,7 +29,7 @@ class Footer extends React.PureComponent {
                 </GridCell>
               ))}
             </GridInner>
-            <div style={{ marginTop: '20px', marginLeft: '20px' }}>
+            <div style={{ marginTop: '20px', marginLeft: '-10px' }}>
               <Components.SocialIcons
                 iconColor={'#ffffff'}
                 iconColorHover={'#607D8B'}
