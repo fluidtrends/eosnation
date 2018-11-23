@@ -33,7 +33,7 @@
         },
         {
           "id": "vote",
-          "title": "Vote",
+          "title": "Vote eos nation",
           "path": "/vote",
           "action": "local://vote"
         }
