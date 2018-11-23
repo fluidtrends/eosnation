@@ -2,7 +2,7 @@ import React from 'react'
 import { Component, Components } from 'react-dom-chunky'
 import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
-import { Cover, CoverContent,SocialLinks } from './StyledComponents';
+import { Cover, CoverContent, SocialLinks } from './StyledComponents';
 
 import 'antd/dist/antd.css';
 
@@ -30,7 +30,7 @@ export default class Intro extends Component {
           {this.subtitle()}
           {this.icons()}
         </CoverContent>
-        <Cover />
+        <Cover backgroundImgURL={this.props.backgroundImgURL} />
       </React.Fragment>
     );
   }

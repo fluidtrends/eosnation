@@ -47,7 +47,8 @@
       "components": {
         "cover": {
           "source": "coverSection",
-          "image": "cover.r.png"
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png"
         },
         "pillars": {
           "source": "valueSection",

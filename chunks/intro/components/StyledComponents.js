@@ -143,7 +143,7 @@ export const FeaturedTitle = styled.h4`
 
 export const Cover = styled.div`
   position: relative;
-  background-image: url(../../../assets/cover.r.png);
+  background-image: url(${(props) => (props.backgroundImgURL)});
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
