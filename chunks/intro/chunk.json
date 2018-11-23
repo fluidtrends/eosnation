@@ -87,10 +87,32 @@
         },
         "gallery": {
           "source": "carouselSection",
-          "carouselTitle": "Community",
-          "carouselDescription": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
-          "carouselBtnText": "Explore more",
-          "carouselBtnLink": "https://github.com/grigio/eosfilestore-web"
+          "carousel": [
+            {
+              "title": "Community",
+              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+              "btnText": "Explore more",
+              "backgroundColor": "#000",
+              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "cards": []
+            },
+            {
+              "title": "Tools",
+              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
+              "btnColor": "#324856",
+              "btnText": "Explore more",
+              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "cards": []
+            },
+            {
+              "title": "Community",
+              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+              "btnText": "Explore more",
+              "backgroundColor": "#000",
+              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "cards": []
+            }
+          ]
         },
         "events": {
           "source": "eventsSection",
