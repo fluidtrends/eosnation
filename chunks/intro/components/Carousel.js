@@ -11,7 +11,7 @@ class Carousel extends React.Component {
         {carousel.map(({ title, description, btnText, btnLink, backgroundColor, btnColor }) => (
           <div className="carousel-container" style={{ backgroundColor }}>
             <Row>
-              <Col span={6} style={{ paddingTop: "20px" }}>
+              <Col md={6} style={{ paddingTop: "20px" }} sm={{ span: 12 }}>
                 <Heading3 style={{ fontWeight: 'bold' }}>{title}</Heading3>
                 <Body3>{description}</Body3>
                 <a className="btn btn-primary btn-link flex-center margin-top-medium width-1-1 text-uppercase"
@@ -19,8 +19,8 @@ class Carousel extends React.Component {
                   {btnText}
                 </a>
               </Col>
-              <Col span={1} />
-              <Col span={16}>
+              <Col md={1} />
+              <Col md={16} sm={{ span: 12 }}>
                 <CarouselSlider />
               </Col>
             </Row>

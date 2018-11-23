@@ -25,7 +25,15 @@ class CarouselSlider extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       nextArrow: <ArrowComponent right />,
-      prevArrow: <ArrowComponent left />
+      prevArrow: <ArrowComponent left />,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
     };
     return (
       <Slider {...settings}>
