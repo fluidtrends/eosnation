@@ -8,6 +8,15 @@ body a {
   text-decoration: none;
 }
 
+
+/*add custom  font*/
+@font-face {
+  font-family: 'GAMECUBEN';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/web/gamecube-webfont.woff') format('woff');
+}
+
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;

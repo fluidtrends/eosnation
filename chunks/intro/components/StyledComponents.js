@@ -56,17 +56,17 @@ export const Heading4 = styled.h4`
 export const Body2 = styled.p`
   display: inline;
   color: ${props =>
-    props.primary
-      ? '#324856'
-      : props.secondary
-      ? '#4A746A'
-      : props.color
+  props.primary
+    ? '#324856'
+    : props.secondary
+    ? '#4A746A'
+    : props.color
       ? props.color
       : '#FFFFFF'};
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: ${props =>
-    props.bold ? 'bold' : props.light ? '300' : 'inherit'};
+  props.bold ? 'bold' : props.light ? '300' : 'inherit'};
   text-decoration: ${props => (props.link ? 'underline' : 'inherit')};
   text-transform: ${props => (props.uppercase ? 'uppercase' : 'inherit')};
   letter-spacing: 0.13px;
@@ -139,4 +139,62 @@ export const FeaturedRank = styled.p`
 export const FeaturedTitle = styled.h4`
   font-size: 22px;
   color: ${fontColor};
+`;
+
+export const Cover = styled.div`
+  position: relative;
+  background-image: url(${(props) => (props.backgroundImgURL)});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-position-y: 100px;
+  background-position-x: 200px;
+  background-size: 90%;
+  margin-top: 80px;
+  height: 700px;
+	:before{
+    content: '';
+  	position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  opacity: 0.55;
+	  background-image: linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%);
+	}
+  @media(max-width: 840px){
+    margin-top: 45px;
+    background-attachment: inherit;
+    background-position-y: inherit;
+    background-position-x: -200px;
+    background-size: cover;
+    :before{
+	    background-image: linear-gradient(90deg, #EEEEEE 18.96%, #626262 100%);
+    }
+  }
+`;
+
+export const CoverContent = styled.div`
+  width: calc(100% - 120px);
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  top: 300px;
+  left: 100px;
+  z-index: 3;
+  @media(max-width: 840px){
+    width: calc(100% - 50px);
+    top: 250px;
+    left: inherit;
+  }
+`;
+
+export const SocialLinks = styled.div`
+  position: absolute;
+  top: -200px;
+  right: 0;
+  margin-right: 20px;
+  @media(max-width: 840px){
+    right: -30px;
+  }
 `;

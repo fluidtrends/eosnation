@@ -12,7 +12,7 @@ class UserCard extends React.PureComponent {
       <div className="margin-right-large margin-bottom-large user-card-container">
         <Grid>
           <GridCell tablet="3" phone="2">
-            <img src={img} style={{ width: "120px", height: "120px", borderRadius: "50%" }} />
+            <img src={img} style={{ width: "120px", height: "120px", borderRadius: "50%", objectFit:"cover" }} />
           </GridCell>
           <GridCell desktop="8" tablet="5" phone="2">
             <div className="padding-left user-description">
