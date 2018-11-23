@@ -20,6 +20,7 @@
     "linkHoverBackgroundColor": "#F5F5F5",
     "progressColor": "rgba(50,50,50,0.9)",
     "primaryColor": "#0097A7",
+    "secondaryColor": "#D66C44",
     "statusBarLight": false,
     "navigationColor": "#2c4858",
     "stickyNavigation": true,
@@ -28,7 +29,19 @@
     "footerTintColor": "#CFD8DC",
     "footerHeaderColor": "#90A4AE",
     "footerColor": "#546E7A",
-    "footerBottomColor": "#37474F"
+    "footerBottomColor": "#37474F",
+    "navigationWrapperStyle": {
+      "padding": "20px"
+    },
+    "navigationButtonStyle": {
+      "fontSize": "16px",
+      "marginRight": "30px"
+    },
+    "navigationActionButtonStyle": {
+      "height": "60px",
+      "width": "240px",
+      "fontSize": "16px"
+    }
   },
   "info": {
     "copyright": "2018",
