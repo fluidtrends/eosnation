@@ -2,7 +2,6 @@ import React from 'react'
 import { Component, Components } from 'react-dom-chunky'
 import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
-import moment from 'moment'
 import { Cover, CoverContent,SocialLinks } from './StyledComponents';
 
 import 'antd/dist/antd.css';
@@ -47,10 +46,6 @@ export default class Intro extends Component {
   }
 
   subtitle() {
-    const color = '#FAFAFA'
-    const fontSize = this.props.isSmallScreen ? 15 : 26
-    const days = moment('17 Dec 2018').diff(moment(), 'days')
-
     return (
       <div style={{ marginTop: '30px' }}>
         <Button raised style={{
