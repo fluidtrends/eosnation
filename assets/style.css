@@ -8,6 +8,20 @@ body a {
   text-decoration: none;
 }
 
+
+/*add custom  font*/
+
+
+@font-face {
+  font-family: 'GAMECUBEN';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/web/gamecube-webfont.woff') format('woff');
+  /*url('./fonts/GameCube.tff') format('truetype');*/
+  /*url('/fonts/icomoon/FontName.ttf') format('truetype'),*/
+  /*url('/fonts/icomoon/FontName.svg#icomoon') format('svg');*/
+}
+
 .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
