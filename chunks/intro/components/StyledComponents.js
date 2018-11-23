@@ -55,14 +55,7 @@ export const Heading4 = styled.h4`
 
 export const Body2 = styled.p`
   display: inline;
-  color: ${props =>
-  props.primary
-    ? '#324856'
-    : props.secondary
-    ? '#4A746A'
-    : props.color
-      ? props.color
-      : '#FFFFFF'};
+  color: ${props => props.primary ? '#324856' : props.secondary ? '#4A746A' : props.color ? props.color : '#FFFFFF'};
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: ${props =>
@@ -71,6 +64,14 @@ export const Body2 = styled.p`
   text-transform: ${props => (props.uppercase ? 'uppercase' : 'inherit')};
   letter-spacing: 0.13px;
   line-height: 19px;
+`;
+
+export const Body3 = styled.p`
+  color: ${props => props.primary ? '#324856' : props.secondary ? '#4A746A' : props.color ? props.color : '#FFFFFF'};
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.19px;
+  line-height: 30px;
 `;
 
 export const Icon = styled.i`
@@ -196,5 +197,25 @@ export const SocialLinks = styled.div`
   margin-right: 20px;
   @media(max-width: 840px){
     right: -30px;
+  }
+`;
+
+export const Arrow = styled.div`
+  display: block;
+  background: #324856;
+  width: 40px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  :before{    
+    content: "${props => props.left ? "<" : ">"}";
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: initial;
+    padding-left: 12px;
+  }
+  :hover{
+    background: rgba(50,72,86,0.67);
+    opacity: 20%;
   }
 `;

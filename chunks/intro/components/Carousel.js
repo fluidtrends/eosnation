@@ -1,22 +1,34 @@
 import React from 'react';
+import { Col, Row } from 'antd';
+import { Body3, Heading3 } from './StyledComponents';
 import CarouselSlider from './CarouselSlider';
 
 class Carousel extends React.Component {
-    render (){
-        const {carouselTitle, carouselDescription, carouselBtnText, carouselBtnLink} = this.props;
-        return (
-            <div className='carousel-container flex-row'>
-                <div className ='carousel-info flex-col'>
-                    <p className='carousel-title sub-header text-white align-center'>{carouselTitle}</p>
-                    <p className='carousel-description text-white section-text align-center'>{carouselDescription}</p>
-                    <a className="btn btn-primary btn-link flex-center margin-top-medium width-1-1 text-uppercase" href={carouselBtnLink}>{carouselBtnText}</a>
-                    </div>
-                <div className='carousel-cards flex-center flex-1'>
-                    <CarouselSlider/>
-                </div>
-            </div>
-        )
-    }
+  render() {
+    const { carousel } = this.props;
+    return (
+      <div className="carousel-container-wrapper">
+        {carousel.map(({ title, description, btnText, btnLink, backgroundColor, btnColor }) => (
+          <div className="carousel-container" style={{ backgroundColor }}>
+            <Row>
+              <Col md={6} style={{ paddingTop: "20px" }} sm={{ span: 12 }}>
+                <Heading3 style={{ fontWeight: 'bold' }}>{title}</Heading3>
+                <Body3>{description}</Body3>
+                <a className="btn btn-primary btn-link flex-center margin-top-medium width-1-1 text-uppercase"
+                   href={btnLink} style={{ background: btnColor }}>
+                  {btnText}
+                </a>
+              </Col>
+              <Col md={1} />
+              <Col md={16} sm={{ span: 12 }}>
+                <CarouselSlider />
+              </Col>
+            </Row>
+          </div>
+        ))}
+      </div>
+    )
+  }
 }
 
 export default Carousel;

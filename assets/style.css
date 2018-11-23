@@ -8,7 +8,6 @@ body a {
   text-decoration: none;
 }
 
-
 /*add custom  font*/
 @font-face {
   font-family: 'GAMECUBEN';
@@ -29,7 +28,7 @@ body a {
 .card-container {
   max-width: 350px;
   background: #ebedee;
-  padding: 20px 50px;
+  padding: 20px 40px;
   margin: 0 20px 50px 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -41,8 +40,7 @@ body a {
 .card-image-icon {
   font-size: 6.5rem;
   color: #fff;
-  margin-top: 25px;
-  /*margin-top: 10px;*/
+  margin-top: 10px;
 }
 
 .card-image-wrapper {
@@ -61,13 +59,16 @@ body a {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   margin: 20px;
 }
+
 .carousel-card-img {
   max-height: 199.41px;
   width: 260px;
 }
+
 .carousel-card-img img {
   width: 100%;
 }
+
 .carousel-card-info {
   height: 120px;
   padding: 20px;
@@ -75,11 +76,34 @@ body a {
   justify-content: space-between;
   flex-direction: column;
 }
-.carousel-container {
-  height: 581.4px;
-  width: 100%;
-  background: linear-gradient(to right, grey, #272d2d);
+
+.carousel-container-wrapper {
+  position: relative;
+  background: linear-gradient(133.26deg, rgba(209, 131, 39, 0) 0%, #4c6a7a 42.49%, #4A746A 55.9%, #C9C5D8 75.8%, #D66C44 100%);
 }
+
+.carousel-container-wrapper:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(50, 72, 86, 0.7);
+}
+
+.carousel-container {
+  padding-top: 130px;
+  padding-bottom: 140px;
+  padding-left: 100px;
+}
+
+@media (max-width: 576px) {
+  .carousel-container {
+    padding-left: 20px;
+  }
+}
+
 .carousel-info {
   height: 100%;
   width: 300px;
@@ -87,14 +111,17 @@ body a {
   justify-content: center;
   align-items: center;
 }
+
 .carousel-cards {
   background: none;
   align-items: center;
   margin-left: 50px;
 }
+
 .carousel-slider {
   max-width: 1000px;
 }
+
 .carousel-slider .slick-next {
   right: 2px;
 }
@@ -135,12 +162,15 @@ body a {
   line-height: 19px;
   text-align: center;
 }
+
 .section-text a {
   color: #324856;
 }
+
 .section-text a:hover {
   color: #324856;
 }
+
 .text-white {
   color: white;
 }
@@ -241,29 +271,35 @@ body a {
   display: flex;
   flex-direction: column;
 }
+
 .flex-row {
   display: flex;
   flex-direction: row;
 }
+
 .flex-row-space-between {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .flex-row-start {
   display: flex;
   flex-direction: row;
   justify-content: start;
 }
+
 .flex-col-space-between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .flex-center {
   display: flex;
   justify-content: center;
 }
+
 .flex-1 {
   flex: 1;
 }
@@ -280,6 +316,7 @@ body a {
   letter-spacing: 0.38px;
   line-height: 3.8;
   text-align: center;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 .btn.btn-link {
@@ -537,6 +574,7 @@ table {
     padding-right: 10px !important;
     text-align: left !important;
   }
+
   .twitter-wrapper {
     padding: 10px;
   }
@@ -614,9 +652,11 @@ table {
   .footer-links-wrapper {
     margin-left: initial !important;
   }
+
   .user-card-container {
     width: 100%;
   }
+
   .user-card-wrapper {
     padding: 10px;
     margin-right: -50px;
@@ -626,6 +666,7 @@ table {
 .twitter-wrapper {
   margin-left: 30px;
 }
+
 .values-wrapper {
   flex-wrap: wrap;
   justify-content: space-around;
