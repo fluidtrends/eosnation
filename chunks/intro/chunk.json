@@ -30,6 +30,12 @@
           "id": "blog",
           "title": "Blog",
           "path": "/blog"
+        },
+        {
+          "id": "vote",
+          "title": "Vote",
+          "path": "/vote",
+          "action": "local://vote"
         }
       ],
       "xcover": {
