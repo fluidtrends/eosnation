@@ -5,9 +5,9 @@ import CarouselSlider from './CarouselSlider';
 
 class Carousel extends React.Component {
   render() {
-    const { carousel, carouselTitle, carouselDescription, carouselBtnText, carouselBtnLink } = this.props;
+    const { carousel } = this.props;
     return (
-      <div className="carousel-wrapper-11">
+      <div className="carousel-container-wrapper">
         {carousel.map(({ title, description, btnText, btnLink, backgroundColor, btnColor }) => (
           <div className="carousel-container" style={{ backgroundColor }}>
             <Row>

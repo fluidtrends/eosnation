@@ -77,12 +77,12 @@ body a {
   flex-direction: column;
 }
 
-.carousel-wrapper-11 {
+.carousel-container-wrapper {
   position: relative;
   background: linear-gradient(133.26deg, rgba(209, 131, 39, 0) 0%, #4c6a7a 42.49%, #4A746A 55.9%, #C9C5D8 75.8%, #D66C44 100%);
 }
 
-.carousel-wrapper-11:before {
+.carousel-container-wrapper:before {
   content: '';
   position: absolute;
   top: 0;
