@@ -163,10 +163,14 @@ export const Cover = styled.div`
 	  background-image: linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%);
 	}
   @media(max-width: 840px){
-    margin-top: 55px;
+    margin-top: 45px;
     background-attachment: inherit;
-    background-position-x: inherit;
+    background-position-y: inherit;
+    background-position-x: -200px;
     background-size: cover;
+    :before{
+	    background-image: linear-gradient(90deg, #EEEEEE 18.96%, #626262 100%);
+    }
   }
 `;
 
