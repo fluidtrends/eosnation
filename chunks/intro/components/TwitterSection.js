@@ -18,7 +18,6 @@ class TwitterSection extends Component {
 
   renderComponent() {
     const { width, isSmallScreen } = this.props
-    console.log(this.props)
 
     return (
       <div
