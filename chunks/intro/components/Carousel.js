@@ -12,7 +12,7 @@ class Carousel extends React.Component {
           <div className="carousel-container" style={{ backgroundColor }}>
             <Row>
               <Col md={6} style={{ paddingTop: "20px" }} sm={{ span: 12 }}>
-                <Heading3 style={{ fontWeight: 'bold' }}>{title}</Heading3>
+                <Heading3 style={{ fontWeight: 'bold', marginBottom: "50px" }}>{title}</Heading3>
                 <Body3>{description}</Body3>
                 <a className="btn btn-primary btn-link flex-center margin-top-medium width-1-1 text-uppercase"
                    href={btnLink} style={{ background: btnColor }}>
