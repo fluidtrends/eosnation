@@ -13,7 +13,7 @@ let btnText = 'Learn more';
 
 class ArrowComponent extends React.PureComponent {
   render() {
-    return (<Arrow {...this.props}/>);
+    return (<Arrow {...this.props} />);
   }
 }
 
@@ -21,7 +21,6 @@ class CarouselSlider extends Component {
   render() {
     const settings = {
       dots: false,
-      // infinite: true,
       speed: 1000,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -29,42 +28,40 @@ class CarouselSlider extends Component {
       prevArrow: <ArrowComponent left />
     };
     return (
-      <div>
-        <Slider {...settings} className="carousel-slider">
-          <div>
-            <CarouselCard
-              image={image}
-              title={title}
-              date={moment(eventDate).format('DD MM YYYY')}
-              btnLink={btnLink}
-              btnText={btnText} />
-          </div>
-          <div>
-            <CarouselCard
-              image={image}
-              title="EOS Webinar"
-              date={moment(new Date("2018-11-15")).format('DD MM YYYY')}
-              btnLink={btnLink}
-              btnText={btnText} />
-          </div>
-          <div>
-            <CarouselCard
-              image={image}
-              title="EOS Jumpstart"
-              date={moment(new Date("2018-11-18")).format('DD MM YYYY')}
-              btnLink={btnLink}
-              btnText={btnText} />
-          </div>
-          <div>
-            <CarouselCard
-              image={image}
-              title="EOS Nation"
-              date={moment(new Date("2018-11-25")).format('DD MM YYYY')}
-              btnLink={btnLink}
-              btnText={btnText} />
-          </div>
-        </Slider>
-      </div>
+      <Slider {...settings}>
+        <div>
+          <CarouselCard
+            image={image}
+            title={title}
+            date={moment(eventDate).format('DD MM YYYY')}
+            btnLink={btnLink}
+            btnText={btnText} />
+        </div>
+        <div>
+          <CarouselCard
+            image={image}
+            title="EOS Webinar"
+            date={moment(new Date("2018-11-15")).format('DD MM YYYY')}
+            btnLink={btnLink}
+            btnText={btnText} />
+        </div>
+        <div>
+          <CarouselCard
+            image={image}
+            title="EOS Jumpstart"
+            date={moment(new Date("2018-11-18")).format('DD MM YYYY')}
+            btnLink={btnLink}
+            btnText={btnText} />
+        </div>
+        <div>
+          <CarouselCard
+            image={image}
+            title="EOS Nation"
+            date={moment(new Date("2018-11-25")).format('DD MM YYYY')}
+            btnLink={btnLink}
+            btnText={btnText} />
+        </div>
+      </Slider>
     );
   }
 }

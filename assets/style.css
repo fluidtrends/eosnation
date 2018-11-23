@@ -41,8 +41,7 @@ body a {
 .card-image-icon {
   font-size: 6.5rem;
   color: #fff;
-  margin-top: 25px;
-  /*margin-top: 10px;*/
+  margin-top: 10px;
 }
 
 .card-image-wrapper {
@@ -76,9 +75,10 @@ body a {
   flex-direction: column;
 }
 .carousel-container {
-  height: 581.4px;
-  width: 100%;
-  background: linear-gradient(to right, grey, #272d2d);
+  background-color: #272D2D;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  padding-left: 100px;
 }
 .carousel-info {
   height: 100%;

@@ -55,14 +55,7 @@ export const Heading4 = styled.h4`
 
 export const Body2 = styled.p`
   display: inline;
-  color: ${props =>
-  props.primary
-    ? '#324856'
-    : props.secondary
-    ? '#4A746A'
-    : props.color
-      ? props.color
-      : '#FFFFFF'};
+  color: ${props => props.primary ? '#324856' : props.secondary ? '#4A746A' : props.color ? props.color : '#FFFFFF'};
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: ${props =>
@@ -71,6 +64,14 @@ export const Body2 = styled.p`
   text-transform: ${props => (props.uppercase ? 'uppercase' : 'inherit')};
   letter-spacing: 0.13px;
   line-height: 19px;
+`;
+
+export const Body3 = styled.p`
+  color: ${props => props.primary ? '#324856' : props.secondary ? '#4A746A' : props.color ? props.color : '#FFFFFF'};
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.19px;
+  line-height: 30px;
 `;
 
 export const Icon = styled.i`
