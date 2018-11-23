@@ -28,7 +28,7 @@ body a {
 .card-container {
   max-width: 350px;
   background: #ebedee;
-  padding: 20px 50px;
+  padding: 20px 40px;
   margin: 0 20px 50px 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
