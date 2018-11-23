@@ -198,3 +198,22 @@ export const SocialLinks = styled.div`
     right: -30px;
   }
 `;
+
+export const Arrow = styled.div`
+  display: block;
+  background: #324856;
+  width: 40px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  :before{    
+    content: "${props => props.left ? "<" : ">"}";
+    font-size: 1.8rem;
+    color: #fff;
+    line-height: initial;
+    padding-left: 12px;
+  }
+  :hover{
+    background: rgba(50,72,86,0.67);
+    opacity: 20%;
+  }
+`;
