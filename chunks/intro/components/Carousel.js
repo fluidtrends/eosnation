@@ -8,7 +8,7 @@ class Carousel extends React.Component {
     const { carousel } = this.props;
     return (
       <div className="carousel-container-wrapper">
-        {carousel.map(({ title, description, btnText, btnLink, backgroundColor, btnColor }) => (
+        {carousel.map(({ title, description, btnText, btnLink, cards, backgroundColor, btnColor }) => (
           <div className="carousel-container" style={{ backgroundColor }}>
             <Row>
               <Col md={6} style={{ paddingTop: "20px" }} sm={{ span: 12 }}>
@@ -21,7 +21,7 @@ class Carousel extends React.Component {
               </Col>
               <Col md={1} />
               <Col md={16} sm={{ span: 12 }}>
-                <CarouselSlider />
+                <CarouselSlider cards={cards} />
               </Col>
             </Row>
           </div>

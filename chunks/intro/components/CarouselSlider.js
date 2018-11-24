@@ -5,11 +5,11 @@ import CarouselCard from "./CarouselCard";
 import { Arrow } from "./StyledComponents";
 import moment from 'moment';
 
-let image = 'https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png';
-let title = 'EOS Meetup';
-let eventDate = new Date().now;
-let btnLink = 'https://github.com/grigio/eosfilestore-web';
-let btnText = 'Learn more';
+// let image = 'https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png';
+// let title = 'EOS Meetup';
+// let eventDate = new Date().now;
+// let btnLink = 'https://github.com/grigio/eosfilestore-web';
+// let btnText = 'Learn more';
 
 class ArrowComponent extends React.PureComponent {
   render() {
@@ -19,6 +19,7 @@ class ArrowComponent extends React.PureComponent {
 
 class CarouselSlider extends Component {
   render() {
+    const { cards } = this.props;
     const settings = {
       dots: false,
       speed: 1000,
@@ -37,38 +38,16 @@ class CarouselSlider extends Component {
     };
     return (
       <Slider {...settings}>
-        <div>
-          <CarouselCard
-            image={image}
-            title={title}
-            date={moment(eventDate).format('DD MM YYYY')}
-            btnLink={btnLink}
-            btnText={btnText} />
-        </div>
-        <div>
-          <CarouselCard
-            image={image}
-            title="EOS Webinar"
-            date={moment(new Date("2018-11-15")).format('DD MM YYYY')}
-            btnLink={btnLink}
-            btnText={btnText} />
-        </div>
-        <div>
-          <CarouselCard
-            image={image}
-            title="EOS Jumpstart"
-            date={moment(new Date("2018-11-18")).format('DD MM YYYY')}
-            btnLink={btnLink}
-            btnText={btnText} />
-        </div>
-        <div>
-          <CarouselCard
-            image={image}
-            title="EOS Nation"
-            date={moment(new Date("2018-11-25")).format('DD MM YYYY')}
-            btnLink={btnLink}
-            btnText={btnText} />
-        </div>
+        {cards.map(({ image, title, btnLink, btnText, eventDate }) => (
+          <div>
+            <CarouselCard
+              image={image}
+              title={title}
+              date={moment(eventDate).format('DD MM YYYY')}
+              btnLink={btnLink}
+              btnText={btnText} />
+          </div>
+        ))}
       </Slider>
     );
   }
