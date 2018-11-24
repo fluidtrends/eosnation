@@ -38,9 +38,9 @@ body a {
 }
 
 .card-image-icon {
-  font-size: 6.5rem;
+  font-size: 6rem;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 12px
 }
 
 .card-image-wrapper {
@@ -100,6 +100,8 @@ body a {
 
 @media (max-width: 576px) {
   .carousel-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 20px;
   }
 }
@@ -572,7 +574,7 @@ table {
   .section-header {
     padding-left: 10px !important;
     padding-right: 10px !important;
-    text-align: left !important;
+    /*text-align: left !important;*/
   }
 
   .twitter-wrapper {

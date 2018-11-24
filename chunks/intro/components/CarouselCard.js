@@ -13,7 +13,7 @@ class CarouselCard extends React.Component {
           <div className="paragraph">{title}</div>
           <div className="flex-row-space-between">
             <p className="section-text">{date}</p>
-            <p className="section-text">
+            <p className="section-text" style={{ textDecoration: "underline" }}>
               <a href={btnLink}>{btnText}</a>
             </p>
           </div>

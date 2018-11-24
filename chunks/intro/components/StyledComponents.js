@@ -219,3 +219,10 @@ export const Arrow = styled.div`
     opacity: 20%;
   }
 `;
+
+export const ValuesSection = styled.div`
+  padding: 100px 0;
+  @media(max-width: 540px){
+    padding: 50px 0;
+  }
+`;

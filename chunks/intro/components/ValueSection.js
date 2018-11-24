@@ -1,5 +1,6 @@
 import React from 'react'
 import { Component } from 'react-dom-chunky'
+import * as StyledComponents from './StyledComponents'
 import VerticalCard from './VerticalCard'
 
 class ValueSection extends Component {
@@ -19,19 +20,18 @@ class ValueSection extends Component {
   renderComponent() {
     const { values, title } = this.props;
     return (
-      <div style={{ padding: '40px 0' }}>
+      <StyledComponents.ValuesSection>
         <h2 className="section-header text-align-center">{title}</h2>
         <div className="cards-wrapper">
           {values.map(({ iconName, ...remainingProps }) => (
             <VerticalCard
               image={() => {
                 return <i className={`fas fa-${iconName} card-image-icon`} />;
-                // return <i className="material-icons card-image-icon">{iconName}</i>;
               }}
               {...remainingProps}
             />))}
         </div>
-      </div>
+      </StyledComponents.ValuesSection>
     );
   }
 }
