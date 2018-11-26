@@ -31,7 +31,7 @@
     "footerColor": "#546E7A",
     "footerBottomColor": "#37474F",
     "navigationWrapperStyle": {
-      "padding": "15px"
+      "padding": "9px"
     },
     "navigationButtonStyle": {
       "fontSize": "16px",
