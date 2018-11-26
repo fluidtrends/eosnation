@@ -53,20 +53,16 @@ body a {
 }
 
 .carousel-card-container {
-  height: 297.63px;
-  width: 260px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  margin: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .carousel-card-img {
-  max-height: 199.41px;
-  width: 260px;
-}
-
-.carousel-card-img img {
   width: 100%;
+  object-fit: cover;
+  max-height: 199.41px;
 }
 
 .carousel-card-info {
@@ -98,7 +94,13 @@ body a {
   padding-left: 100px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 975px) {
+  .carousel-container {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 480px) {
   .carousel-container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -184,6 +186,18 @@ body a {
 
 .padding-remove {
   padding: 0 !important;
+}
+
+.margin-remove {
+  margin: 0 !important;
+}
+
+.margin-bottom-remove {
+  margin-bottom: 0 !important;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .padding-medium {

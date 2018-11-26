@@ -11,16 +11,17 @@ class Carousel extends React.Component {
         {carousel.map(({ title, description, btnText, btnLink, cards, backgroundColor, btnColor }) => (
           <div className="carousel-container" style={{ backgroundColor }}>
             <Row>
-              <Col md={6} style={{ paddingTop: "20px" }} sm={{ span: 12 }}>
+              <Col lg={6} md={20} style={{ paddingTop: "20px" }}>
                 <Heading3 style={{ fontWeight: 'bold', marginBottom: "40px" }}>{title}</Heading3>
                 <Body3>{description}</Body3>
-                <a className="btn btn-primary btn-link flex-center margin-top-medium width-1-1 text-uppercase"
+                <a className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large
+                width-1-1 text-uppercase"
                    href={btnLink} style={{ background: btnColor }}>
                   {btnText}
                 </a>
               </Col>
-              <Col md={1} />
-              <Col md={16} sm={{ span: 12 }}>
+              <Col md={0} lg={1} />
+              <Col md={24} sm={24} lg={17}>
                 <CarouselSlider cards={cards} />
               </Col>
             </Row>

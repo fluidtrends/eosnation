@@ -205,11 +205,13 @@ export const Arrow = styled.div`
   background: #324856;
   width: 40px;
   height: 40px;
+  margin-left: -20px;
+  margin-right: -20px;
   font-family: 'Roboto', sans-serif;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   :before{    
     content: "${props => props.left ? "<" : ">"}";
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #fff;
     line-height: initial;
     padding-left: 12px;
@@ -224,5 +226,21 @@ export const ValuesSection = styled.div`
   padding: 100px 0;
   @media(max-width: 540px){
     padding: 50px 0;
+  }
+`;
+
+export const CarouselSliderStyle = styled.div`
+  width: 95%;
+  padding-left: 46px;
+  padding-right: 5px;
+  @media(max-width: 1000px){
+    padding-right: 60px;
+  }
+  @media(max-width: 576px){
+    padding-left: 0;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 77%;
   }
 `;
