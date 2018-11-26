@@ -38,9 +38,9 @@ body a {
 }
 
 .card-image-icon {
-  font-size: 6rem;
+  font-size: 4.8rem;
   color: #fff;
-  margin-top: 12px
+  margin-top: 12px;
 }
 
 .card-image-wrapper {
@@ -671,11 +671,12 @@ table {
 
   .user-card-container {
     width: 100%;
+    margin-right: inherit;
   }
 
   .user-card-wrapper {
-    padding: 10px;
-    margin-right: -50px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
