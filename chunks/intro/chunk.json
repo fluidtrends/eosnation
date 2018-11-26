@@ -165,8 +165,24 @@
           ]
         },
         "team": {
-          "source": "userSection",
-          "title": "Meet the Team",
+          "source": "team",
+          "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
+          "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
+          "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "sections": [
+            {
+              "title": "Meet the Team",
+              "members": [
+                {
+                  "name": "YVES LA ROSE",
+                  "username": "dan",
+                  "title": "CEO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
+                  "text": "github://fluidtrends/carmel/content/team/dan/README"
+                }
+              ]
+            }
+          ],
           "users": [
             {
               "name": "YVES LA ROSE",
