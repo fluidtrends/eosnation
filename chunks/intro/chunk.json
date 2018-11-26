@@ -27,6 +27,11 @@
           "path": "/tech"
         },
         {
+          "id": "why",
+          "title": "Why us",
+          "path": "why"
+        },
+        {
           "id": "blog",
           "title": "Blog",
           "path": "/blog"
@@ -752,6 +757,59 @@
               "date": "OCT 12 2015"
             }
           ]
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "http://eosnation.io",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "BP.json"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "why": {
+      "title": "Why us",
+      "icon": "favorite",
+      "path": "/why",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://why",
+          "style": {
+            "padding": "80px"
+          }
         },
         "footer": {
           "source": "footerSection",
