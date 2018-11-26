@@ -557,54 +557,61 @@
           }
         ],
         "team": {
-          "source": "userSection",
-          "title": "Meet the Core Team",
-          "users": [
+          "source": "team",
+          "backgroundColor": "#2c4858",
+          "textColor": "#D66C44",
+          "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
+          "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
+          "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "sections": [
             {
-              "name": "YVES LA ROSE",
-              "role": "ceo",
-              "imageURL": "local://YvesLaRose.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "Daniel Keys",
-              "role": "coo",
-              "imageURL": "local://DanielKeys.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "David Requenez",
-              "role": "cmo",
-              "imageURL": "local://DavidRequenez.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "Denis Carriere",
-              "role": "cto",
-              "imageURL": "local://DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "LENNY GOUDREAULT",
-              "role": "pmo",
-              "imageURL": "local://LennyGoudreault.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "STEPHANE BISSON",
-              "role": "cdo",
-              "imageURL": "local://StephaneBisson.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "VINCENT GRENIER, P.Eng",
-              "role": "cfo",
-              "imageURL": "local://Vincent_Grenier.jpg",
-              "link": "http://eosnation.io"
+              "title": "Meet the Team",
+              "members": [
+                {
+                  "name": "Yves La Rose",
+                  "title": "CEO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
+                },
+                {
+                  "name": "Daniel Keys",
+                  "title": "COO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
+                },
+                {
+                  "name": "David Requenez",
+                  "title": "CMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DavidRequenez.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/david/README"
+                },
+                {
+                  "name": "Denis Carriere",
+                  "title": "CTO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DenisCarriere.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/denis/README"
+                },
+                {
+                  "name": "Lenny Goudreault",
+                  "title": "PMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/LennyGoudreault.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/lenny/README"
+                },
+                {
+                  "name": "Stephane Bisson",
+                  "title": "CDO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/StephaneBisson.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/stephane/README"
+                },
+                {
+                  "name": "Vincent Grenier, P.Eng",
+                  "title": "CFO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Vincent_Grenier.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/vincent/README"
+                }
+              ]
             }
-          ],
-          "textColor": "#ffcc000",
-          "backgroundColor": "#FAFAFA"
+          ]
         },
         "footer": {
           "source": "footerSection",
