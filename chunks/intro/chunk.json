@@ -175,10 +175,15 @@
               "members": [
                 {
                   "name": "YVES LA ROSE",
-                  "username": "dan",
                   "title": "CEO",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
-                  "text": "github://fluidtrends/carmel/content/team/dan/README"
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
+                },
+                {
+                  "name": "Daniel Keys",
+                  "title": "coo",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
                 }
               ]
             }
