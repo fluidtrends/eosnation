@@ -580,7 +580,20 @@ table {
 
 @media (max-width: 920px) {
   .user-card-wrapper {
-    max-width: 430px;
+    max-width: 830px;
+    padding-left: 0;
+  }
+
+  .user-card-container {
+    width: 100%;
+    max-width: 280px;
+    margin-right: 20px;
+  }
+
+  /*twitter gutter*/
+  .j-stack.galcolumn {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
   }
 }
 
@@ -675,13 +688,15 @@ table {
     width: 100%;
   }
 
-  .footer-logo{
+  .footer-logo {
     margin-bottom: 20px;
   }
 
   .user-card-container {
     width: 100%;
+    max-width: 330px;
     margin-right: inherit;
+    margin-left: auto;
   }
 
   .user-card-wrapper {
@@ -709,4 +724,12 @@ table {
   font-family: 'GAMECUBEN';
   font-size: 32px;
   color: #324856;
+}
+
+/*twitter section*/
+.feed-item.juicer.image-post.juicer-ad {
+  display: none;
+}
+.juicer-feed h1.referral{
+  display: none!important;
 }

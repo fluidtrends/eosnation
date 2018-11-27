@@ -244,3 +244,17 @@ export const CarouselSliderStyle = styled.div`
     width: 77%;
   }
 `;
+
+export const TwitterSectionContainer = styled.div`
+  max-width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 50px;
+  @media(max-width: 840px){
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  @media(max-width: 576px){
+    padding: 50px 10px;
+  }
+`;
