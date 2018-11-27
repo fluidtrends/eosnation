@@ -51,10 +51,15 @@
   "template": "personal",
   "additionalScripts": [
     {
+      "type": "style",
       "rel": "stylesheet",
       "href": "https://use.fontawesome.com/releases/v5.5.0/css/all.css",
       "integrity": "ha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU",
       "crossOrigin": "anonymous"
+    },
+    {
+      "type": "text/javascript",
+      "src": "https://assets.juicer.io/embed.js"
     }
   ]
 }
