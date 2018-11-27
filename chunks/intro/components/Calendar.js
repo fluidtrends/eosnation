@@ -64,7 +64,7 @@ export class CalendarItem extends Component {
                 <GridCell desktop="7" phone="2">
                   <GridInner>
                     {metaInfo.length > 1 ? metaInfo.map((info, index) => (
-                      index !== 0 ? <GridCell span="6">{metaInfo[index]}</GridCell> : null
+                      index !== 0 ? <GridCell span="4">{metaInfo[index]}</GridCell> : null
                     )) : <Body2>-</Body2>}
                   </GridInner>
                 </GridCell>

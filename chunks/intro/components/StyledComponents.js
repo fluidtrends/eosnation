@@ -29,17 +29,17 @@ export const CalenderItemDate = styled.div`
   @media (max-width: 780px) {
     border-right: none;
     border-bottom: solid gray 1px;
-    width: calc(100% - 40px);
+    width: 100%;
   }
 `;
 
 export const CalenderItemContent = styled.div`
-  width: calc(90% - 141px);
+  width: calc(100% - 90px);
   display: inline-block;
   padding: 40px;
   color: #fff;
   @media (max-width: 780px) {
-    width: calc(90% - 40px);
+    width: 100%;
   }
 `;
 

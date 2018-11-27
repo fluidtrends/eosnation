@@ -614,7 +614,7 @@ table {
   justify-content: space-between;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 840px) {
   .calendar-social-links {
     text-align: left;
     display: flex;
