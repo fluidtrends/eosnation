@@ -38,7 +38,7 @@
         },
         {
           "id": "vote",
-          "title": "Vote eos nation",
+          "title": "Vote EOS Nation",
           "path": "/vote",
           "action": "local://vote"
         }
@@ -918,6 +918,79 @@
           "style": {
             "padding": "80px"
           }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "http://eosnation.io",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "BP.json"
+            },
+            {
+              "url": "http://eosnation.io",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "vote": {
+      "title": "Vote EOS Nation",
+      "icon": "favorite",
+      "path": "/vote",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://vote",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "video1": {
+          "title": "Vote with Greymass desktop wallet",
+          "source": "presentation",
+          "backgroundColor": "#ffffff",
+          "hoverColor": "#D66C44",
+          "text": "local://intro",
+          "url": "https://www.youtube.com/watch?v=sPaRAMbo2jc",
+          "image": "presentation-video1.png",
+          "textColor": "#37474F"
+        },
+        "video2": {
+          "title": "Vote with Scatter and EOSeoul voting portal",
+          "source": "presentation",
+          "backgroundColor": "#ffffff",
+          "hoverColor": "#D66C44",
+          "text": "local://intro",
+          "url": "https://www.youtube.com/watch?v=cHEKQl5Fa5M",
+          "image": "presentation-video2.png",
+          "textColor": "#37474F"
         },
         "footer": {
           "source": "footerSection",
