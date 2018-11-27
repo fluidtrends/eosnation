@@ -99,7 +99,43 @@
               "btnText": "Explore more",
               "backgroundColor": "#000",
               "btnLink": "https://github.com/grigio/eosfilestore-web",
-              "cards": []
+              "cards": [
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                }
+              ]
             },
             {
               "title": "Tools",
@@ -107,7 +143,43 @@
               "btnColor": "#324856",
               "btnText": "Explore more",
               "btnLink": "https://github.com/grigio/eosfilestore-web",
-              "cards": []
+              "cards": [
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                }
+              ]
             },
             {
               "title": "Community",
@@ -115,7 +187,43 @@
               "btnText": "Explore more",
               "backgroundColor": "#000",
               "btnLink": "https://github.com/grigio/eosfilestore-web",
-              "cards": []
+              "cards": [
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOS Meetup",
+                  "eventDate": "Jan 20 2017",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                }
+              ]
             }
           ]
         },

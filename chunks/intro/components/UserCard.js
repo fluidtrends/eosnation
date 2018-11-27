@@ -12,7 +12,7 @@ class UserCard extends React.PureComponent {
       <div className="margin-right-large margin-bottom-large user-card-container">
         <Grid>
           <GridCell tablet="3" phone="2">
-            <img src={img} style={{ width: "120px", height: "120px", borderRadius: "50%", objectFit:"cover" }} />
+            <img src={img} style={{ width: "120px", height: "120px", borderRadius: "50%", objectFit: "cover" }} />
           </GridCell>
           <GridCell desktop="8" tablet="5" phone="2">
             <div className="padding-left user-description">
@@ -20,7 +20,7 @@ class UserCard extends React.PureComponent {
               <Body2 uppercase bold primary>{name}</Body2>
               <Body2 uppercase light secondary style={{ display: "block" }}>{role}</Body2>
               </span>
-              <a href={link}><Body2 light primary>Read more</Body2></a>
+              <a href={link}><Body2 light primary style={{ textDecoration: "underline" }}>Read more</Body2></a>
             </div>
           </GridCell>
         </Grid>

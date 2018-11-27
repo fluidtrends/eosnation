@@ -2,7 +2,7 @@ import React from 'react'
 import { Component } from 'react-dom-chunky'
 import UserCard from './UserCard'
 import '../../../assets/style.css';
-import { Heading4 } from './StyledComponents';
+import { Heading4, ValuesSection } from './StyledComponents';
 
 class UserSection extends Component {
   constructor(props) {
@@ -21,17 +21,21 @@ class UserSection extends Component {
   renderComponent() {
     const { users, title } = this.props
 
-    return <div className="storybook-container team-section">
-      <Heading4 center className="section-header padding-top-large margin-bottom-large">
-        {title}
-      </Heading4>
-      <div className="user-card-wrapper align-center">
-        {users.map((user) => (
-            <UserCard
-              link={user.link} imageURL={user.imageURL} name={user.name} role={user.role} 
-            />))}
+    return (
+      <div className="team-section">
+        <ValuesSection>
+          <Heading4 center className="section-header margin-bottom-large">
+            {title}
+          </Heading4>
+          <div className="user-card-wrapper align-center">
+            {
+              users.map(({ link, imageURL, name, role}) => (
+              <UserCard link={link} imageURL={imageURL} name={name} role={role} />))
+            }
+          </div>
+        </ValuesSection>
       </div>
-    </div>
+    );
   }
 }
 

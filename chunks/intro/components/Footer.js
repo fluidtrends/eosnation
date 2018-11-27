@@ -12,14 +12,14 @@ class Footer extends React.PureComponent {
     return (
       <FooterWrapper>
         <Grid>
-          <GridCell span="2" phone="12" tablet="3">
+          <GridCell span="2" phone="12" tablet="3" laptop="3">
             <img
               src={footerLogo}
               className="footer-logo"
               style={{ width: '168px', height: '176px' }}
             />
           </GridCell>
-          <GridCell span="5" phone="12" tablet="5">
+          <GridCell span="5" phone="12" tablet="5" laptop="5">
             <GridInner>
               {links.map(({ url, text }) => (
                 <GridCell span="6">
@@ -29,7 +29,7 @@ class Footer extends React.PureComponent {
                 </GridCell>
               ))}
             </GridInner>
-            <div style={{ marginTop: '20px', marginLeft: '-10px' }}>
+            <div style={{ marginTop: '36px', marginLeft: '-10px' }}>
               <Components.SocialIcons
                 iconColor={'#ffffff'}
                 iconColorHover={'#607D8B'}
@@ -38,7 +38,7 @@ class Footer extends React.PureComponent {
               />
             </div>
           </GridCell>
-          <GridCell span="5" phone="12" tablet="12">
+          <GridCell span="5" phone="12" tablet="12" laptop="12">
             <label>
               <Body2 bold>Get the latest updates</Body2>
             </label>
@@ -62,7 +62,6 @@ class Footer extends React.PureComponent {
                 alignSelf: 'center',
                 justifyContent: 'center',
                 width: '100%',
-                backgroundColor: '#324850',
                 flexDirection: 'row',
                 position: 'absolute',
                 left: '0',
