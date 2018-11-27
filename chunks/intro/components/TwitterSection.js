@@ -23,7 +23,7 @@ class TwitterSection extends Component {
         <h2 className="section-header text-align-center">{title}</h2>
         <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
         <ul className="juicer-feed" data-feed-id="eos_nation"
-            data-gutter="50"
+            data-gutter="50" data-per="6"
         ></ul>
       </TwitterSectionContainer>
     )
