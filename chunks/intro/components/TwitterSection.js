@@ -1,10 +1,10 @@
 import React from 'react'
 import { Component } from 'react-dom-chunky'
-import TwitterCard from './TwitterCard'
 import { LinearProgress } from '@rmwc/linear-progress'
 import { Typography } from '@rmwc/typography'
 import { ListDivider } from '@rmwc/list'
-import { TwitterTimelineEmbed } from 'react-twitter-embed'
+import { TwitterSectionContainer } from './StyledComponents';
+import * as StyledComponents from "./StyledComponents";
 
 class TwitterSection extends Component {
   constructor(props) {
@@ -17,24 +17,15 @@ class TwitterSection extends Component {
   }
 
   renderComponent() {
-    const { width, isSmallScreen } = this.props
-
+    const { title } = this.props;
     return (
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          margin: '20px',
-          justifyContent: 'center'
-        }}
-      >
-        <TwitterTimelineEmbed
-          sourceType={'timeline'}
-          userId={'969360576584577024'}
-          theme={'dark'}
-          options={{ height: isSmallScreen ? 600 : 800, width: width / 2 }}
-        />
-      </div>
+      <TwitterSectionContainer>
+        <h2 className="section-header text-align-center">{title}</h2>
+        <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+        <ul className="juicer-feed" data-feed-id="eos_nation"
+            data-gutter="50"
+        ></ul>
+      </TwitterSectionContainer>
     )
   }
 }
