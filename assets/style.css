@@ -647,8 +647,6 @@ table {
   }
 
   .footer-social-links {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
     padding-bottom: 20px;
   }
 
@@ -667,6 +665,18 @@ table {
 @media (max-width: 480px) {
   .footer-links-wrapper {
     margin-left: initial !important;
+  }
+
+  .footer-email-input {
+    width: 100%;
+  }
+
+  .footer-subscribe-btn {
+    width: 100%;
+  }
+
+  .footer-logo{
+    margin-bottom: 20px;
   }
 
   .user-card-container {
