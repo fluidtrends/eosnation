@@ -182,8 +182,8 @@
               ]
             },
             {
-              "title": "Community",
-              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+              "title": "Projects",
+              "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
               "btnText": "Explore more",
               "backgroundColor": "#000",
               "btnLink": "https://github.com/grigio/eosfilestore-web",
@@ -472,7 +472,7 @@
             "id": "members",
             "source": "feature",
             "text": "local://members",
-            "image": "polarizez.jpg",
+            "image": "tech.jpg",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -772,7 +772,7 @@
         "navigation": true,
         "title": "EOS Nation - Block Producer",
         "type": "default",
-        "image": "mountains.png"
+        "image": "tech.jpg"
       },
       "components": {
         "text": {
@@ -786,23 +786,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eoswire.org/i/password",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://bp.eosnation.io/bp.json",
               "text": "BP.json"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
             }
           ],
@@ -870,23 +870,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eoswire.org/i/password",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://bp.eosnation.io/bp.json",
               "text": "BP.json"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
             }
           ],
@@ -923,23 +923,23 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eoswire.org/i/password",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://bp.eosnation.io/bp.json",
               "text": "BP.json"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
             }
           ],
@@ -992,27 +992,34 @@
           "image": "presentation-video2.png",
           "textColor": "#37474F"
         },
+        "text2": {
+          "source": "text",
+          "textSource": "local://vote-commandline",
+          "style": {
+            "padding": "80px"
+          }
+        },
         "footer": {
           "source": "footerSection",
           "links": [
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eosnation.io/ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://www.eoswire.org/i/password",
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://bp.eosnation.io/bp.json",
               "text": "BP.json"
             },
             {
-              "url": "http://eosnation.io",
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
             }
           ],
