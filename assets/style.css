@@ -73,21 +73,6 @@ body a {
   flex-direction: column;
 }
 
-.carousel-container-wrapper {
-  position: relative;
-  background: linear-gradient(133.26deg, rgba(209, 131, 39, 0) 0%, #4c6a7a 42.49%, #4A746A 55.9%, #C9C5D8 75.8%, #D66C44 100%);
-}
-
-.carousel-container-wrapper:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(50, 72, 86, 0.7);
-}
-
 .carousel-container {
   padding-top: 130px;
   padding-bottom: 140px;

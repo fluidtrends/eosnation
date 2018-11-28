@@ -229,6 +229,27 @@ export const ValuesSection = styled.div`
   }
 `;
 
+export const CarouselContainerWrapper = styled.div`
+  position: relative;
+  background: linear-gradient(133.26deg, 
+  rgba(209, 131, 39, 0) 0%, 
+  ${(props) => (props.backgroundColor || "#000")} 42.49%,
+  ${(props) => (props.carouselColor1 || "#000")} 55.9%, 
+  ${(props) => (props.carouselColor2 || "#000")} 75.8%, 
+  ${(props) => (props.carouselColor3 || "#000")} 100%);
+  :before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: ${(props) => (props.backgroundColor || "#000")};
+    opacity: 0.7;
+    //background: rgba(50, 72, 86, 0.7);
+  }
+`;
+
 export const CarouselSliderStyle = styled.div`
   width: 95%;
   padding-left: 46px;

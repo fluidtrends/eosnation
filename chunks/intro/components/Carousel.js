@@ -1,13 +1,18 @@
 import React from 'react';
 import { Col, Row } from 'antd';
-import { Body3, Heading3 } from './StyledComponents';
+import { Body3, CarouselContainerWrapper, Heading3 } from './StyledComponents';
 import CarouselSlider from './CarouselSlider';
 
 class Carousel extends React.Component {
   render() {
-    const { carousel } = this.props;
+    const { carousel, theme } = this.props;
     return (
-      <div className="carousel-container-wrapper">
+      <CarouselContainerWrapper
+        backgroundColor={theme.primaryColor}
+        carouselColor1={theme.thirdColor}
+        carouselColor2={theme.grayColorLight}
+        carouselColor3={theme.secondaryColor}
+      >
         {carousel.map(({ title, description, btnText, btnLink, cards, backgroundColor, btnColor }) => (
           <div className="carousel-container" style={{ backgroundColor }}>
             <Row>
@@ -27,7 +32,7 @@ class Carousel extends React.Component {
             </Row>
           </div>
         ))}
-      </div>
+      </CarouselContainerWrapper>
     )
   }
 }
