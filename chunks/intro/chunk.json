@@ -69,21 +69,21 @@
               "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
-              "btnLink": "https://medium.muz.li/creating-a-consistent-visual-hook-16441bae8d2b"
+              "btnLink": "/vote"
             },
             {
               "title": "Ambassadors",
               "description": "An EOS Nation Ambassador is an individual that is passionate about EOS projects and wants to play a part in that ecosystem.",
               "iconName": "globe-americas",
               "btnText": "Learn more",
-              "btnLink": "https://medium.muz.li/creating-a-consistent-visual-hook-16441bae8d2b"
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador"
             },
             {
               "title": "Tools",
               "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
               "iconName": "server",
               "btnText": "Learn more",
-              "btnLink": "https://medium.muz.li/creating-a-consistent-visual-hook-16441bae8d2b"
+              "btnLink": "https://www.eosdocs.io/"
             }
           ],
           "title": "Why vote for us?",
