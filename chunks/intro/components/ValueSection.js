@@ -18,7 +18,7 @@ class ValueSection extends Component {
   }
 
   renderComponent() {
-    const { values, title } = this.props;
+    const { values, title, theme } = this.props;
     return (
       <StyledComponents.ValuesSection>
         <h2 className="section-header text-align-center">{title}</h2>
@@ -28,6 +28,7 @@ class ValueSection extends Component {
               image={() => {
                 return <i className={`fas fa-${iconName} card-image-icon`} />;
               }}
+              theme={theme}
               {...remainingProps}
             />))}
         </div>

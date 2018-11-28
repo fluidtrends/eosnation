@@ -268,3 +268,27 @@ export const CoverTitle = styled(element)`
   font-size: 32px;
   color: ${(props) => (props.color || "#000")};
 `;
+
+export const Button = styled(element)`
+  display: inline-block;
+  height: 60px;
+  width: 240px;
+  border-radius: 5px;
+  background-color: ${(props) => (props.backgroundColor || "#000")};
+  color: ${(props) => (props.color || "#ffffff")};
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.38px;
+  line-height: 3.8;
+  text-align: center;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+`;
+
+export const CardImageWrapper = styled.div`
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  background-color: ${(props) => (props.backgroundColor || "#000")};
+  padding: 20px;
+  border-radius: 50%;
+`;
