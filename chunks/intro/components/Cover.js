@@ -2,7 +2,7 @@ import React from 'react'
 import { Component, Components } from 'react-dom-chunky'
 import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
-import { Cover, CoverContent, SocialLinks } from './StyledComponents'
+import { Cover, CoverContent, CoverTitle, SocialLinks } from './StyledComponents'
 
 import 'antd/dist/antd.css'
 
@@ -39,24 +39,28 @@ export default class Intro extends Component {
   }
 
   title() {
-    const {title} = this.props;
+    const { title, theme } = this.props;
     return (
       <div style={{ maxWidth: '652px' }}>
-        <Typography use="headline4" className="title">
+        <CoverTitle
+          component={<Typography use="headline4" />}
+          color={theme.primaryColor}
+        >
           {title}
-        </Typography>
+        </CoverTitle>
       </div>
     )
   }
 
   subtitle() {
+    const { theme } = this.props;
     return (
       <div style={{ marginTop: '30px' }}>
         <Button
           raised
-          onClick = { () => this.goTo('/about') }
+          onClick={() => this.goTo('/about')}
           style={{
-            background: '#D66C44',
+            background: theme.secondaryColor,
             cursor: 'pointer',
             height: 60,
             width: 196,
@@ -68,9 +72,9 @@ export default class Intro extends Component {
         </Button>
         <Button
           raised
-          onClick = { () => this.goTo('/vote') }
+          onClick={() => this.goTo('/vote')}
           style={{
-            background: '#2c4858',
+            background: theme.primaryColor,
             cursor: 'pointer',
             height: 60,
             width: 196,

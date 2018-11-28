@@ -258,3 +258,13 @@ export const TwitterSectionContainer = styled.div`
     padding: 50px 10px;
   }
 `;
+
+const element = ({ component, ...props }) => React.cloneElement(component, props);
+
+export const CoverTitle = styled(element)`
+  text-align: center;
+  padding: 5px 0 0 0;
+  font-family: 'GAMECUBEN';
+  font-size: 32px;
+  color: ${(props) => (props.color || "#000")};
+`;
