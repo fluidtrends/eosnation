@@ -58,6 +58,7 @@
       "components": {
         "cover": {
           "source": "coverSection",
+          "title": "BUILDING OUR FUTURE ONE BLOCK AT A TIME",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png"
         },

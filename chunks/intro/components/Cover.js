@@ -39,10 +39,11 @@ export default class Intro extends Component {
   }
 
   title() {
+    const {title} = this.props;
     return (
       <div style={{ maxWidth: '652px' }}>
-        <Typography use="headline4" className={'title'}>
-          BUILDING OUR FUTURE ONE BLOCK AT A TIME
+        <Typography use="headline4" className="title">
+          {title}
         </Typography>
       </div>
     )
