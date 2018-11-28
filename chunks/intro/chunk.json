@@ -58,7 +58,7 @@
       "components": {
         "cover": {
           "source": "coverSection",
-          "title": "BUILDING OUR FUTURE ONE BLOCK AT A TIME",
+          "title": "Boost your business using chunky",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png"
         },
@@ -911,7 +911,7 @@
           "source": "coverSection",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
-          "hideSubtitle": true
+          "hideSubtitle": false
         },
         "text": {
           "source": "text",
