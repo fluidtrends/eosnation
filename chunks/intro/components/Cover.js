@@ -26,26 +26,36 @@ export default class Intro extends Component {
   }
 
   main() {
-    console.log(this.props);
+    const {
+      hideSubtitle, backgroundImgURL, overlayBackground, backgroundSize,
+      backgroundPositionX, backgroundPositionY
+    } = this.props;
     return (
       <React.Fragment>
         <CoverContent>
           {this.title()}
-          {!this.props.hideSubtitle && this.subtitle()}
+          {!hideSubtitle && this.subtitle()}
           {this.icons()}
         </CoverContent>
-        <Cover backgroundImgURL={this.props.backgroundImgURL} overlayBackground={this.props.overlayBackground}/>
+        <Cover
+          backgroundImgURL={backgroundImgURL} overlayBackground={overlayBackground}
+          backgroundPositionX={backgroundPositionX} backgroundPositionY={backgroundPositionY}
+          backgroundSize={backgroundSize}
+        />
       </React.Fragment>
     )
   }
 
   title() {
-    const { title, theme } = this.props;
+    const {
+      title, theme, titleColor, fontFamilyTitle,
+    } = this.props;
     return (
       <div style={{ maxWidth: '652px' }}>
         <CoverTitle
           component={<Typography use="headline4" />}
-          color={theme.primaryColor}
+          color={titleColor || theme.primaryColor}
+          fontFamilyTitle={fontFamilyTitle}
         >
           {title}
         </CoverTitle>

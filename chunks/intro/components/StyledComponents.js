@@ -148,10 +148,9 @@ export const Cover = styled.div`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-position-y: 100px;
-  background-position-x: 200px;
-  background-size: 90%;
-  margin-top: 80px;
+  background-position-y: ${(props) => (props.backgroundPositionY || '60px')};
+  background-position-x: ${(props) => (props.backgroundPositionX || 'inherit')};
+  background-size: ${(props) => (props.backgroundSize || '100%')};
   height: 700px;
 	:before{
     content: '';
@@ -162,7 +161,7 @@ export const Cover = styled.div`
 	  left: 0;
 	  opacity: 0.55;
 	  ${(props) => (props.overlayBackground ?
-  	`background: ${props.overlayBackground};` : "")}
+  `background: ${props.overlayBackground};` : "")}
 	}
   @media(max-width: 840px){
     margin-top: 45px;
@@ -286,7 +285,7 @@ const element = ({ component, ...props }) => React.cloneElement(component, props
 export const CoverTitle = styled(element)`
   text-align: center;
   padding: 5px 0 0 0;
-  font-family: 'GAMECUBEN';
+  font-family: ${(props) => (props.fontFamilyTitle || "inherit")};
   font-size: 32px;
   color: ${(props) => (props.color || "#000")};
 `;
