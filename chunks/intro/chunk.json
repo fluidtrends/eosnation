@@ -424,11 +424,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -738,11 +738,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -794,11 +794,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -878,11 +878,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -931,11 +931,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -1011,11 +1011,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -1064,11 +1064,121 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://bp.eosnation.io/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "ownership": {
+      "title": "Ownership Disclosure",
+      "icon": "favorite",
+      "path": "/ownership-disclosure",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://ownership-disclosure",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "team": {
+          "source": "team",
+          "backgroundColor": "#2c4858",
+          "textColor": "#D66C44",
+          "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
+          "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
+          "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "sections": [
+            {
+              "title": "The Team",
+              "members": [
+                {
+                  "name": "Yves La Rose",
+                  "title": "CEO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
+                },
+                {
+                  "name": "Daniel Keys",
+                  "title": "COO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
+                },
+                {
+                  "name": "David Requenez",
+                  "title": "CMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DavidRequenez.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/david/README"
+                },
+                {
+                  "name": "Denis Carriere",
+                  "title": "CTO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DenisCarriere.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/denis/README"
+                },
+                {
+                  "name": "Lenny Goudreault",
+                  "title": "PMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/LennyGoudreault.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/lenny/README"
+                },
+                {
+                  "name": "Stephane Bisson",
+                  "title": "CDO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/StephaneBisson.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/stephane/README"
+                },
+                {
+                  "name": "Vincent Grenier, P.Eng",
+                  "title": "CFO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Vincent_Grenier.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/vincent/README"
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
