@@ -1036,6 +1036,59 @@
           "backgroundColor": "#FAFAFA"
         }
       }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "icon": "favorite",
+      "path": "/privacy-policy",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://privacy",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "https://www.eosnation.io/privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "https://www.eosnation.io/ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://bp.eosnation.io/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
     }
   }
 }
