@@ -285,7 +285,7 @@ const element = ({ component, ...props }) => React.cloneElement(component, props
 export const CoverTitle = styled(element)`
   text-align: center;
   padding: 5px 0 0 0;
-  font-family: ${(props) => (props.fontFamilyTitle || "inherit")};
+  font-family: ${(props) => (props.fontFamily || "inherit")};
   font-size: 32px;
   color: ${(props) => (props.color || "#000")};
 `;

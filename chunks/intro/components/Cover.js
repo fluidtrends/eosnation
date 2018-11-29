@@ -50,12 +50,13 @@ export default class Intro extends Component {
     const {
       title, theme, titleColor, fontFamilyTitle,
     } = this.props;
+    console.log(this.props);
     return (
       <div style={{ maxWidth: '652px' }}>
         <CoverTitle
           component={<Typography use="headline4" />}
           color={titleColor || theme.primaryColor}
-          fontFamilyTitle={fontFamilyTitle}
+          fontFamily={fontFamilyTitle}
         >
           {title}
         </CoverTitle>
