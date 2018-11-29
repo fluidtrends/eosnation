@@ -11,11 +11,12 @@ class ArrowComponent extends React.PureComponent {
 
 class CarouselSlider extends Component {
   render() {
-    const { cards } = this.props
+    const { cards, carouselNumber } = this.props
     const settings = {
       dots: false,
       speed: 1000,
       autoplay: true,
+      autoplaySpeed: 2500 + 500 * carouselNumber,
       slidesToShow: 3,
       nextArrow: <ArrowComponent right />,
       prevArrow: <ArrowComponent left />,

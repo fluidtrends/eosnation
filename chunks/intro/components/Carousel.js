@@ -9,15 +9,18 @@ class Carousel extends React.Component {
     return (
       <div className="carousel-container-wrapper">
         {carousel.map(
-          ({
-            title,
-            description,
-            btnText,
-            btnLink,
-            cards,
-            backgroundColor,
-            btnColor
-          }) => (
+          (
+            {
+              title,
+              description,
+              btnText,
+              btnLink,
+              cards,
+              backgroundColor,
+              btnColor
+            },
+            index
+          ) => (
             <div className="carousel-container" style={{ backgroundColor }}>
               <Row>
                 <Col lg={6} md={20} style={{ paddingTop: '20px' }}>
@@ -39,7 +42,7 @@ class Carousel extends React.Component {
                 </Col>
                 <Col md={0} lg={1} />
                 <Col md={24} sm={24} lg={17}>
-                  <CarouselSlider cards={cards} />
+                  <CarouselSlider cards={cards} carouselNumber={index + 1} />
                 </Col>
               </Row>
             </div>
