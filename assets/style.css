@@ -742,6 +742,13 @@ table {
   display: none !important;
 }
 
+.feed-item {
+  height: 270px;
+  overflow-y: scroll !important;
+}
+
+/* end of twitter section */
+
 /* markdown style */
 .text {
   line-height: 25px;
