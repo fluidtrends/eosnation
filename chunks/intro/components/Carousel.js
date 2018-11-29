@@ -21,13 +21,13 @@ class Carousel extends React.Component {
                 <Body3>{description}</Body3>
                 <a className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large
                 width-1-1 text-uppercase"
-                   href={btnLink} style={{ background: btnColor }}>
+                   href={btnLink} style={{ background: btnColor || theme.secondaryColor }}>
                   {btnText}
                 </a>
               </Col>
               <Col md={0} lg={1} />
               <Col md={24} sm={24} lg={17}>
-                <CarouselSlider cards={cards} />
+                <CarouselSlider cards={cards} theme={theme}/>
               </Col>
             </Row>
           </div>

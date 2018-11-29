@@ -6,19 +6,19 @@ import CarouselCard from "./CarouselCard";
 
 class ArrowComponent extends React.PureComponent {
   render() {
-    return (<Arrow {...this.props} />);
+    return (<Arrow {...this.props} backgroundColor={this.props.theme.primaryColor} />);
   }
 }
 
 class CarouselSlider extends Component {
   render() {
-    const { cards } = this.props;
+    const { cards, theme } = this.props;
     const settings = {
       dots: false,
       speed: 1000,
       slidesToShow: 3,
-      nextArrow: <ArrowComponent right />,
-      prevArrow: <ArrowComponent left />,
+      nextArrow: <ArrowComponent right theme={theme} />,
+      prevArrow: <ArrowComponent left theme={theme} />,
       responsive: [
         {
           breakpoint: 1200,

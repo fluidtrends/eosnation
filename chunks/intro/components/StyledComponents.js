@@ -202,7 +202,7 @@ export const SocialLinks = styled.div`
 
 export const Arrow = styled.div`
   display: block;
-  background: #324856;
+  background: ${(props) => (props.backgroundColor || "#000")};
   width: 40px;
   height: 40px;
   margin-left: -20px;
