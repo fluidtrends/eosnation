@@ -768,6 +768,13 @@ table {
   font-weight: bold;
 }
 
+.markdown-list {
+  list-style: disc;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
 main {
   margin-top: 0 !important;
 }
