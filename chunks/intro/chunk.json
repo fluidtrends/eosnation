@@ -70,7 +70,7 @@
               "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
-              "btnLink": "/vote"
+              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for"
             },
             {
               "title": "Ambassadors",
@@ -84,7 +84,7 @@
               "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
               "iconName": "server",
               "btnText": "Learn more",
-              "btnLink": "https://www.eosdocs.io/"
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens"
             }
           ],
           "title": "Why vote for us?",
