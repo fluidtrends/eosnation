@@ -83,7 +83,7 @@
               "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
               "iconName": "server",
               "btnText": "Learn more",
-              "btnLink": "https://www.eosdocs.io/"
+              "btnLink": "https://medium.muz.li/creating-a-consistent-visual-hook-16441bae8d2b"
             }
           ],
           "title": "Why vote for us?",
@@ -510,7 +510,7 @@
             "id": "mission",
             "source": "feature",
             "text": "local://mission",
-            "image": "climber.jpg",
+            "image": "mountain.jpg",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -519,7 +519,7 @@
             "id": "transparency",
             "source": "feature",
             "text": "local://transparency",
-            "image": "scuba_diver.jpg",
+            "image": "cat.jpg",
             "backgroundColor": "#ffffff",
             "textColor": "#0686d8",
             "animation": true,
@@ -529,7 +529,7 @@
             "id": "block",
             "source": "feature",
             "text": "local://block-producer",
-            "image": "road.jpg",
+            "image": "people.jpg",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -539,6 +539,7 @@
             "source": "feature",
             "text": "local://foundation",
             "image": "prizes.jpg",
+            "reversed": "true",
             "backgroundColor": "#ffffff",
             "textColor": "#0686d8",
             "animation": true,
@@ -553,14 +554,14 @@
             "color": "#ffffff",
             "type": "section",
             "titleStyle": {
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-end",
               "paddingLeft": "40%"
             }
@@ -574,13 +575,13 @@
             "color": "#ffffff",
             "type": "section",
             "titleStyle": {
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-start",
               "paddingRight": "40%"
             }
@@ -594,13 +595,13 @@
             "color": "#ffffff",
             "type": "section",
             "titleStyle": {
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-start",
               "paddingRight": "40%"
             }
@@ -614,14 +615,14 @@
             "color": "#ffffff",
             "type": "section",
             "titleStyle": {
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-end",
               "paddingLeft": "40%"
             }
@@ -635,7 +636,7 @@
             "color": "#ffffff",
             "type": "section",
             "titleStyle": {
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0,
@@ -643,7 +644,7 @@
             },
             "subtitleStyle": {
               "paddingRight": "100px",
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-end",
               "paddingLeft": "40%"
             }
@@ -657,13 +658,13 @@
             "color": "#ffffff",
             "type": "section",
             "titleStyle": {
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
-              "dispaly": "flex",
+              "display": "flex",
               "align-self": "flex-start",
               "paddingRight": "40%"
             }
