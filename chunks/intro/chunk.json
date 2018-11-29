@@ -38,7 +38,7 @@
         },
         {
           "id": "vote",
-          "title": "Vote EOS Nation",
+          "title": "get template",
           "path": "/vote",
           "action": "local://vote"
         }
@@ -58,43 +58,42 @@
       "components": {
         "cover": {
           "source": "coverSection",
-          "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME",
+          "title": "BUILDING YOUR BUSINESS USING CARMEL TEMPLATE",
+          "titleColor": "#fff",
           "image": "cover.r.png",
+          "btnText1":"Discover more",
+          "btnText2":"Start now",
           "backgroundImgURL": "../../assets/cover.r.png",
-          "btnText1": "Learn more",
-          "btnText2": "Vote",
-          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
-          "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX": "200px",
-          "backgroundPositionY": "100px",
-          "backgroundSize": "90%"
+          "overlayBackground": "#000",
+          "backgroundPositionY":"60px",
+          "backgroundSize": "100%"
         },
         "pillars": {
           "source": "valueSection",
           "values": [
             {
-              "title": "Community",
-              "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
-              "iconName": "users",
+              "title": "Go To Market",
+              "description": "The product can be published online for the whole world to see and use.",
+              "iconName": "chart-line",
               "btnText": "Learn more",
               "btnLink": "/vote"
             },
             {
-              "title": "Ambassadors",
-              "description": "An EOS Nation Ambassador is an individual that is passionate about EOS projects and wants to play a part in that ecosystem.",
-              "iconName": "globe-americas",
+              "title": "Easy to tweak",
+              "description": "Learn to adapt and customize your template based on your needs.",
+              "iconName": "wrench",
               "btnText": "Learn more",
               "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador"
             },
             {
-              "title": "Tools",
-              "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
-              "iconName": "server",
+              "title": "Powerful tools",
+              "description": "Use powerful tools to expand your business quickly.",
+              "iconName": "chart-line",
               "btnText": "Learn more",
               "btnLink": "https://www.eosdocs.io/"
             }
           ],
-          "title": "Why vote for us?",
+          "title": "What is our super powers?",
           "textColor": "#ffcc000",
           "backgroundColor": "#FAFAFA"
         },
@@ -102,132 +101,73 @@
           "source": "carouselSection",
           "carousel": [
             {
-              "title": "Community",
-              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+              "title": "Tweak and Learn",
+              "description": "Learners start with a real-world product and they learn by tweaking the product, challenge by challenge.",
               "btnText": "Explore more",
               "backgroundColor": "#000",
               "btnLink": "https://github.com/grigio/eosfilestore-web",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
+                  "image": "http://files.carmel.io/covers/concert-preview.png",
+                  "title": "Testamonials",
+                  "eventDate": "Aug 30 2018",
                   "btnLink": "https://github.com/grigio/eosfilestore-web",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
+                  "image": "http://files.carmel.io/covers/blog-preview.png",
+                  "title": "Try a challenge",
+                  "eventDate": "Mar 11 2018",
                   "btnLink": "https://github.com/grigio/eosfilestore-web",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
+                  "image": "http://files.carmel.io/covers/hello-preview.png",
+                  "title": "Embark on a quest",
+                  "eventDate": "Jan 20 2018",
                   "btnLink": "https://github.com/grigio/eosfilestore-web",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
+                  "image": "http://files.carmel.io/covers/book-preview.png",
+                  "title": "Bounties",
+                  "eventDate": "Apr 01 2018",
                   "btnLink": "https://github.com/grigio/eosfilestore-web",
                   "btnText": "Learn more"
                 }
               ]
             },
             {
-              "title": "Tools",
-              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
-              "btnColor": "#324856",
-              "btnText": "Explore more",
+              "title": "Guilds",
+              "description": "The Carmel Community is organized in Guilds, each with its own unique personality",
+              "btnText": "Join",
               "btnLink": "https://github.com/grigio/eosfilestore-web",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
+                  "image": "https://carmel.io/assets/learners-logo.png",
+                  "title": "Learner guild",
+                  "eventDate": "Nov 20 2018",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://carmel.io/assets/developers-logo.png",
+                  "title": "Developer guild",
+                  "eventDate": "Jan 20 2018",
+                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://carmel.io/assets/teachers-logo.png",
+                  "title": "Teacher guild",
                   "eventDate": "Jan 20 2017",
                   "btnLink": "https://github.com/grigio/eosfilestore-web",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                }
-              ]
-            },
-            {
-              "title": "Projects",
-              "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
-              "btnText": "Explore more",
-              "backgroundColor": "#000",
-              "btnLink": "https://github.com/grigio/eosfilestore-web",
-              "cards": [
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
+                  "image": "https://carmel.io/assets/recruiters-logo.png",
+                  "title": "The awesome recruiter",
+                  "eventDate": "Apr 20 2017",
                   "btnLink": "https://github.com/grigio/eosfilestore-web",
                   "btnText": "Learn more"
                 }
@@ -237,17 +177,17 @@
         },
         "events": {
           "source": "eventsSection",
-          "title": "EOS Nation Sponsored Projects & Events",
+          "title": "Carmel Projects & Events",
           "backgroundColor1": "",
           "backgroundColor2": "rgba(50,72,86,0.84)",
           "backgroundColor3": "",
           "calendarEvents": [
             {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
+              "slug": "81 EOS",
+              "date": "Mar 21 2018",
+              "name": "React conf in Cluj",
               "timeInterval": "10-12 pm",
-              "location": "London, UK",
+              "location": "Cluj, Ro",
               "extraInfoLink": "extraInfoLink",
               "facebookLink": "facebookLink",
               "twitterLink": "twitterLink",
@@ -255,9 +195,20 @@
             },
             {
               "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
-              "timeInterval": "10-12 pm",
+              "date": "Dec 22 2018",
+              "name": "International carmel coders conference",
+              "timeInterval": "20-23 pm",
+              "location": "Montreal, CA",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "99 EOS",
+              "date": "Sep 11 2018",
+              "name": "Recruiter guild meet-up in London",
+              "timeInterval": "13-16 pm",
               "location": "London, UK",
               "extraInfoLink": "extraInfoLink",
               "facebookLink": "facebookLink",
@@ -265,22 +216,11 @@
               "meetupLink": "meetupLink"
             },
             {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
+              "slug": "11 EOS",
+              "date": "Oct 04 2018",
+              "name": "Entrepreneurs in blockchain",
               "timeInterval": "10-12 pm",
-              "location": "London, UK",
-              "extraInfoLink": "extraInfoLink",
-              "facebookLink": "facebookLink",
-              "twitterLink": "twitterLink",
-              "meetupLink": "meetupLink"
-            },
-            {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
-              "timeInterval": "10-12 pm",
-              "location": "London, UK",
+              "location": "Madrid, Spain",
               "extraInfoLink": "extraInfoLink",
               "facebookLink": "facebookLink",
               "twitterLink": "twitterLink",
@@ -300,46 +240,28 @@
               "title": "Meet the Team",
               "members": [
                 {
-                  "name": "Yves La Rose",
-                  "title": "CEO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
-                },
-                {
-                  "name": "Daniel Keys",
-                  "title": "COO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
-                },
-                {
-                  "name": "David Requenez",
-                  "title": "CMO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DavidRequenez.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/david/README"
-                },
-                {
-                  "name": "Denis Carriere",
+                  "name": "Christian Rosu",
                   "title": "CTO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DenisCarriere.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/denis/README"
-                },
-                {
-                  "name": "Lenny Goudreault",
-                  "title": "PMO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/LennyGoudreault.jpg",
+                  "image": "http://files.carmel.io/team/chris/profile.jpg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/lenny/README"
                 },
                 {
-                  "name": "Stephane Bisson",
-                  "title": "CDO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/StephaneBisson.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/stephane/README"
+                  "name": "Iosif Dolha",
+                  "title": "BRO WHERE ARE YOU?",
+                  "image": "http://files.carmel.io/team/iosif/profile.jpeg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/david/README"
                 },
                 {
-                  "name": "Vincent Grenier, P.Eng",
-                  "title": "CFO",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Vincent_Grenier.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/vincent/README"
+                  "name": "Adrien Benoist",
+                  "title": "FRANCE",
+                  "image": "http://files.carmel.io/team/adrien/profile.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/denis/README"
+                },
+                {
+                  "name": "Andrei Lazurca",
+                  "title": "CEOul Molodovean",
+                  "image": "http://files.carmel.io/team/andrei/profile.png",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
                 }
               ]
             }
@@ -419,7 +341,7 @@
               "link": "http://eosnation.io"
             }
           ],
-          "title": "Why we love EOSNation",
+          "title": "Why we love Carmel",
           "textColor": "#2b4957",
           "backgroundColor": "#FAFAFA"
         },
@@ -436,11 +358,11 @@
             },
             {
               "url": "https://www.eoswire.org/i/password",
-              "text": "BP Agreement Compliance Rating"
+              "text": "About us"
             },
             {
               "url": "https://bp.eosnation.io/bp.json",
-              "text": "BP.json"
+              "text": "Moldoveanu"
             },
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
