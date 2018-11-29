@@ -162,7 +162,7 @@ export const Cover = styled.div`
 	  left: 0;
 	  opacity: 0.55;
 	  ${(props) => (props.overlayBackground ?
-  	`background-image: ${props.overlayBackground};` : "")}
+  	`background: ${props.overlayBackground};` : "")}
 	}
   @media(max-width: 840px){
     margin-top: 45px;
