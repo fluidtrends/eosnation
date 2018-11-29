@@ -24,7 +24,7 @@
     "thirdColor": "yellow",
     "grayColorLight": "gray",
     "statusBarLight": false,
-    "navigationColor": "#2c4858",
+    "navigationColor": "green",
     "stickyNavigation": true,
     "navigationTintColor": "#fff",
     "backgroundColor": "#999999",
