@@ -483,7 +483,7 @@
             "text": "local://protocol",
             "image": "start.png",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
+            "textColor": "#000",
             "animation": true,
             "reversed": true
           },
@@ -502,7 +502,7 @@
             "text": "local://vision",
             "image": "road.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
+            "textColor": "#000",
             "animation": true,
             "reversed": true
           },
@@ -521,7 +521,7 @@
             "text": "local://transparency",
             "image": "cat.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
+            "textColor": "#000",
             "animation": true,
             "reversed": true
           },
@@ -541,7 +541,7 @@
             "image": "prizes.jpg",
             "reversed": "true",
             "backgroundColor": "#ffffff",
-            "textColor": "#0686d8",
+            "textColor": "#000",
             "animation": true,
             "noBoxShadow": true
           },
