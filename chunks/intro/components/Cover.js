@@ -65,7 +65,7 @@ export default class Intro extends Component {
   }
 
   subtitle() {
-    const { theme } = this.props;
+    const { theme, btnText1, btnText2 } = this.props;
     return (
       <div style={{ marginTop: '30px' }}>
         <Button
@@ -80,7 +80,7 @@ export default class Intro extends Component {
             marginTop: '20px'
           }}
         >
-          Learn More
+          {btnText1}
         </Button>
         <Button
           raised
@@ -93,7 +93,7 @@ export default class Intro extends Component {
             marginTop: '20px'
           }}
         >
-          Vote
+          {btnText2}
         </Button>
       </div>
     )

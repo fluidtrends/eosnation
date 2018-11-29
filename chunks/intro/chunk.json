@@ -61,10 +61,12 @@
           "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
+          "btnText1": "Learn more",
+          "btnText2": "Vote",
           "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
           "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX":"200px",
-          "backgroundPositionY":"100px",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
           "backgroundSize": "90%"
         },
         "pillars": {
