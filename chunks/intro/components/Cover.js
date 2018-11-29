@@ -4,8 +4,6 @@ import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
 import { Cover, CoverContent, SocialLinks } from './StyledComponents'
 
-import 'antd/dist/antd.css'
-
 export default class Intro extends Component {
   constructor(props) {
     super(props)
@@ -22,7 +20,7 @@ export default class Intro extends Component {
   }
 
   goTo(link) {
-    window.open(link, '_self')
+    this.props.history.push(link)
   }
 
   main() {
@@ -39,7 +37,7 @@ export default class Intro extends Component {
   }
 
   title() {
-    const {title} = this.props;
+    const { title } = this.props
     return (
       <div style={{ maxWidth: '652px' }}>
         <Typography use="headline4" className="title">
@@ -54,7 +52,7 @@ export default class Intro extends Component {
       <div style={{ marginTop: '30px' }}>
         <Button
           raised
-          onClick = { () => this.goTo('/about') }
+          onClick={() => this.goTo('/why')}
           style={{
             background: '#D66C44',
             cursor: 'pointer',
@@ -68,7 +66,7 @@ export default class Intro extends Component {
         </Button>
         <Button
           raised
-          onClick = { () => this.goTo('/vote') }
+          onClick={() => this.goTo('/vote')}
           style={{
             background: '#2c4858',
             cursor: 'pointer',
