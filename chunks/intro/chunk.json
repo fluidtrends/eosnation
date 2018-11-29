@@ -60,7 +60,8 @@
           "source": "coverSection",
           "title": "Boost your business using chunky",
           "image": "cover.r.png",
-          "backgroundImgURL": "../../assets/cover.r.png"
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)"
         },
         "pillars": {
           "source": "valueSection",

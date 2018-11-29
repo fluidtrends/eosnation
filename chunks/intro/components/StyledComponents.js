@@ -161,7 +161,8 @@ export const Cover = styled.div`
 	  bottom: 0;
 	  left: 0;
 	  opacity: 0.55;
-	  background-image: linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%);
+	  ${(props) => (props.overlayBackground ?
+  	`background-image: ${props.overlayBackground};` : "")}
 	}
   @media(max-width: 840px){
     margin-top: 45px;

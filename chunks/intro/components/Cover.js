@@ -26,6 +26,7 @@ export default class Intro extends Component {
   }
 
   main() {
+    console.log(this.props);
     return (
       <React.Fragment>
         <CoverContent>
@@ -33,7 +34,7 @@ export default class Intro extends Component {
           {!this.props.hideSubtitle && this.subtitle()}
           {this.icons()}
         </CoverContent>
-        <Cover backgroundImgURL={this.props.backgroundImgURL} />
+        <Cover backgroundImgURL={this.props.backgroundImgURL} overlayBackground={this.props.overlayBackground}/>
       </React.Fragment>
     )
   }
