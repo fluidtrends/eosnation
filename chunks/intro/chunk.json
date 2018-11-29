@@ -436,7 +436,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -550,7 +550,8 @@
             "backgroundColor": "#ffffff",
             "textColor": "#0686d8",
             "animation": true,
-            "noBoxShadow": true
+            "noBoxShadow": true,
+            "reversed": true
           },
           {
             "source": "cover",
@@ -750,7 +751,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -806,7 +807,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -843,10 +844,10 @@
           "source": "blogSection",
           "news": [
             {
-              "title": "Why EOS Nation chose to go the Self-Funded",
-              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
-              "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
+              "title": "Block Producers can potentially be zero cost to the network",
+              "summary": "In economics, marginal cost is the cost of producing one additional unit of a product or service. In the latest EOS.IO release, Dawn 4.0, Block.One has introduced mechanisms to offset the cost of block production and trend the marginal cost of securing and validating the network toward zero. This important and eloquent solution cannot be understated. Let us explain…",
+              "image": "local://eosnation-default-blog.png",
+              "postUrl": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network"
             },
             {
               "title": "Why EOS Nation chose to go the Self-Funded",
@@ -890,7 +891,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -943,7 +944,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -1023,7 +1024,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -1076,7 +1077,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -1186,7 +1187,63 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "postBlockProducer": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Block Producers can potentially be zero cost to the network",
+        "type": "default",
+        "image": "eosnation-default-blog.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog-producers-zero-cost",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {

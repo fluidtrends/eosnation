@@ -75,7 +75,14 @@ body a {
 
 .carousel-container-wrapper {
   position: relative;
-  background: linear-gradient(133.26deg, rgba(209, 131, 39, 0) 0%, #4c6a7a 42.49%, #4A746A 55.9%, #C9C5D8 75.8%, #D66C44 100%);
+  background: linear-gradient(
+    133.26deg,
+    rgba(209, 131, 39, 0) 0%,
+    #4c6a7a 42.49%,
+    #4a746a 55.9%,
+    #c9c5d8 75.8%,
+    #d66c44 100%
+  );
 }
 
 .carousel-container-wrapper:before {
@@ -332,7 +339,8 @@ body a {
   letter-spacing: 0.38px;
   line-height: 3.8;
   text-align: center;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 .btn.btn-link {
@@ -592,8 +600,8 @@ table {
 
   /*twitter gutter*/
   .j-stack.galcolumn {
-    padding-left: 10px!important;
-    padding-right: 10px!important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 }
 
@@ -730,6 +738,25 @@ table {
 .feed-item.juicer.image-post.juicer-ad {
   display: none;
 }
-.juicer-feed h1.referral{
-  display: none!important;
+.juicer-feed h1.referral {
+  display: none !important;
+}
+
+/* markdown style */
+.text {
+  line-height: 25px;
+}
+
+/* markdown-paragraph-margin-top-bottom */
+.m-p-m-t-b {
+  margin: 20px 0;
+}
+
+/* markdown-paragraph-margin-bottom  */
+.m-p-m-b {
+  margin: 0 0 20px;
+}
+
+.markdown-bold {
+  font-weight: bold;
 }

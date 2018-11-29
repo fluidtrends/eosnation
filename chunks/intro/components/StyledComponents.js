@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-const fontColor = '#324856';
+const fontColor = '#324856'
 
 export const Heading3 = styled.h3`
   font-family: 'Roboto', sans-serif;
@@ -10,7 +10,7 @@ export const Heading3 = styled.h3`
   letter-spacing: 0.38px;
   line-height: 31px;
   font-weight: normal;
-`;
+`
 
 export const CalenderItemWrapper = styled.div`
   display: flex;
@@ -18,7 +18,7 @@ export const CalenderItemWrapper = styled.div`
   @media (max-width: 780px) {
     flex-direction: column;
   }
-`;
+`
 
 export const CalenderItemDate = styled.div`
   width: 15%;
@@ -31,7 +31,7 @@ export const CalenderItemDate = styled.div`
     border-bottom: solid gray 1px;
     width: 100%;
   }
-`;
+`
 
 export const CalenderItemContent = styled.div`
   width: calc(100% - 90px);
@@ -41,7 +41,7 @@ export const CalenderItemContent = styled.div`
   @media (max-width: 780px) {
     width: 100%;
   }
-`;
+`
 
 export const Heading4 = styled.h4`
   font-family: 'Roboto', sans-serif;
@@ -51,28 +51,42 @@ export const Heading4 = styled.h4`
   font-weight: bold;
   letter-spacing: 0.19px;
   line-height: 35px;
-`;
+`
 
 export const Body2 = styled.p`
   display: inline;
-  color: ${props => props.primary ? '#324856' : props.secondary ? '#4A746A' : props.color ? props.color : '#FFFFFF'};
+  color: ${props =>
+    props.primary
+      ? '#324856'
+      : props.secondary
+      ? '#4A746A'
+      : props.color
+      ? props.color
+      : '#FFFFFF'};
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: ${props =>
-  props.bold ? 'bold' : props.light ? '300' : 'inherit'};
+    props.bold ? 'bold' : props.light ? '300' : 'inherit'};
   text-decoration: ${props => (props.link ? 'underline' : 'inherit')};
   text-transform: ${props => (props.uppercase ? 'uppercase' : 'inherit')};
   letter-spacing: 0.13px;
   line-height: 19px;
-`;
+`
 
 export const Body3 = styled.p`
-  color: ${props => props.primary ? '#324856' : props.secondary ? '#4A746A' : props.color ? props.color : '#FFFFFF'};
+  color: ${props =>
+    props.primary
+      ? '#324856'
+      : props.secondary
+      ? '#4A746A'
+      : props.color
+      ? props.color
+      : '#FFFFFF'};
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   letter-spacing: 0.19px;
   line-height: 30px;
-`;
+`
 
 export const Icon = styled.i`
   color: ${props => (props.primary ? props.primary : '#324856')};
@@ -81,7 +95,7 @@ export const Icon = styled.i`
   border-radius: 50%;
   font-size: 15px;
   box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
-`;
+`
 
 export const FooterWrapper = styled.div`
   color: ${props => (props.primary ? props.primary : '#fff')};
@@ -90,90 +104,92 @@ export const FooterWrapper = styled.div`
   @media (max-width: 780px) {
     padding: 20px;
   }
-`;
+`
 
 export const UserProfileSmall = styled.img`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-`;
+`
 
-export const BlogTtile = styled.h3`
+export const BlogTitle = styled.h3`
   color: ${fontColor};
   font-size: 36px;
-`;
+`
 
 export const Line = styled.div`
   height: 3px;
   background-color: #b0bec5;
   width: 100%;
-`;
+`
 
 export const PostTitle = styled.h4`
+  padding: 20px 0;
   color: ${fontColor};
   font-size: 26px;
-`;
+`
 
 export const PostSummary = styled.p`
   color: ${fontColor};
   font-size: 16px;
-`;
+  line-height: 20px;
+`
 
 export const PostImg = styled.img`
   height: 200px;
   width: 100%;
   min-width: 200px;
-`;
+`
 
 export const PostDate = styled.p`
   font-size: 16px;
   color: #4a746a;
   position: absolute;
   bottom: 0;
-`;
+`
 
 export const FeaturedRank = styled.p`
   font-size: 36px;
   color: rgba(155, 155, 155, 0.5);
-`;
+`
 
 export const FeaturedTitle = styled.h4`
   font-size: 22px;
   color: ${fontColor};
-`;
+`
 
 export const Cover = styled.div`
   position: relative;
-  background-image: url(${(props) => (props.backgroundImgURL)});
+  background-image: url(${props => props.backgroundImgURL});
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
   background-position-y: 100px;
   background-position-x: 200px;
   background-size: 90%;
   margin-top: 80px;
   height: 700px;
-	:before{
+  :before {
     content: '';
-  	position: absolute;
-	  top: 0;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	  opacity: 0.55;
-	  background-image: linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%);
-	}
-  @media(max-width: 840px){
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.55;
+    background-image: linear-gradient(90deg, #eeeeee 18.96%, #000000 100%);
+  }
+  @media (max-width: 840px) {
     margin-top: 45px;
     background-attachment: inherit;
     background-position-y: inherit;
     background-position-x: -200px;
     background-size: cover;
-    :before{
-	    background-image: linear-gradient(90deg, #EEEEEE 18.96%, #626262 100%);
+    :before {
+      background-image: linear-gradient(90deg, #eeeeee 18.96%, #626262 100%);
     }
   }
-`;
+`
 
 export const CoverContent = styled.div`
   width: calc(100% - 120px);
@@ -183,22 +199,22 @@ export const CoverContent = styled.div`
   top: 300px;
   left: 100px;
   z-index: 3;
-  @media(max-width: 840px){
+  @media (max-width: 840px) {
     width: calc(100% - 50px);
     top: 250px;
     left: inherit;
   }
-`;
+`
 
 export const SocialLinks = styled.div`
   position: absolute;
   top: -200px;
   right: 0;
   margin-right: 20px;
-  @media(max-width: 840px){
+  @media (max-width: 840px) {
     right: -30px;
   }
-`;
+`
 
 export const Arrow = styled.div`
   display: block;
@@ -210,7 +226,7 @@ export const Arrow = styled.div`
   font-family: 'Roboto', sans-serif;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   :before{    
-    content: "${props => props.left ? "<" : ">"}";
+    content: "${props => (props.left ? '<' : '>')}";
     font-size: 1.6rem;
     color: #fff;
     line-height: initial;
@@ -220,41 +236,41 @@ export const Arrow = styled.div`
     background: rgba(50,72,86,0.67);
     opacity: 20%;
   }
-`;
+`
 
 export const ValuesSection = styled.div`
   padding: 100px 0;
-  @media(max-width: 540px){
+  @media (max-width: 540px) {
     padding: 50px 0;
   }
-`;
+`
 
 export const CarouselSliderStyle = styled.div`
   width: 95%;
   padding-left: 46px;
   padding-right: 5px;
-  @media(max-width: 1000px){
+  @media (max-width: 1000px) {
     padding-right: 60px;
   }
-  @media(max-width: 576px){
+  @media (max-width: 576px) {
     padding-left: 0;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 77%;
   }
-`;
+`
 
 export const TwitterSectionContainer = styled.div`
   max-width: 1340px;
   margin-left: auto;
   margin-right: auto;
   padding: 100px 50px;
-  @media(max-width: 840px){
+  @media (max-width: 840px) {
     padding-right: 20px;
     padding-left: 20px;
   }
-  @media(max-width: 576px){
+  @media (max-width: 576px) {
     padding: 50px 10px;
   }
-`;
+`
