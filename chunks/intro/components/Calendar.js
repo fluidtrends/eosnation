@@ -68,7 +68,8 @@ export class CalendarItem extends Component {
                     )) : <Body2>-</Body2>}
                   </GridInner>
                 </GridCell>
-                <GridCell span="3" phone="6" className="text-align-right calendar-social-links" style={{ marginLeft: "-20px" }}>
+                <GridCell span="3" phone="6" className="text-align-right calendar-social-links"
+                          style={{ marginLeft: "-20px" }}>
                   {facebookLink ?
                     <span><a className="margin-left-medium" href={facebookLink} target="_blank">
                       <Icon className="fab fa-facebook-f facebook-custom-icon" /></a></span> : null
@@ -93,13 +94,14 @@ export class CalendarItem extends Component {
 
 class Calendar extends Component {
   render() {
-    const { events } = this.props;
+    const { calendarEvents, theme, backgroundColor1, backgroundColor2, backgroundColor3 } = this.props;
     return (
       <div className="align-center" style={{
         maxWidth: '1120px',
-        background: 'linear-gradient(0deg, #D66C44 0%, rgba(50,72,86,0.84) 44.82%, #324856 100%)'
+        background: `linear-gradient(0deg, ${backgroundColor1 || theme.secondaryColor} 0%,
+         ${backgroundColor2} 44.82%, ${backgroundColor3 || theme.primaryColor} 100%)`
       }}>
-        {events.map((event) => (
+        {calendarEvents.map((event) => (
           <CalendarItem {...event} />
         ))}
       </div>

@@ -231,6 +231,9 @@
         "events": {
           "source": "eventsSection",
           "title": "EOS Nation Sponsored Projects & Events",
+          "backgroundColor1": "",
+          "backgroundColor2": "rgba(50,72,86,0.84)",
+          "backgroundColor3": "",
           "calendarEvents": [
             {
               "slug": "82 EOS",
