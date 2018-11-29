@@ -84,8 +84,8 @@ export const Icon = styled.i`
 `;
 
 export const FooterWrapper = styled.div`
-  color: ${props => (props.primary ? props.primary : '#fff')};
-  background: ${props => (props.primary ? props.primary : '#324856')};
+  color: ${props => (props.color ? props.color : '#fff')};
+  background: ${props => (props.backgroundColor || "#000")};
   padding: 50px;
   @media (max-width: 780px) {
     padding: 20px;
