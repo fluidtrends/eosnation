@@ -99,7 +99,7 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
               "btnText": "Explore more",
               "backgroundColor": "#000",
-              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
               "cards": [
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
@@ -143,41 +143,48 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
               "btnColor": "#324856",
               "btnText": "Explore more",
-              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
               "cards": [
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Docs",
+                  "btnLink": "https://www.eosdocs.io/",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Survival Guide",
+                  "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "Pomelo Wallet",
+                  "btnLink": "https://meet.one/pomelo",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Tool Kit",
+                  "btnLink": "https://eostoolkit.io/home",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "My EOS Kit",
+                  "btnLink": "https://www.myeoskit.com/blocks",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "Blocks.io Block Explorer",
+                  "btnLink": "https://bloks.io/",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOSeoul Voting Portal",
+                  "btnLink": "https://portal.eoseoul.io/",
                   "btnText": "Learn more"
                 }
               ]

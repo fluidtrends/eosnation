@@ -31,7 +31,7 @@ class VerticalCard extends React.Component {
         <a
           className="btn btn-primary btn-link align-center margin-top-medium width-1-1 text-uppercase"
           href={btnLink}
-          target={'_blank'}
+          target={this.props.btnLink.includes('https://') ? '_blank' : ''}
         >
           {btnText}
         </a>
