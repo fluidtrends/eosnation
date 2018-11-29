@@ -767,3 +767,7 @@ table {
 .markdown-bold {
   font-weight: bold;
 }
+
+main {
+  margin-top: 0 !important;
+}
