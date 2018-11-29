@@ -754,6 +754,10 @@ table {
   line-height: 25px;
 }
 
+.text h3 {
+  line-height: 30px;
+}
+
 /* markdown-paragraph-margin-top-bottom */
 .m-p-m-t-b {
   margin: 20px 0;
