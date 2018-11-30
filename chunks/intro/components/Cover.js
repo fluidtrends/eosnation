@@ -4,8 +4,6 @@ import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
 import { Cover, CoverContent, CoverTitle, SocialLinks } from './StyledComponents'
 
-import 'antd/dist/antd.css'
-
 export default class Intro extends Component {
   constructor(props) {
     super(props)
@@ -22,7 +20,7 @@ export default class Intro extends Component {
   }
 
   goTo(link) {
-    window.open(link, '_self')
+    this.props.history.push(link)
   }
 
   main() {

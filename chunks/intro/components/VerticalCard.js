@@ -6,10 +6,17 @@ const DEFAULT_MAX_DESCRIPTION_LINES = 5
 
 class VerticalCard extends React.Component {
   render() {
-    const { image, title, description, btnText, btnLink, maxDescriptionLines } = this.props
+    const {
+      image,
+      title,
+      description,
+      btnText,
+      btnLink,
+      maxDescriptionLines
+    } = this.props
 
     return <div className="card-container">
-      <CardImageWrapper className="align-center"  backgroundColor={this.props.theme.primaryColor}>
+      <CardImageWrapper className="align-center" backgroundColor={this.props.theme.primaryColor}>
         {typeof image === 'string' ? <img src={image} /> : image()}
       </CardImageWrapper>
       <div className="margin-top-large sub-header">{title}</div>
@@ -19,7 +26,9 @@ class VerticalCard extends React.Component {
         </Truncate>
       </div>
       <div className="btn-link align-center margin-top-medium width-1-1 text-uppercase" style={{ textAlign: "center" }}>
-        <Button component={<a href={btnLink} />} backgroundColor={this.props.theme.secondaryColor}>
+        <Button
+          component={<a href={btnLink} target={this.props.btnLink.includes('https://') ? '_blank' : ''} />}
+          backgroundColor={this.props.theme.secondaryColor}>
           {btnText}
         </Button>
       </div>
@@ -27,4 +36,4 @@ class VerticalCard extends React.Component {
   }
 }
 
-export default VerticalCard;
+export default VerticalCard

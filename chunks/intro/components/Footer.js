@@ -21,9 +21,14 @@ class Footer extends React.PureComponent {
           </GridCell>
           <GridCell span="5" phone="12" tablet="5" laptop="5">
             <GridInner>
-              {links.map(({ url, text }) => (
+              {links.map(({ url, text }, index) => (
                 <GridCell span="6">
-                  <a href={url} target="_blank" className="footer-link">
+                  <a
+                    key={index}
+                    href={url}
+                    target={url.includes('https://') ? '_blank' : ''}
+                    className="footer-link"
+                  >
                     <Body2>{text}</Body2>
                   </a>
                 </GridCell>

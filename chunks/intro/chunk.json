@@ -77,7 +77,7 @@
               "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
-              "btnLink": "/vote"
+              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for"
             },
             {
               "title": "Ambassadors",
@@ -91,7 +91,7 @@
               "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
               "iconName": "server",
               "btnText": "Learn more",
-              "btnLink": "https://www.eosdocs.io/"
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens"
             }
           ],
           "title": "Why vote for us?",
@@ -106,7 +106,7 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
               "btnText": "Explore more",
               "backgroundColor": "#000",
-              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
               "cards": [
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
@@ -150,41 +150,48 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
               "btnColor": "#324856",
               "btnText": "Explore more",
-              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
               "cards": [
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Docs",
+                  "btnLink": "https://www.eosdocs.io/",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Survival Guide",
+                  "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "Pomelo Wallet",
+                  "btnLink": "https://meet.one/pomelo",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Tool Kit",
+                  "btnLink": "https://eostoolkit.io/home",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "My EOS Kit",
+                  "btnLink": "https://www.myeoskit.com/blocks",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "Blocks.io Block Explorer",
+                  "btnLink": "https://bloks.io/",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "title": "EOSeoul Voting Portal",
+                  "btnLink": "https://portal.eoseoul.io/",
                   "btnText": "Learn more"
                 }
               ]
@@ -427,11 +434,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -439,7 +446,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -553,7 +560,8 @@
             "backgroundColor": "#ffffff",
             "textColor": "#0686d8",
             "animation": true,
-            "noBoxShadow": true
+            "noBoxShadow": true,
+            "reversed": true
           },
           {
             "source": "cover",
@@ -741,11 +749,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -753,7 +761,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -797,11 +805,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -809,7 +817,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -846,10 +854,10 @@
           "source": "blogSection",
           "news": [
             {
-              "title": "Why EOS Nation chose to go the Self-Funded",
-              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
-              "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
+              "title": "Block Producers can potentially be zero cost to the network",
+              "summary": "In economics, marginal cost is the cost of producing one additional unit of a product or service. In the latest EOS.IO release, Dawn 4.0, Block.One has introduced mechanisms to offset the cost of block production and trend the marginal cost of securing and validating the network toward zero. This important and eloquent solution cannot be understated. Let us explain…",
+              "image": "local://eosnation-default-blog.png",
+              "postUrl": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network"
             },
             {
               "title": "Why EOS Nation chose to go the Self-Funded",
@@ -881,11 +889,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -893,7 +901,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -934,11 +942,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -946,7 +954,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -1014,11 +1022,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -1026,7 +1034,226 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "icon": "favorite",
+      "path": "/privacy-policy",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://privacy",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "ownership": {
+      "title": "Ownership Disclosure",
+      "icon": "favorite",
+      "path": "/ownership-disclosure",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://ownership-disclosure",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "team": {
+          "source": "team",
+          "backgroundColor": "#2c4858",
+          "textColor": "#D66C44",
+          "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
+          "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
+          "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "sections": [
+            {
+              "title": "The Team",
+              "members": [
+                {
+                  "name": "Yves La Rose",
+                  "title": "CEO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
+                },
+                {
+                  "name": "Daniel Keys",
+                  "title": "COO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
+                },
+                {
+                  "name": "David Requenez",
+                  "title": "CMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DavidRequenez.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/david/README"
+                },
+                {
+                  "name": "Denis Carriere",
+                  "title": "CTO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DenisCarriere.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/denis/README"
+                },
+                {
+                  "name": "Lenny Goudreault",
+                  "title": "PMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/LennyGoudreault.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/lenny/README"
+                },
+                {
+                  "name": "Stephane Bisson",
+                  "title": "CDO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/StephaneBisson.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/stephane/README"
+                },
+                {
+                  "name": "Vincent Grenier, P.Eng",
+                  "title": "CFO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Vincent_Grenier.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/vincent/README"
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "postBlockProducer": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Block Producers can potentially be zero cost to the network",
+        "type": "default",
+        "image": "eosnation-default-blog.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog-producers-zero-cost",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
