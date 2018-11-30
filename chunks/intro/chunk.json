@@ -1224,7 +1224,7 @@
           "source": "text",
           "textSource": "local://ownership-disclosure",
           "style": {
-            "padding": "80px"
+            "padding": "20px"
           }
         },
         "team": {
