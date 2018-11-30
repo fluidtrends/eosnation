@@ -3,7 +3,7 @@
 </p>
 
 <p class='m-p-m-t-b'>
-	Our diversity will be our strength.
+	<span class='markdown-bold'>Our diversity will be our strength.</span>
 </p>
 
 <p class='m-p-m-t-b'>

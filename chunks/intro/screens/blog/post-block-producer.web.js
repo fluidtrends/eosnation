@@ -1,6 +1,6 @@
 import React from 'react'
 import { Screen, Components } from 'react-dom-chunky'
-import * as CustomComponents from '../components'
+import * as CustomComponents from '../../components'
 
 export default class PostSection extends Screen {
   constructor(props) {
