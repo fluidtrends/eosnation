@@ -106,41 +106,34 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
               "btnText": "Explore more",
               "backgroundColor": "#000",
-              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
+              "btnLink": "https://t.me/EOSNation",
               "cards": [
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
+                  "title": "EOS Nation Ambassador Samuel Joseph",
                   "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnLink": "https://medium.com/@eosnationbp/ambassador-spotlight-samuel-joseph-nigeria-7913904c950b",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
+                  "title": "EOS Nation Ambassador Rory Mapstone",
                   "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-rory-mapstone-e34778219a1b",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
+                  "title": "EOS Nation Ambassador Patrick Schmid",
                   "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-patrick-schmid-95b9a495d27d",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
+                  "title": "EOS Nation Ambassadors India",
                   "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
                   "btnText": "Learn more"
                 }
               ]
@@ -150,14 +143,8 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
               "btnColor": "#324856",
               "btnText": "Explore more",
-              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
+              "btnLink": "https://www.eosdocs.io/",
               "cards": [
-                {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Docs",
-                  "btnLink": "https://www.eosdocs.io/",
-                  "btnText": "Learn more"
-                },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
                   "title": "EOS Survival Guide",
@@ -172,14 +159,14 @@
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Tool Kit",
+                  "title": "EOS Toolkit",
                   "btnLink": "https://eostoolkit.io/home",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
                   "title": "My EOS Kit",
-                  "btnLink": "https://www.myeoskit.com/blocks",
+                  "btnLink": "https://www.myeoskit.com/#/blocks",
                   "btnText": "Learn more"
                 },
                 {
@@ -201,41 +188,36 @@
               "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
               "btnText": "Explore more",
               "backgroundColor": "#000",
-              "btnLink": "https://github.com/grigio/eosfilestore-web",
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
               "cards": [
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "EOS Referendum Roadmap",
+                  "btnLink": "https://medium.com/@eosnationbp/eos-referendum-roadmap-b0417ff8a934",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "Community Engagement Fund",
+                  "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "Ambassador Program",
+                  "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "Pomelo - EOS Wallet",
+                  "btnLink": "https://steemit.com/eos/@eosnation/eos-wallet-voting-mobile-app",
                   "btnText": "Learn more"
                 },
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Meetup",
-                  "eventDate": "Jan 20 2017",
-                  "btnLink": "https://github.com/grigio/eosfilestore-web",
+                  "title": "Scholar Testnet (ended)",
+                  "btnLink": "https://steemit.com/eos/@eosnation/eos-io-scholar-testnet",
                   "btnText": "Learn more"
                 }
               ]
