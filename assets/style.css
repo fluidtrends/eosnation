@@ -73,28 +73,6 @@ body a {
   flex-direction: column;
 }
 
-.carousel-container-wrapper {
-  position: relative;
-  background: linear-gradient(
-    133.26deg,
-    rgba(209, 131, 39, 0) 0%,
-    #4c6a7a 42.49%,
-    #4a746a 55.9%,
-    #c9c5d8 75.8%,
-    #d66c44 100%
-  );
-}
-
-.carousel-container-wrapper:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(50, 72, 86, 0.7);
-}
-
 .carousel-container {
   padding-top: 130px;
   padding-bottom: 140px;
@@ -727,11 +705,6 @@ table {
 }
 
 .title {
-  text-align: center;
-  padding: 5px 0 0 0;
-  font-family: 'GAMECUBEN';
-  font-size: 32px;
-  color: #324856;
 }
 
 /*twitter section*/

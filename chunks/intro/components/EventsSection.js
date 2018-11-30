@@ -13,7 +13,7 @@ class EventsSection extends Component {
         <h2 className="section-header text-align-center margin-bottom-large">
           {title}
         </h2>
-        <Calendar events={events} />
+        <Calendar {...this.props} calendarEvents={events}/>
       </ValuesSection>
     );
   }
