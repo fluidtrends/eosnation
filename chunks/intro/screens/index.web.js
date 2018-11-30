@@ -13,3 +13,4 @@ export {
   default as communityEngagement
 } from './blog/post-community-engagement.web'
 export { default as scholarTestnet } from './blog/post-scholar-testnet.web'
+export { default as pomeloApp } from './blog/post-pomelo-eos-app.web'

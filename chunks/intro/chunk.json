@@ -894,14 +894,33 @@
               "image": "local://pawns.jpg",
               "date": "MAR 11 2018",
               "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
+            },
+            {
+              "title": "Pomelo - EOS Wallet/Voting App",
+              "summary": "We would like to introduce a new EOS community driven project to develop an EOS Wallet/Voting Mobile application that will be compatible with iOS phones (Android coming) which will be built entirely public & open source.",
+              "image": "local://pomelo.jpg",
+              "date": "JUL 30 2017",
+              "postUrl": "/blog-pomelo-eos-voting-app"
             }
           ],
           "featured": [
             {
               "rank": "01",
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "date": "NOV 12 2018",
+              "postUrl": "/blog-why-eos-nation-chose-to-go-the-self-funded-route"
+            },
+            {
+              "rank": "02",
               "title": "EOS - Let's get ready to vote!",
               "date": "MAR 11 2018",
               "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
+            },
+            {
+              "rank": "03",
+              "title": "Pomelo - EOS Wallet/Voting App",
+              "date": "JUL 30 2017",
+              "postUrl": "/blog-pomelo-eos-voting-app"
             },
             {
               "rank": "04",
@@ -1549,6 +1568,62 @@
         "text": {
           "source": "text",
           "textSource": "local://blog/scholar-testnet",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "pomeloApp": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-pomelo-eos-voting-app",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Pomelo - EOS Wallet/Voting App",
+        "type": "default",
+        "image": "pomelo.jpg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/pomelo-app",
           "style": {
             "padding": "80px"
           }
