@@ -1117,7 +1117,12 @@
           "source": "coverSection",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
-          "hideSubtitle": true
+          "hideSubtitle": true,
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
         },
         "text": {
           "source": "text",
@@ -1170,7 +1175,12 @@
           "source": "coverSection",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
-          "hideSubtitle": true
+          "hideSubtitle": true,
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
         },
         "text": {
           "source": "text",
