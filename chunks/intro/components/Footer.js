@@ -2,7 +2,7 @@ import React from 'react'
 import { Components } from 'react-dom-chunky'
 import { List, ListItem, ListItemText } from '@rmwc/list'
 import { Grid, GridCell, GridInner } from 'rmwc'
-import { Body2, Button, FooterWrapper } from './StyledComponents'
+import { Body2, FooterWrapper } from './StyledComponents'
 import footerLogo from '../../../assets/eosnation_footer_logo.png'
 
 class Footer extends React.PureComponent {
