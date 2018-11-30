@@ -1166,7 +1166,7 @@
           "source": "text",
           "textSource": "local://privacy",
           "style": {
-            "padding": "80px"
+            "padding": "20px"
           }
         },
         "footer": {
