@@ -13,10 +13,8 @@ You need to install chunky-cli
 ### Setup
 
 `npm i`
-Create web folder:
-`mkdir .chunky; cd .chunky; touch web`
 
 ## Run chunky website
 
 `chunky start web`
-Open browser tab an type: `http://localhost:8082`
+Open browser tab and type: `http://localhost:8082`
