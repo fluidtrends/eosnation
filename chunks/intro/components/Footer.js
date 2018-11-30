@@ -44,7 +44,7 @@ class Footer extends React.PureComponent {
             </div>
           </GridCell>
           <GridCell span="5" phone="12" tablet="12" laptop="12">
-            <div className="margin-top-medium">
+            <div>
               <img
                 src="../../../assets/certificate.jpg"
                 style={{ width: '50%', display: 'block', margin: '0 auto' }}
