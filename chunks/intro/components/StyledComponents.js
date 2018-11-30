@@ -98,8 +98,8 @@ export const Icon = styled.i`
 `
 
 export const FooterWrapper = styled.div`
-  color: ${props => (props.primary ? props.primary : '#fff')};
-  background: ${props => (props.primary ? props.primary : '#324856')};
+  color: ${props => (props.color ? props.color : '#fff')};
+  background: ${props => (props.backgroundColor || "#000")};
   padding: 50px;
   @media (max-width: 780px) {
     padding: 20px;
@@ -163,23 +163,23 @@ export const Cover = styled.div`
   background-image: url(${props => props.backgroundImgURL});
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-position-y: 100px;
-  background-position-x: 200px;
-  background-size: 90%;
-  margin-top: 80px;
+  background-position: center; 
+  background-position-y: ${(props) => (props.backgroundPositionY || '60px')};
+  background-position-x: ${(props) => (props.backgroundPositionX || 'inherit')};
+  background-size: ${(props) => (props.backgroundSize || '100%')};
   height: 700px;
   :before {
     content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.55;
-    background-image: linear-gradient(90deg, #eeeeee 18.96%, #000000 100%);
-  }
-  @media (max-width: 840px) {
+  	position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  opacity: 0.55;
+	  ${(props) => (props.overlayBackground ?
+  `background: ${props.overlayBackground};` : "")}
+	}
+  @media(max-width: 840px){
     margin-top: 45px;
     background-attachment: inherit;
     background-position-y: inherit;
@@ -218,7 +218,7 @@ export const SocialLinks = styled.div`
 
 export const Arrow = styled.div`
   display: block;
-  background: #324856;
+  background: ${(props) => (props.backgroundColor || "#000")};
   width: 40px;
   height: 40px;
   margin-left: -20px;
@@ -244,6 +244,27 @@ export const ValuesSection = styled.div`
     padding: 50px 0;
   }
 `
+
+export const CarouselContainerWrapper = styled.div`
+  position: relative;
+  background: linear-gradient(133.26deg, 
+  rgba(209, 131, 39, 0) 0%, 
+  ${(props) => (props.backgroundColor || "#000")} 42.49%,
+  ${(props) => (props.carouselColor1 || "#000")} 55.9%, 
+  ${(props) => (props.carouselColor2 || "#000")} 75.8%, 
+  ${(props) => (props.carouselColor3 || "#000")} 100%);
+  :before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: ${(props) => (props.backgroundColor || "#000")};
+    opacity: 0.7;
+    //background: rgba(50, 72, 86, 0.7);
+  }
+`;
 
 export const CarouselSliderStyle = styled.div`
   width: 95%;
@@ -273,4 +294,38 @@ export const TwitterSectionContainer = styled.div`
   @media (max-width: 576px) {
     padding: 50px 10px;
   }
-`
+`;
+
+const element = ({ component, ...props }) => React.cloneElement(component, props);
+
+export const CoverTitle = styled(element)`
+  text-align: center;
+  padding: 5px 0 0 0;
+  font-family: ${(props) => (props.fontFamily || "inherit")};
+  font-size: 32px;
+  color: ${(props) => (props.color || "#000")};
+`;
+
+export const Button = styled(element)`
+  display: inline-block;
+  height: 60px;
+  width: 240px;
+  border-radius: 5px;
+  background-color: ${(props) => (props.backgroundColor || "#000")};
+  color: ${(props) => (props.color || "#ffffff")};
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.38px;
+  line-height: 3.8;
+  text-align: center;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+`;
+
+export const CardImageWrapper = styled.div`
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  background-color: ${(props) => (props.backgroundColor || "#000")};
+  padding: 20px;
+  border-radius: 50%;
+`;

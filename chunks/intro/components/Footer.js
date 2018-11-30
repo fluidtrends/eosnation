@@ -1,16 +1,16 @@
 import React from 'react'
-import { Component, Components } from 'react-dom-chunky'
+import { Components } from 'react-dom-chunky'
 import { List, ListItem, ListItemText } from '@rmwc/list'
 import { Grid, GridCell, GridInner } from 'rmwc'
-import { Body2, FooterWrapper, Icon } from './StyledComponents'
+import { Body2, Button, FooterWrapper } from './StyledComponents'
 import footerLogo from '../../../assets/eosnation_footer_logo.png'
 
 class Footer extends React.PureComponent {
   render() {
-    const { links } = this.props
+    const { links, theme } = this.props;
 
     return (
-      <FooterWrapper>
+      <FooterWrapper backgroundColor={theme.primaryColor}>
         <Grid>
           <GridCell span="2" phone="12" tablet="3" laptop="3">
             <img

@@ -1,5 +1,6 @@
 import React from 'react'
 import Truncate from 'react-truncate'
+import { Button, CardImageWrapper } from './StyledComponents';
 
 const DEFAULT_MAX_DESCRIPTION_LINES = 5
 
@@ -14,29 +15,24 @@ class VerticalCard extends React.Component {
       maxDescriptionLines
     } = this.props
 
-    return (
-      <div className="card-container">
-        <div className="card-image-wrapper align-center">
-          {typeof image === 'string' ? <img src={image} /> : image()}
-        </div>
-        <div className="margin-top-large sub-header">{title}</div>
-        <div className="paragraph card-description margin-top-medium">
-          <Truncate
-            lines={maxDescriptionLines || DEFAULT_MAX_DESCRIPTION_LINES}
-            ellipsis={<span>...</span>}
-          >
-            {description}
-          </Truncate>
-        </div>
-        <a
-          className="btn btn-primary btn-link align-center margin-top-medium width-1-1 text-uppercase"
-          href={btnLink}
-          target={this.props.btnLink.includes('https://') ? '_blank' : ''}
-        >
-          {btnText}
-        </a>
+    return <div className="card-container">
+      <CardImageWrapper className="align-center" backgroundColor={this.props.theme.primaryColor}>
+        {typeof image === 'string' ? <img src={image} /> : image()}
+      </CardImageWrapper>
+      <div className="margin-top-large sub-header">{title}</div>
+      <div className="paragraph card-description margin-top-medium">
+        <Truncate lines={maxDescriptionLines || DEFAULT_MAX_DESCRIPTION_LINES} ellipsis={<span>...</span>}>
+          {description}
+        </Truncate>
       </div>
-    )
+      <div className="btn-link align-center margin-top-medium width-1-1 text-uppercase" style={{ textAlign: "center" }}>
+        <Button
+          component={<a href={btnLink} target={this.props.btnLink.includes('https://') ? '_blank' : ''} />}
+          backgroundColor={this.props.theme.secondaryColor}>
+          {btnText}
+        </Button>
+      </div>
+    </div>
   }
 }
 
