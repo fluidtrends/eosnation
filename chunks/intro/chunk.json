@@ -557,7 +557,6 @@
             "source": "feature",
             "text": "local://foundation",
             "image": "prizes.jpg",
-            "reversed": "true",
             "backgroundColor": "#ffffff",
             "textColor": "#000",
             "animation": true,
@@ -574,14 +573,14 @@
             "type": "section",
             "titleStyle": {
               "display": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
               "display": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -595,13 +594,13 @@
             "type": "section",
             "titleStyle": {
               "display": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "display": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           },
@@ -615,13 +614,13 @@
             "type": "section",
             "titleStyle": {
               "display": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "display": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           },
@@ -635,14 +634,14 @@
             "type": "section",
             "titleStyle": {
               "display": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
               "display": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -656,7 +655,7 @@
             "type": "section",
             "titleStyle": {
               "display": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0,
               "marginLeft": 0
@@ -664,7 +663,7 @@
             "subtitleStyle": {
               "paddingRight": "100px",
               "display": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -678,13 +677,13 @@
             "type": "section",
             "titleStyle": {
               "display": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "display": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           }
