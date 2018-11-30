@@ -4,14 +4,18 @@ import { FeaturedRank, FeaturedTitle, PostDate } from './StyledComponents'
 
 class FeaturedNews extends React.PureComponent {
   renderNewsCard(post) {
-    const { title, rank, date } = post
+    const { title, rank, date, postUrl } = post
     return (
       <Row
+        onClick={() => {
+          postUrl && window.open(postUrl, '_blank')
+        }}
         style={{
           boxShadow: '0 5px 20px 0 rgba(0,0,0,.15)',
           padding: '15px',
           marginTop: '15px',
-          marginBottom: '15px'
+          marginBottom: '15px',
+          cursor: 'pointer'
         }}
       >
         <Col span={4}>

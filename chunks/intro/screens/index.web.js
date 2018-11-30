@@ -9,3 +9,7 @@ export { default as ownership } from './ownership.web'
 export { default as postBlockProducer } from './blog/post-block-producer.web'
 export { default as selfFunded } from './blog/post-self-funded.web'
 export { default as diversity } from './blog/post-diversity.web'
+export {
+  default as communityEngagement
+} from './blog/post-community-engagement.web'
+export { default as scholarTestnet } from './blog/post-scholar-testnet.web'

@@ -873,18 +873,41 @@
               "image": "local://diversity.jpeg",
               "date": "JAN 01 2017",
               "postUrl": "/blog-through-diversity-strength-emerges"
+            },
+            {
+              "title": "EOS Nation Community Engagement Fund",
+              "summary": "This is an on-chain EOS contract (or dApp) that allows EOS proxy accounts to register additional information about themselves, such as name and website.",
+              "image": "local://aloha.png",
+              "date": "APR 22 2014",
+              "postUrl": "/blog-community-engagement-fund"
+            },
+            {
+              "title": "EOS.IO Scholar Testnet",
+              "summary": "EOS.IO Scholar Testnet was founded with the vision to provide learning & educational material to Block Producer candidates to give them the opportunity to be involved in a live & safe EOS Testnet environment.",
+              "image": "local://testnet.png",
+              "date": "OCT 12 2018",
+              "postUrl": "/blog-scholar-testnet"
+            },
+            {
+              "title": "EOS - Let's get ready to vote!",
+              "summary": "EOS Nation's mission is to add value to the EOS ecosystem by focusing our efforts on education through community engagement. EOS Nation has been one of the most active Block Producer candidates, establishing a strong presence online in the various public EOS chats (most notably, in the Governance and Infrastructure channels) as well as across many cities around the world.",
+              "image": "local://pawns.jpg",
+              "date": "MAR 11 2018",
+              "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
             }
           ],
           "featured": [
             {
               "rank": "01",
-              "title": "EOS Governance - Executive and Judicial",
-              "date": "OCT 12 2015"
+              "title": "EOS - Let's get ready to vote!",
+              "date": "MAR 11 2018",
+              "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
             },
             {
-              "rank": "01",
-              "title": "EOS Governance - Executive and Judicial",
-              "date": "OCT 12 2015"
+              "rank": "04",
+              "title": "Through Diversity, Strength Emerges",
+              "date": "JAN 01 2017",
+              "postUrl": "/blog-through-diversity-strength-emerges"
             }
           ]
         },
@@ -1414,6 +1437,118 @@
         "text": {
           "source": "text",
           "textSource": "local://blog/diversity",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "communityEngagement": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-community-engagement-fund",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - EOS Nation Community Engagement Fund",
+        "type": "default",
+        "image": "aloha.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/community-engagement",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "scholarTestnet": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-scholar-testnet",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - EOSIO Scholar Testnet",
+        "type": "default",
+        "image": "testnet.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/scholar-testnet",
           "style": {
             "padding": "80px"
           }

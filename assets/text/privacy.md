@@ -20,7 +20,7 @@
 
 <p style='margin: 0 0 20px'>In certain circumstances, you have the following data protection rights:</p>
 
-<ul style='list-style: disc; margin-left: 30px; font-size: 18px; margin-bottom: 30px'>
+<ul class='markdown-list'>
 	<li>The right to access, update or to delete the information we have on you.</li>
 	<li>The right of rectification.</li>
 	<li>The right to object.</li>
