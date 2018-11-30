@@ -1,4 +1,4 @@
-### Vote Like a Pro with EOS Command Line!
+<h3 class='m-p-m-t-b'> Vote Like a Pro with EOS Command Line! </h3>
 
 <a href="https://steemit.com/eos/@eosnation/how-to-vote-for-eos-nation" target="_blank">Mac OS Instructions</a>
 

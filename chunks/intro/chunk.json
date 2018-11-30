@@ -58,9 +58,16 @@
       "components": {
         "cover": {
           "source": "coverSection",
-          "title": "BUILDING OUR FUTURE ONE BLOCK AT A TIME",
+          "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME",
           "image": "cover.r.png",
-          "backgroundImgURL": "../../assets/cover.r.png"
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "btnText1": "Learn more",
+          "btnText2": "Vote",
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
         },
         "pillars": {
           "source": "valueSection",
@@ -70,7 +77,7 @@
               "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
-              "btnLink": "/vote"
+              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for"
             },
             {
               "title": "Ambassadors",
@@ -84,7 +91,7 @@
               "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
               "iconName": "server",
               "btnText": "Learn more",
-              "btnLink": "https://www.eosdocs.io/"
+              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens"
             }
           ],
           "title": "Why vote for us?",
@@ -171,7 +178,6 @@
                 {
                   "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
                   "title": "EOSeoul Voting Portal",
-                  "eventDate": "Jan 20 2017",
                   "btnLink": "https://portal.eoseoul.io/",
                   "btnText": "Learn more"
                 }
@@ -221,6 +227,9 @@
         "events": {
           "source": "eventsSection",
           "title": "EOS Nation Sponsored Projects & Events",
+          "backgroundColor1": "",
+          "backgroundColor2": "rgba(50,72,86,0.84)",
+          "backgroundColor3": "",
           "calendarEvents": [
             {
               "slug": "82 EOS",
@@ -407,11 +416,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -419,7 +428,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -533,7 +542,8 @@
             "backgroundColor": "#ffffff",
             "textColor": "#0686d8",
             "animation": true,
-            "noBoxShadow": true
+            "noBoxShadow": true,
+            "reversed": true
           },
           {
             "source": "cover",
@@ -545,14 +555,14 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -566,13 +576,13 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           },
@@ -586,13 +596,13 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           },
@@ -606,14 +616,14 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -627,7 +637,7 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0,
               "marginLeft": 0
@@ -635,7 +645,7 @@
             "subtitleStyle": {
               "paddingRight": "100px",
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -649,13 +659,13 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           }
@@ -721,11 +731,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -733,7 +743,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -777,11 +787,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -789,7 +799,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -829,31 +839,76 @@
               "title": "Why EOS Nation chose to go the Self-Funded",
               "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
               "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
+              "date": "NOV 12 2018",
+              "postUrl": "/blog-why-eos-nation-chose-to-go-the-self-funded-route"
             },
             {
-              "title": "Why EOS Nation chose to go the Self-Funded",
-              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
-              "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
+              "title": "Block Producers can potentially be zero cost to the network",
+              "summary": "In economics, marginal cost is the cost of producing one additional unit of a product or service. In the latest EOS.IO release, Dawn 4.0, Block.One has introduced mechanisms to offset the cost of block production and trend the marginal cost of securing and validating the network toward zero. This important and eloquent solution cannot be understated. Let us explain…",
+              "image": "local://calculator-potato.jpeg",
+              "date": "SEP 12 2016",
+              "postUrl": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network"
             },
             {
-              "title": "Why EOS Nation chose to go the Self-Funded",
+              "title": "Through Diversity, Strength Emerges",
               "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
-              "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
+              "image": "local://diversity.jpeg",
+              "date": "JAN 01 2017",
+              "postUrl": "/blog-through-diversity-strength-emerges"
+            },
+            {
+              "title": "EOS Nation Community Engagement Fund",
+              "summary": "This is an on-chain EOS contract (or dApp) that allows EOS proxy accounts to register additional information about themselves, such as name and website.",
+              "image": "local://aloha.png",
+              "date": "APR 22 2014",
+              "postUrl": "/blog-community-engagement-fund"
+            },
+            {
+              "title": "EOS.IO Scholar Testnet",
+              "summary": "EOS.IO Scholar Testnet was founded with the vision to provide learning & educational material to Block Producer candidates to give them the opportunity to be involved in a live & safe EOS Testnet environment.",
+              "image": "local://testnet.png",
+              "date": "OCT 12 2018",
+              "postUrl": "/blog-scholar-testnet"
+            },
+            {
+              "title": "EOS - Let's get ready to vote!",
+              "summary": "EOS Nation's mission is to add value to the EOS ecosystem by focusing our efforts on education through community engagement. EOS Nation has been one of the most active Block Producer candidates, establishing a strong presence online in the various public EOS chats (most notably, in the Governance and Infrastructure channels) as well as across many cities around the world.",
+              "image": "local://pawns.jpg",
+              "date": "MAR 11 2018",
+              "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
+            },
+            {
+              "title": "Pomelo - EOS Wallet/Voting App",
+              "summary": "We would like to introduce a new EOS community driven project to develop an EOS Wallet/Voting Mobile application that will be compatible with iOS phones (Android coming) which will be built entirely public & open source.",
+              "image": "local://pomelo.jpg",
+              "date": "JUL 30 2017",
+              "postUrl": "/blog-pomelo-eos-voting-app"
             }
           ],
           "featured": [
             {
               "rank": "01",
-              "title": "EOS Governance - Executive and Judicial",
-              "date": "OCT 12 2015"
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "date": "NOV 12 2018",
+              "postUrl": "/blog-why-eos-nation-chose-to-go-the-self-funded-route"
             },
             {
-              "rank": "01",
-              "title": "EOS Governance - Executive and Judicial",
-              "date": "OCT 12 2015"
+              "rank": "02",
+              "title": "EOS - Let's get ready to vote!",
+              "date": "MAR 11 2018",
+              "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
+            },
+            {
+              "rank": "03",
+              "title": "Pomelo - EOS Wallet/Voting App",
+              "date": "JUL 30 2017",
+              "postUrl": "/blog-pomelo-eos-voting-app"
+            },
+            {
+              "rank": "04",
+              "title": "Through Diversity, Strength Emerges",
+              "date": "JAN 01 2017",
+              "postUrl": "/blog-through-diversity-strength-emerges"
             }
           ]
         },
@@ -861,11 +916,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -873,7 +928,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -901,7 +956,12 @@
           "source": "coverSection",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
-          "hideSubtitle": true
+          "hideSubtitle": true,
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
         },
         "text": {
           "source": "text",
@@ -914,11 +974,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -926,7 +986,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
@@ -954,7 +1014,12 @@
           "source": "coverSection",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
-          "hideSubtitle": true
+          "hideSubtitle": true,
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
         },
         "text": {
           "source": "text",
@@ -994,11 +1059,11 @@
           "source": "footerSection",
           "links": [
             {
-              "url": "https://www.eosnation.io/privacy-policy",
+              "url": "privacy-policy",
               "text": "Privacy Policy"
             },
             {
-              "url": "https://www.eosnation.io/ownership-disclosure",
+              "url": "ownership-disclosure",
               "text": "Ownership Disclosure"
             },
             {
@@ -1006,7 +1071,572 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://bp.eosnation.io/bp.json",
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "icon": "favorite",
+      "path": "/privacy-policy",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true,
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://privacy",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "ownership": {
+      "title": "Ownership Disclosure",
+      "icon": "favorite",
+      "path": "/ownership-disclosure",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "cover": {
+          "source": "coverSection",
+          "image": "cover.r.png",
+          "backgroundImgURL": "../../assets/cover.r.png",
+          "hideSubtitle": true,
+          "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
+          "fontFamilyTitle": "GAMECUBEN",
+          "backgroundPositionX": "200px",
+          "backgroundPositionY": "100px",
+          "backgroundSize": "90%"
+        },
+        "text": {
+          "source": "text",
+          "textSource": "local://ownership-disclosure",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "team": {
+          "source": "team",
+          "backgroundColor": "#2c4858",
+          "textColor": "#D66C44",
+          "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
+          "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
+          "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "sections": [
+            {
+              "title": "The Team",
+              "members": [
+                {
+                  "name": "Yves La Rose",
+                  "title": "CEO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/YvesLaRose.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
+                },
+                {
+                  "name": "Daniel Keys",
+                  "title": "COO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
+                },
+                {
+                  "name": "David Requenez",
+                  "title": "CMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DavidRequenez.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/david/README"
+                },
+                {
+                  "name": "Denis Carriere",
+                  "title": "CTO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DenisCarriere.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/denis/README"
+                },
+                {
+                  "name": "Lenny Goudreault",
+                  "title": "PMO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/LennyGoudreault.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/lenny/README"
+                },
+                {
+                  "name": "Stephane Bisson",
+                  "title": "CDO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/StephaneBisson.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/stephane/README"
+                },
+                {
+                  "name": "Vincent Grenier, P.Eng",
+                  "title": "CFO",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Vincent_Grenier.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/vincent/README"
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "postBlockProducer": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Block Producers can potentially be zero cost to the network",
+        "type": "default",
+        "image": "calculator-potato.jpeg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/blog-producers-zero-cost",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "postBuildingBridges": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-building-bridges-to-achieve-a-truly-global-community",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Building Bridges to Achieve a Truly Global Community",
+        "type": "default",
+        "image": "eosnation-default-blog.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog-producers-zero-cost",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "selfFunded": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-why-eos-nation-chose-to-go-the-self-funded-route",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Why EOS Nation chose to go the Self-Funded Route",
+        "type": "default",
+        "image": "doors.jpg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/self-funded",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "diversity": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-through-diversity-strength-emerges",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Through Diversity, Strength Emerges",
+        "type": "default",
+        "image": "diversity.jpeg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/diversity",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "communityEngagement": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-community-engagement-fund",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - EOS Nation Community Engagement Fund",
+        "type": "default",
+        "image": "aloha.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/community-engagement",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "scholarTestnet": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-scholar-testnet",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - EOSIO Scholar Testnet",
+        "type": "default",
+        "image": "testnet.png"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/scholar-testnet",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "pomeloApp": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-pomelo-eos-voting-app",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Pomelo - EOS Wallet/Voting App",
+        "type": "default",
+        "image": "pomelo.jpg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/pomelo-app",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
               "text": "BP.json"
             },
             {
