@@ -39,6 +39,7 @@ class Carousel extends React.Component {
                     className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large
                 width-1-1 text-uppercase"
                     href={btnLink}
+                    target={btnLink.includes('https://') ? '_blank' : ''}
                     style={{ background: btnColor || theme.secondaryColor }}
                   >
                     {btnText}
