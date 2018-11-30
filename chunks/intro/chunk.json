@@ -854,9 +854,17 @@
           "source": "blogSection",
           "news": [
             {
+              "title": "Why EOS Nation chose to go the Self-Funded",
+              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
+              "image": "local://doors.jpg",
+              "date": "NOV 12 2018",
+              "postUrl": "/blog-why-eos-nation-chose-to-go-the-self-funded-route"
+            },
+            {
               "title": "Block Producers can potentially be zero cost to the network",
               "summary": "In economics, marginal cost is the cost of producing one additional unit of a product or service. In the latest EOS.IO release, Dawn 4.0, Block.One has introduced mechanisms to offset the cost of block production and trend the marginal cost of securing and validating the network toward zero. This important and eloquent solution cannot be understated. Let us explain…",
-              "image": "local://eosnation-default-blog.png",
+              "image": "local://calculator-potato.jpeg",
+              "date": "SEP 12 2016",
               "postUrl": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network"
             },
             {
@@ -1237,12 +1245,124 @@
         "navigation": true,
         "title": "Blog - Block Producers can potentially be zero cost to the network",
         "type": "default",
+        "image": "calculator-potato.jpeg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/blog-producers-zero-cost",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "postBuildingBridges": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-building-bridges-to-achieve-a-truly-global-community",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Building Bridges to Achieve a Truly Global Community",
+        "type": "default",
         "image": "eosnation-default-blog.png"
       },
       "components": {
         "text": {
           "source": "text",
           "textSource": "local://blog-producers-zero-cost",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "selfFunded": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-why-eos-nation-chose-to-go-the-self-funded-route",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Why EOS Nation chose to go the Self-Funded Route",
+        "type": "default",
+        "image": "doors.jpg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/self-funded",
           "style": {
             "padding": "80px"
           }
