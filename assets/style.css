@@ -731,7 +731,8 @@ table {
   line-height: 25px;
 }
 
-.text h3 {
+.text h3,
+h2 {
   line-height: 30px;
 }
 
@@ -754,6 +755,21 @@ table {
   margin-left: 30px;
   font-size: 18px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .m-p-m-t-b {
+    margin: 10px 0;
+  }
+  .m-p-m-b {
+    margin: 0 0 10px;
+  }
+  .markdown-list {
+    list-style: disc;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
 }
 
 main {

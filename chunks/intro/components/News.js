@@ -29,19 +29,23 @@ class News extends React.PureComponent {
       >
         <Col xl={{ span: 17 }} xs={{ span: 16 }} style={{ height: '200px' }}>
           <PostTitle>{title}</PostTitle>
-          <PostSummary>
-            <Truncate
-              lines={DEFAULT_MAX_DESCRIPTION_LINES}
-              ellipsis={<span>...</span>}
-            >
-              {summary}
-            </Truncate>
-          </PostSummary>
+          {window.innerWidth > 576 && (
+            <PostSummary>
+              <Truncate
+                lines={DEFAULT_MAX_DESCRIPTION_LINES}
+                ellipsis={<span>...</span>}
+              >
+                {summary}
+              </Truncate>
+            </PostSummary>
+          )}
           {date && <PostDate>{date}</PostDate>}
         </Col>
-        <Col xl={{ span: 6, offset: 1 }} xs={{ span: 6, offset: 2 }}>
-          <PostImg src={imageURL} />
-        </Col>
+        {window.innerWidth > 576 && (
+          <Col xl={{ span: 6, offset: 1 }} xs={{ span: 6, offset: 2 }}>
+            <PostImg src={imageURL} />
+          </Col>
+        )}
       </Row>
     )
   }

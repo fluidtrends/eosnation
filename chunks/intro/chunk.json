@@ -836,7 +836,7 @@
           "source": "text",
           "textSource": "local://tech",
           "style": {
-            "margin": "40px"
+            "margin": "20px"
           }
         },
         "footer": {
@@ -883,7 +883,7 @@
           "source": "text",
           "textSource": "local://blog-title",
           "style": {
-            "margin": "40px",
+            "margin": "20px",
             "display": "flex",
             "alignItems": "flex-start"
           }
@@ -1023,7 +1023,7 @@
           "source": "text",
           "textSource": "local://why",
           "style": {
-            "padding": "80px"
+            "padding": "20px"
           }
         },
         "footer": {
