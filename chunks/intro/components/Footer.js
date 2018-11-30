@@ -44,20 +44,11 @@ class Footer extends React.PureComponent {
             </div>
           </GridCell>
           <GridCell span="5" phone="12" tablet="12" laptop="12">
-            <label>
-              <Body2 bold>Get the latest updates</Body2>
-            </label>
             <div className="margin-top-medium">
-              <input
-                type="text"
-                placeholder="Your email"
-                className="input footer-email-input"
+              <img
+                src="../../../assets/certificate.jpg"
+                style={{ width: '50%', display: 'block', margin: '0 auto' }}
               />
-              <span className="text-uppercase footer-subscribe-btn">
-                <Button component={<a />} backgroundColor={theme.secondaryColor}>
-                  Subscribe
-                </Button>
-              </span>
             </div>
           </GridCell>
           <GridCell span="12" phone="12" tablet="12">

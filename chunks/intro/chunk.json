@@ -573,14 +573,14 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -594,13 +594,13 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           },
@@ -614,13 +614,13 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           },
@@ -634,14 +634,14 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0
             },
             "subtitleStyle": {
               "paddingRight": "100px",
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -655,7 +655,7 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingRight": "40%",
               "marginRight": 0,
               "marginLeft": 0
@@ -663,7 +663,7 @@
             "subtitleStyle": {
               "paddingRight": "100px",
               "dispaly": "flex",
-              "align-self": "flex-end",
+              "alignSelf": "flex-end",
               "paddingLeft": "40%"
             }
           },
@@ -677,13 +677,13 @@
             "type": "section",
             "titleStyle": {
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingLeft": "100px"
             },
             "subtitleStyle": {
               "paddingLeft": "100px",
               "dispaly": "flex",
-              "align-self": "flex-start",
+              "alignSelf": "flex-start",
               "paddingRight": "40%"
             }
           }
