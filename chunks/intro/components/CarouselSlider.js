@@ -5,16 +5,18 @@ import CarouselCard from './CarouselCard'
 
 class ArrowComponent extends React.PureComponent {
   render() {
-    return (<Arrow {...this.props} backgroundColor={this.props.theme.primaryColor} />);
+    return (
+      <Arrow {...this.props} backgroundColor={this.props.theme.primaryColor} />
+    )
   }
 }
 
 class CarouselSlider extends Component {
   render() {
-    const { cards, theme,carouselNumber } = this.props;
+    const { cards, theme, carouselNumber } = this.props
     const settings = {
       dots: false,
-      speed: 1000,
+      speed: 1500,
       autoplay: true,
       autoplaySpeed: 2500 + 500 * carouselNumber,
       slidesToShow: 3,
