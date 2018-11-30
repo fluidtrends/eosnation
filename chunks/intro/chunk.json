@@ -724,6 +724,64 @@
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/vincent/README"
                 }
               ]
+            },
+            {
+              "title": "Staff",
+              "members": [
+                {
+                  "name": "Elim Herr",
+                  "title": "Community Manager",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/ElimHerr.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/elim/README"
+                },
+                {
+                  "name": "Heinz Martin Breuer",
+                  "title": "Regional Director",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Martin.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/martin/README"
+                }
+              ]
+            },
+            {
+              "title": "Ambassadors",
+              "members": [
+                {
+                  "name": "Dallas Rushing",
+                  "title": "EOS NATION AMBASSADOR",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DallasRushing.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/dallas/README"
+                },
+                {
+                  "name": "Grace Anajuba",
+                  "title": "EOS NATION AMBASSADOR",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/GraceAnajuba.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/grace/README"
+                },
+                {
+                  "name": "Thierry Stoudmann",
+                  "title": "EOS NATION AMBASSADOR",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/ThierryStoudmann.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/thierry/README"
+                },
+                {
+                  "name": "Kaka Blessing Toritseju",
+                  "title": "EOS NATION AMBASSADOR",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/KakaToritseju.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/kaka/README"
+                },
+                {
+                  "name": "Michael Jedamski",
+                  "title": "EOS NATION AMBASSADOR",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/MichaelJedamski.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/wayne/README"
+                },
+                {
+                  "name": "Wayne Lloyd",
+                  "title": "EOS NATION AMBASSADOR",
+                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/WayneLloyd.jpg",
+                  "text": "github://fluidtrends/eosnation/master/assets/text/team/thierry/README"
+                }
+              ]
             }
           ]
         },

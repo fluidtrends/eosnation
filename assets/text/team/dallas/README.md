@@ -1,0 +1,3 @@
+**DALLAS RUSHING - EOS NATION AMBASSADOR**
+
+I believe EOS is going to change the world. I have never been so sure about something in my life to be honest and I have never felt so at home within a community like I do with the EOS community. Everyone is awesome and so helpful. This is the technology that we will look back on and really appreciate the huge shifts in society/humanity that it made. I will do everything in my power to get the facts out there to those who don't know.
