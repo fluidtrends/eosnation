@@ -868,16 +868,11 @@
               "postUrl": "/blog-block-producers-can-potentially-be-zero-cost-to-the-network"
             },
             {
-              "title": "Why EOS Nation chose to go the Self-Funded",
+              "title": "Through Diversity, Strength Emerges",
               "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
-              "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
-            },
-            {
-              "title": "Why EOS Nation chose to go the Self-Funded",
-              "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
-              "image": "local://doors.jpg",
-              "date": "NOV 12 2018"
+              "image": "local://diveristy.jpeg",
+              "date": "JAN 01 2017",
+              "postUrl": "/blog-through-diversity-strength-emerges"
             }
           ],
           "featured": [
@@ -1363,6 +1358,62 @@
         "text": {
           "source": "text",
           "textSource": "local://blog/self-funded",
+          "style": {
+            "padding": "80px"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "diversity": {
+      "title": "Post",
+      "icon": "favorite",
+      "path": "/blog-through-diversity-strength-emerges",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#61AFE1",
+        "align": "bottom",
+        "opacity": 0.6,
+        "navigation": true,
+        "title": "Blog - Through Diversity, Strength Emerges",
+        "type": "default",
+        "image": "diversity.jpeg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://blog/diversity",
           "style": {
             "padding": "80px"
           }
