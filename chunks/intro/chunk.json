@@ -96,7 +96,9 @@
           ],
           "title": "Why vote for us?",
           "textColor": "#ffcc000",
-          "backgroundColor": "#FAFAFA"
+          "backgroundColor": "#FAFAFA",
+          "imgPath": "../../assets/EOSNTechMap.svg",
+          "imgTitle": "EOS Tech Map"
         },
         "gallery": {
           "source": "carouselSection",
