@@ -43,7 +43,20 @@
       "height": "60px",
       "width": "240px",
       "fontSize": "16px"
-    }
+    },
+    "dropdownStyle": {
+      "marginLeft": "30px"
+    },
+    "languages": [
+      {
+        "label": "English",
+        "value": "en"
+      },
+      {
+        "label": "中文",
+        "value": "cn"
+      }
+    ]
   },
   "info": {
     "copyright": "2018",

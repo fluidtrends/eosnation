@@ -41,6 +41,10 @@
           "title": "Vote EOS Nation",
           "path": "/vote",
           "action": "local://vote"
+        },
+        {
+          "id": "translation",
+          "title": "Language"
         }
       ],
       "xcover": {
