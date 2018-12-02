@@ -41,10 +41,6 @@
           "title": "Vote EOS Nation",
           "path": "/vote",
           "action": "local://vote"
-        },
-        {
-          "id": "translation",
-          "title": "Language"
         }
       ],
       "xcover": {
@@ -896,6 +892,7 @@
         },
         "blog": {
           "source": "blogSection",
+          "mediumProfile": "eosnationbp",
           "news": [
             {
               "title": "Why EOS Nation chose to go the Self-Funded",

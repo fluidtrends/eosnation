@@ -6,7 +6,7 @@ import { BlogTitle, Line } from './StyledComponents'
 
 class Blog extends React.PureComponent {
   render() {
-    const { news, featured } = this.props
+    const { news, featured, mediumProfile } = this.props
     return (
       <Row
         style={{
@@ -18,7 +18,7 @@ class Blog extends React.PureComponent {
         <Col xl={{ span: 17 }} xs={{ span: 24 }}>
           <BlogTitle>Latest News</BlogTitle>
           <Line />
-          <News news={news} />
+          <News mediumProfile={mediumProfile} news={news} />
         </Col>
         <Col xl={{ span: 6, offset: 1 }} xs={{ span: 24 }}>
           <BlogTitle>Featured</BlogTitle>

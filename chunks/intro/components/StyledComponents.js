@@ -336,3 +336,10 @@ export const CardImageWrapper = styled.div`
   padding: 20px;
   border-radius: 50%;
 `
+
+export const SpinnerWrapper = styled.div`
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin: 50px;
+`
