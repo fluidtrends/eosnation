@@ -1,2 +1,0 @@
-# THE FOUNDATION
-EOS is much more than a Blockchain protocol. EOS will redefine governance as we know it and has the potential to reduce inequalities in our society. Inequalities that have been shaped over centuries by a centralization of absolute power. 
