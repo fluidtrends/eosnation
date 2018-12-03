@@ -7,14 +7,6 @@
       "noFooter": "true",
       "forceNavigation": true,
       "path": "/",
-      "events": {
-        "cover": "local://docs",
-        "feature-web": "local://platform/web",
-        "feature-mobile": "local://platform/mobile",
-        "feature-cloud": "local://platform/cloud",
-        "feature-devops": "local://platform/devops",
-        "feature-integrations": "local://platform/integrations"
-      },
       "extendedMenu": [
         {
           "id": "about",
@@ -43,18 +35,6 @@
           "action": "local://vote"
         }
       ],
-      "xcover": {
-        "image": "cover.r.png",
-        "backgroundColor": "#ffffff",
-        "align": "bottom",
-        "opacity": 0.2,
-        "navigation": true,
-        "title": "Eos Nation",
-        "subtitle": "Imagine A World Beyond The Code And Start Creating.",
-        "type": "default",
-        "primaryActionTitle": "Get Started",
-        "primaryActionLink": "/start"
-      },
       "components": {
         "cover": {
           "source": "coverSection",
