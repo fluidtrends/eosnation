@@ -1,1 +1,0 @@
-Join us. Be part of EOS Nation!
