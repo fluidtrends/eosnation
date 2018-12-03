@@ -128,37 +128,43 @@
               "btnLink": "https://www.eosdocs.io/",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://steemitimages.com/0x0/https://preview.ibb.co/dwswhT/Logo2_A07042018c.png",
                   "title": "EOS Survival Guide",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://pomelo-wallet.jpeg",
                   "title": "Pomelo Wallet",
                   "btnLink": "https://meet.one/pomelo",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://EOSDOCS.png",
+                  "title": "EOS Docs",
+                  "btnLink": "https://www.eosdocs.io/",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "local://eos-toolkit.jpg",
                   "title": "EOS Toolkit",
                   "btnLink": "https://eostoolkit.io/home",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://MYEOSKIT.jpg",
                   "title": "My EOS Kit",
                   "btnLink": "https://www.myeoskit.com/#/blocks",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "Blocks.io Block Explorer",
+                  "image": "local://BLOKSIO.jpg",
+                  "title": "Bloks.io Block Explorer",
                   "btnLink": "https://bloks.io/",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://EOSEOULVOTING.png",
                   "title": "EOSeoul Voting Portal",
                   "btnLink": "https://portal.eoseoul.io/",
                   "btnText": "Learn more"
@@ -173,31 +179,31 @@
               "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://EOSReferenedumRoadmap.jpeg",
                   "title": "EOS Referendum Roadmap",
                   "btnLink": "https://medium.com/@eosnationbp/eos-referendum-roadmap-b0417ff8a934",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://CommunityEngamentFund.jpg",
                   "title": "Community Engagement Fund",
                   "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://AMBASSADOR_LOGO.png",
                   "title": "Ambassador Program",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://pomelo-wallet.jpeg",
                   "title": "Pomelo - EOS Wallet",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-wallet-voting-mobile-app",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://ScholarTestnet.png",
                   "title": "Scholar Testnet (ended)",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-io-scholar-testnet",
                   "btnText": "Learn more"
@@ -318,78 +324,6 @@
         },
         "feedback": {
           "source": "twitterSection",
-          "users": [
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            }
-          ],
           "title": "Why we love EOSNation",
           "textColor": "#2b4957",
           "backgroundColor": "#FAFAFA"
@@ -793,7 +727,7 @@
             {
               "title": "Pomelo - EOS Wallet/Voting App",
               "summary": "We would like to introduce a new EOS community driven project to develop an EOS Wallet/Voting Mobile application that will be compatible with iOS phones (Android coming) which will be built entirely public & open source.",
-              "image": "local://pomelo.jpg",
+              "image": "local://pomelo-wallet.jpeg",
               "date": "JUL 30 2017",
               "postUrl": "/blog-pomelo-eos-voting-app"
             }
@@ -1523,7 +1457,7 @@
         "navigation": true,
         "title": "Blog - Pomelo - EOS Wallet/Voting App",
         "type": "default",
-        "image": "pomelo.jpg"
+        "image": "pomelo-wallet.jpeg"
       },
       "components": {
         "text": {
