@@ -4,6 +4,10 @@ div {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body a {
   text-decoration: none;
 }
@@ -71,21 +75,6 @@ body a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
-
-.carousel-container-wrapper {
-  position: relative;
-  background: linear-gradient(133.26deg, rgba(209, 131, 39, 0) 0%, #4c6a7a 42.49%, #4A746A 55.9%, #C9C5D8 75.8%, #D66C44 100%);
-}
-
-.carousel-container-wrapper:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(50, 72, 86, 0.7);
 }
 
 .carousel-container {
@@ -332,7 +321,8 @@ body a {
   letter-spacing: 0.38px;
   line-height: 3.8;
   text-align: center;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 .btn.btn-link {
@@ -592,8 +582,8 @@ table {
 
   /*twitter gutter*/
   .j-stack.galcolumn {
-    padding-left: 10px!important;
-    padding-right: 10px!important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 }
 
@@ -719,17 +709,69 @@ table {
 }
 
 .title {
-  text-align: center;
-  padding: 5px 0 0 0;
-  font-family: 'GAMECUBEN';
-  font-size: 32px;
-  color: #324856;
 }
 
 /*twitter section*/
 .feed-item.juicer.image-post.juicer-ad {
   display: none;
 }
-.juicer-feed h1.referral{
-  display: none!important;
+.juicer-feed h1.referral {
+  display: none !important;
+}
+
+.feed-item {
+  height: 270px;
+  overflow-y: scroll !important;
+}
+
+/* end of twitter section */
+
+/* markdown style */
+.text {
+  line-height: 25px;
+}
+
+.text h3,
+h2 {
+  line-height: 30px;
+}
+
+/* markdown-paragraph-margin-top-bottom */
+.m-p-m-t-b {
+  margin: 20px 0;
+}
+
+/* markdown-paragraph-margin-bottom  */
+.m-p-m-b {
+  margin: 0 0 20px;
+}
+
+.markdown-bold {
+  font-weight: bold;
+}
+
+.markdown-list {
+  list-style: disc;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .m-p-m-t-b {
+    margin: 10px 0;
+  }
+  .m-p-m-b {
+    margin: 0 0 10px;
+  }
+  .markdown-list {
+    list-style: disc;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+main {
+  margin-top: 0 !important;
 }

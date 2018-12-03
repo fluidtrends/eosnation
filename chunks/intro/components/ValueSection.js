@@ -14,11 +14,10 @@ class ValueSection extends Component {
     super.componentDidMount()
   }
 
-  done() {
-  }
+  done() {}
 
   renderComponent() {
-    const { values, title } = this.props;
+    const { values, title, theme, imgPath, imgTitle } = this.props
     return (
       <StyledComponents.ValuesSection>
         <h2 className="section-header text-align-center">{title}</h2>
@@ -26,13 +25,21 @@ class ValueSection extends Component {
           {values.map(({ iconName, ...remainingProps }) => (
             <VerticalCard
               image={() => {
-                return <i className={`fas fa-${iconName} card-image-icon`} />;
+                return <i className={`fas fa-${iconName} card-image-icon`} />
               }}
+              theme={theme}
               {...remainingProps}
-            />))}
+            />
+          ))}
         </div>
+        {imgPath && imgTitle && (
+          <div>
+            <h2 className="section-header text-align-center">{imgTitle}</h2>
+            <img style={{ width: '100%', height: '100%' }} src={imgPath} />
+          </div>
+        )}
       </StyledComponents.ValuesSection>
-    );
+    )
   }
 }
 

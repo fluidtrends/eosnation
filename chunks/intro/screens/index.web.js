@@ -4,3 +4,13 @@ export { default as tech } from './tech.web'
 export { default as blog } from './blog.web'
 export { default as why } from './why.web'
 export { default as vote } from './vote.web'
+export { default as privacy } from './privacy.web'
+export { default as ownership } from './ownership.web'
+export { default as postBlockProducer } from './blog/post-block-producer.web'
+export { default as selfFunded } from './blog/post-self-funded.web'
+export { default as diversity } from './blog/post-diversity.web'
+export {
+  default as communityEngagement
+} from './blog/post-community-engagement.web'
+export { default as scholarTestnet } from './blog/post-scholar-testnet.web'
+export { default as pomeloApp } from './blog/post-pomelo-eos-app.web'

@@ -2,9 +2,12 @@ import React from 'react'
 import { Component, Components } from 'react-dom-chunky'
 import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
-import { Cover, CoverContent, SocialLinks } from './StyledComponents'
-
-import 'antd/dist/antd.css'
+import {
+  Cover,
+  CoverContent,
+  CoverTitle,
+  SocialLinks
+} from './StyledComponents'
 
 export default class Intro extends Component {
   constructor(props) {
@@ -22,40 +25,61 @@ export default class Intro extends Component {
   }
 
   goTo(link) {
-    window.open(link, '_self')
+    this.props.history.push(link)
   }
 
   main() {
+    const {
+      hideSubtitle,
+      backgroundImgURL,
+      overlayBackground,
+      backgroundSize,
+      backgroundPositionX,
+      backgroundPositionY
+    } = this.props
     return (
       <React.Fragment>
         <CoverContent>
           {this.title()}
-          {!this.props.hideSubtitle && this.subtitle()}
+          {!hideSubtitle && this.subtitle()}
           {this.icons()}
         </CoverContent>
-        <Cover backgroundImgURL={this.props.backgroundImgURL} />
+        <Cover
+          backgroundImgURL={backgroundImgURL}
+          overlayBackground={overlayBackground}
+          backgroundPositionX={backgroundPositionX}
+          backgroundPositionY={backgroundPositionY}
+          backgroundSize={backgroundSize}
+        />
       </React.Fragment>
     )
   }
 
   title() {
+    const { title, theme, titleColor, fontFamilyTitle } = this.props
+
     return (
       <div style={{ maxWidth: '652px' }}>
-        <Typography use="headline4" className={'title'}>
-          BUILDING OUR FUTURE ONE BLOCK AT A TIME
-        </Typography>
+        <CoverTitle
+          component={<Typography use="headline4" />}
+          color={titleColor || theme.primaryColor}
+          fontFamily={fontFamilyTitle}
+        >
+          {title}
+        </CoverTitle>
       </div>
     )
   }
 
   subtitle() {
+    const { theme, btnText1, btnText2 } = this.props
     return (
       <div style={{ marginTop: '30px' }}>
         <Button
           raised
-          onClick = { () => this.goTo('/about') }
+          onClick={() => this.goTo('/about')}
           style={{
-            background: '#D66C44',
+            background: theme.secondaryColor,
             cursor: 'pointer',
             height: 60,
             width: 196,
@@ -63,20 +87,20 @@ export default class Intro extends Component {
             marginTop: '20px'
           }}
         >
-          Learn More
+          {btnText1}
         </Button>
         <Button
           raised
-          onClick = { () => this.goTo('/vote') }
+          onClick={() => this.goTo('/vote')}
           style={{
-            background: '#2c4858',
+            background: theme.primaryColor,
             cursor: 'pointer',
             height: 60,
             width: 196,
             marginTop: '20px'
           }}
         >
-          Vote
+          {btnText2}
         </Button>
       </div>
     )
