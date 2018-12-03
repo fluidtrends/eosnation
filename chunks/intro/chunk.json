@@ -64,7 +64,7 @@
               "description": "An EOS Nation Ambassador is an individual that is passionate about EOS projects and wants to play a part in that ecosystem.",
               "iconName": "globe-americas",
               "btnText": "Learn more",
-              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador"
+              "btnLink": "/ambassadors"
             },
             {
               "title": "Tools",
@@ -91,30 +91,30 @@
               "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Nation Ambassador Samuel Joseph",
-                  "eventDate": "Jan 20 2017",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*vdUq_xrxVzlfGFNnm1UsIA.jpeg",
+                  "title": "EOS Nation Ambassador Sam Joseph",
+                  "eventDate": "Sep 27 2018",
                   "btnLink": "https://medium.com/@eosnationbp/ambassador-spotlight-samuel-joseph-nigeria-7913904c950b",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*lFSNUpq6HwGJ9v-fmjEpvQ.jpeg",
                   "title": "EOS Nation Ambassador Rory Mapstone",
-                  "eventDate": "Jan 20 2017",
+                  "eventDate": "Nov 24 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-rory-mapstone-e34778219a1b",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*Xu9W3WRQuMjQ1c4Ig6bhHA.jpeg",
                   "title": "EOS Nation Ambassador Patrick Schmid",
-                  "eventDate": "Jan 20 2017",
+                  "eventDate": "Nov 15 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-patrick-schmid-95b9a495d27d",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
                   "title": "EOS Nation Ambassadors India",
-                  "eventDate": "Jan 20 2017",
+                  "eventDate": "Sep 30 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
                   "btnText": "Learn more"
                 }
@@ -519,8 +519,8 @@
           "source": "summary",
           "text": "local://foundation",
           "image": "Venn.png",
-          "imageStyle" : {
-            "width" : "450px"
+          "imageStyle": {
+            "width": "450px"
           },
           "textColor": "#37474F"
         },
@@ -880,7 +880,7 @@
           "source": "text",
           "textSource": "local://why",
           "style": {
-            "padding": "20px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -938,7 +938,7 @@
           "source": "text",
           "textSource": "local://vote",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "video1": {
@@ -965,7 +965,7 @@
           "source": "text",
           "textSource": "local://vote-commandline",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1023,7 +1023,7 @@
           "source": "text",
           "textSource": "local://privacy",
           "style": {
-            "padding": "20px"
+            "padding": "105"
           }
         },
         "footer": {
@@ -1081,7 +1081,7 @@
           "source": "text",
           "textSource": "local://ownership-disclosure",
           "style": {
-            "padding": "20px"
+            "padding": "10%"
           }
         },
         "team": {
@@ -1194,7 +1194,7 @@
           "source": "text",
           "textSource": "local://blog/blog-producers-zero-cost",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1250,7 +1250,7 @@
           "source": "text",
           "textSource": "local://blog-producers-zero-cost",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1306,7 +1306,7 @@
           "source": "text",
           "textSource": "local://blog/self-funded",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1362,7 +1362,7 @@
           "source": "text",
           "textSource": "local://blog/diversity",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1418,7 +1418,7 @@
           "source": "text",
           "textSource": "local://blog/community-engagement",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1474,7 +1474,7 @@
           "source": "text",
           "textSource": "local://blog/scholar-testnet",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1530,7 +1530,63 @@
           "source": "text",
           "textSource": "local://blog/pomelo-app",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "ambassadors": {
+      "title": "Ambassadors",
+      "icon": "favorite",
+      "path": "/ambassadors",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#fff",
+        "align": "bottom",
+        "opacity": 0,
+        "navigation": true,
+        "title": "",
+        "type": "default",
+        "image": "ambassador-map.svg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://ambassadors",
+          "style": {
+            "padding": "10%"
           }
         },
         "footer": {

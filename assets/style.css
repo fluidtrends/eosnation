@@ -66,7 +66,7 @@ body a {
 .carousel-card-img {
   width: 100%;
   object-fit: cover;
-  max-height: 199.41px;
+  height: 200px;
 }
 
 .carousel-card-info {
@@ -755,6 +755,18 @@ h2 {
   margin-left: 30px;
   font-size: 18px;
   margin-bottom: 30px;
+}
+
+.markdown-button {
+  width: 200px;
+  height: 50px;
+  background-color: #d66c44;
+}
+
+.markdown-button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }
 
 @media (max-width: 480px) {
