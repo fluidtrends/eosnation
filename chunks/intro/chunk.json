@@ -517,7 +517,7 @@
         ],
         "intro": {
           "source": "summary",
-          "text": "local://the_foundation",
+          "text": "local://foundation",
           "image": "Venn.png",
           "imageStyle" : {
             "width" : "450px"
