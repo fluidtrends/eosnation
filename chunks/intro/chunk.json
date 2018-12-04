@@ -865,7 +865,7 @@
       }
     },
     "why": {
-      "title": "Why us",
+      "title": "WHY US?",
       "icon": "favorite",
       "path": "/why",
       "action": true,
@@ -923,7 +923,7 @@
       }
     },
     "vote": {
-      "title": "Vote EOS Nation",
+      "title": "VOTE EOS NATION",
       "icon": "favorite",
       "path": "/vote",
       "action": true,
