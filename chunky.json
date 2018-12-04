@@ -57,7 +57,8 @@
         "label": "中文",
         "value": "cn"
       }
-    ]
+    ],
+    "translatedStrings": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/strings.json"
   },
   "info": {
     "copyright": "2018",

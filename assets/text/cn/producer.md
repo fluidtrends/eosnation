@@ -1,1 +1,1 @@
-We are submitting our application as a Block Producer as we are confident in our capacity to represent the EOS community. We want each one of you to see yourselves in us.
+我们有信心，相信自己有能力可以代表社区意愿，我们决定以节点的身份站出来，为社区贡献。我们希望，社区中的每个人都能从我们身上看到你们自己。

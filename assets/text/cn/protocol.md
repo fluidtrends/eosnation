@@ -1,1 +1,1 @@
-EOS is much more than a Blockchain protocol. EOS will redefine governance as we know it and has the potential to reduce inequalities in our society. Inequalities that have been shaped over centuries by a centralization of absolute power. The restoration of power to the people through decentralization is a reality is attainable.
+EOS 不仅仅是一个区块链协议。EOS 将重新定义我们所熟知的、传统意义上的治理，并能减少我们社会中的不平等现象。几个世纪以来，由于绝对权力的集中，带来了很多不平等现象。通过去中心化，可以逐步实现将权力恢复到每个人手中。
