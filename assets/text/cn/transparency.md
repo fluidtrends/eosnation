@@ -1,0 +1,1 @@
+Transparency is one of the most important topics with everything happening in our world. Whether it is theft, extortion or corruption, all come from this lack of transparency which unfortunately governs our society. For our part, we believe in an open and transparent world. Everything must be done publicly and for all to see.

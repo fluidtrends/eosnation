@@ -33,6 +33,9 @@
           "title": "Vote EOS Nation",
           "path": "/vote",
           "action": "local://vote"
+        },
+        {
+          "id": "translation"
         }
       ],
       "components": {
@@ -1590,7 +1593,7 @@
       "components": {
         "text": {
           "source": "text",
-          "textSource": "local://ambassadors",
+          "textSource": "github://fluidtrends/eosnation/master/assets/text/ambassadors",
           "style": {
             "padding": "10%"
           }
