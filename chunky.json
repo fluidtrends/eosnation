@@ -45,7 +45,8 @@
       "fontSize": "16px"
     },
     "dropdownStyle": {
-      "marginLeft": "30px"
+      "marginLeft": "30px",
+      "borderRadius": "5px"
     },
     "languages": [
       {

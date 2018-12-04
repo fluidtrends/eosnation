@@ -381,7 +381,9 @@
           "textAlign": "center"
         },
         "type": "default",
-        "image": "mountains.jpg"
+        "image": "mountains.jpg",
+        "translation": true,
+        "translationKey": "about"
       },
       "components": {
         "features": [
