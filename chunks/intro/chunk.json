@@ -1593,7 +1593,7 @@
       "components": {
         "text": {
           "source": "text",
-          "textSource": "local://ambassadors",
+          "textSource": "github://fluidtrends/eosnation/master/assets/text/ambassadors",
           "style": {
             "padding": "10%"
           }
