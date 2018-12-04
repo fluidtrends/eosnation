@@ -1,0 +1,3 @@
+**Debraj Ghosh - EOS NATION AMBASSADOR**
+
+I am Debraj Ghosh from India.I have been working in IT industry for 16+ Years. Currently I am working at Onmobile Global Ltd as a 'Senior Manager IT'(6+years as a Senior Manager),which is located in Bangalore(India).I am a keen planner, strategist & implementer with expertise in demonstrated abilities in managing data center and network infrastructure ,operations and implementing new technology for streamlining operations. Majorly involved in developing Start-Up Company. Last 1.5 years I have been learning and investing in cryptocurrency and block chain. I am also a Music and Movie lover.

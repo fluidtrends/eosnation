@@ -1,0 +1,5 @@
+**Stuardo Rodriguez - EOS NATION AMBASSADOR**
+
+A promoter of the Free Software movement since 1,998 and developer since 2,000, Stuardo Rodríguez has developed all kind of PHP-based web systems, from content management systems, blogs, e-commerce, to full transactional custom-made systems. Now EOS enthusiast.
+
+I've been a free sofware promoter since 1998, I'm an active member of different local user groups (Ubuntu, PHP, FLOSS, and many more) Lately I've been invited to talk about EOS in the 2 blockchain users groups we have here in my country. The first one, was a dev's oriented talk were we did a full round, from downloading and compiling the local node to make modifications to a custom currency dapp and make transactions. I think I'll be doing more conference and more promotion of EOS in the near future and I would love to talk to people doing the same things I'm doing, to get ideas and not to feel so lonely in this ETH world.

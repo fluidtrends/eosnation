@@ -787,3 +787,10 @@ h2 {
 main {
   margin-top: 0 !important;
 }
+
+/* overwrite rmwc Select from navigation */
+
+.mdc-toolbar .mdc-select__native-control {
+  width: 150px;
+  padding: 10px;
+}

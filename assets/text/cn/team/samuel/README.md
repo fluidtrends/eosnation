@@ -1,0 +1,3 @@
+**Samuel Joseph - EOS NATION AMBASSADOR**
+
+Hello my name is Joseph Samuel Daniel, I've been in the crypto space for over 2 years! I have good fair knowledge about cryptocurrency and Blockchain. I've been following @dan (builder of steem, bitshares and EOS) for more than a year and I've held several meet-ups for steemit. I'm very passionate about cryptocurrency and Blockchain technology. I've seen projects carried out by dab and I've taught lots of people about cryptocurrency and Blockchain, telling them about the incredible nature of steem and bitshares Blockchain, using blocktivity.info to analyse the transaction capacity of all Dan's projects. I believe in eos.
