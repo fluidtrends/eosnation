@@ -378,7 +378,7 @@
           "textAlign": "center"
         },
         "type": "default",
-        "image": "mountains.jpg"
+        "image": "about_us.jpg"
       },
       "components": {
         "features": [
@@ -395,7 +395,7 @@
             "id": "protocol",
             "source": "feature",
             "text": "local://protocol",
-            "image": "start.png",
+            "image": "start.jpg",
             "backgroundColor": "#ffffff",
             "textColor": "#37474F",
             "animation": true,
@@ -433,7 +433,7 @@
             "id": "transparency",
             "source": "feature",
             "text": "local://transparency",
-            "image": "cat.jpg",
+            "image": "transparency.jpg",
             "backgroundColor": "#ffffff",
             "textColor": "#37474F",
             "animation": true,
