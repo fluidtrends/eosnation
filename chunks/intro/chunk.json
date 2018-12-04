@@ -7,14 +7,6 @@
       "noFooter": "true",
       "forceNavigation": true,
       "path": "/",
-      "events": {
-        "cover": "local://docs",
-        "feature-web": "local://platform/web",
-        "feature-mobile": "local://platform/mobile",
-        "feature-cloud": "local://platform/cloud",
-        "feature-devops": "local://platform/devops",
-        "feature-integrations": "local://platform/integrations"
-      },
       "extendedMenu": [
         {
           "id": "about",
@@ -43,18 +35,6 @@
           "action": "local://vote"
         }
       ],
-      "xcover": {
-        "image": "cover.r.png",
-        "backgroundColor": "#ffffff",
-        "align": "bottom",
-        "opacity": 0.2,
-        "navigation": true,
-        "title": "Eos Nation",
-        "subtitle": "Imagine A World Beyond The Code And Start Creating.",
-        "type": "default",
-        "primaryActionTitle": "Get Started",
-        "primaryActionLink": "/start"
-      },
       "components": {
         "cover": {
           "source": "coverSection",
@@ -77,14 +57,14 @@
               "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
-              "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for"
+              "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE"
             },
             {
               "title": "Ambassadors",
               "description": "An EOS Nation Ambassador is an individual that is passionate about EOS projects and wants to play a part in that ecosystem.",
               "iconName": "globe-americas",
               "btnText": "Learn more",
-              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador"
+              "btnLink": "/ambassadors"
             },
             {
               "title": "Tools",
@@ -96,7 +76,9 @@
           ],
           "title": "Why vote for us?",
           "textColor": "#ffcc000",
-          "backgroundColor": "#FAFAFA"
+          "backgroundColor": "#FAFAFA",
+          "imgPath": "../../assets/EOSNTechMap.svg",
+          "imgTitle": "EOS Tech Map"
         },
         "gallery": {
           "source": "carouselSection",
@@ -106,33 +88,33 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
               "btnText": "Explore more",
               "backgroundColor": "#000",
-              "btnLink": "https://t.me/EOSNation",
+              "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "EOS Nation Ambassador Samuel Joseph",
-                  "eventDate": "Jan 20 2017",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*vdUq_xrxVzlfGFNnm1UsIA.jpeg",
+                  "title": "EOS Nation Ambassador Sam Joseph",
+                  "eventDate": "Sep 27 2018",
                   "btnLink": "https://medium.com/@eosnationbp/ambassador-spotlight-samuel-joseph-nigeria-7913904c950b",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*lFSNUpq6HwGJ9v-fmjEpvQ.jpeg",
                   "title": "EOS Nation Ambassador Rory Mapstone",
-                  "eventDate": "Jan 20 2017",
+                  "eventDate": "Nov 24 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-rory-mapstone-e34778219a1b",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*Xu9W3WRQuMjQ1c4Ig6bhHA.jpeg",
                   "title": "EOS Nation Ambassador Patrick Schmid",
-                  "eventDate": "Jan 20 2017",
+                  "eventDate": "Nov 15 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-patrick-schmid-95b9a495d27d",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
                   "title": "EOS Nation Ambassadors India",
-                  "eventDate": "Jan 20 2017",
+                  "eventDate": "Sep 30 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
                   "btnText": "Learn more"
                 }
@@ -146,37 +128,43 @@
               "btnLink": "https://www.eosdocs.io/",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "https://steemitimages.com/0x0/https://preview.ibb.co/dwswhT/Logo2_A07042018c.png",
                   "title": "EOS Survival Guide",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://pomelo-wallet.jpeg",
                   "title": "Pomelo Wallet",
                   "btnLink": "https://meet.one/pomelo",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://EOSDOCS.png",
+                  "title": "EOS Docs",
+                  "btnLink": "https://www.eosdocs.io/",
+                  "btnText": "Learn more"
+                },
+                {
+                  "image": "local://eos-toolkit.jpg",
                   "title": "EOS Toolkit",
                   "btnLink": "https://eostoolkit.io/home",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://MYEOSKIT.jpg",
                   "title": "My EOS Kit",
                   "btnLink": "https://www.myeoskit.com/#/blocks",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
-                  "title": "Blocks.io Block Explorer",
+                  "image": "local://BLOKSIO.jpg",
+                  "title": "Bloks.io Block Explorer",
                   "btnLink": "https://bloks.io/",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://EOSEOULVOTING.png",
                   "title": "EOSeoul Voting Portal",
                   "btnLink": "https://portal.eoseoul.io/",
                   "btnText": "Learn more"
@@ -191,31 +179,31 @@
               "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
               "cards": [
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://EOSReferenedumRoadmap.jpeg",
                   "title": "EOS Referendum Roadmap",
                   "btnLink": "https://medium.com/@eosnationbp/eos-referendum-roadmap-b0417ff8a934",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://CommunityEngamentFund.jpg",
                   "title": "Community Engagement Fund",
                   "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://AMBASSADOR_LOGO.png",
                   "title": "Ambassador Program",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://pomelo-wallet.jpeg",
                   "title": "Pomelo - EOS Wallet",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-wallet-voting-mobile-app",
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "https://storage.googleapis.com/multiply-react/public/images/carousel-card-img.png",
+                  "image": "local://ScholarTestnet.png",
                   "title": "Scholar Testnet (ended)",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-io-scholar-testnet",
                   "btnText": "Learn more"
@@ -336,78 +324,6 @@
         },
         "feedback": {
           "source": "twitterSection",
-          "users": [
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            },
-            {
-              "name": "@einarinau",
-              "author": "Eninari Naukkarien",
-              "date": "Aug 8, 2018",
-              "time": "4:05 PM",
-              "kudos": "5",
-              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec.",
-              "userURL": "https://uploads-ssl.webflow.com/5b654eb2884ddb35daa17709/5b67a4f75fc94c6da74899bf_DenisCarriere.jpg",
-              "link": "http://eosnation.io"
-            }
-          ],
           "title": "Why we love EOSNation",
           "textColor": "#2b4957",
           "backgroundColor": "#FAFAFA"
@@ -459,9 +375,7 @@
         "title": "About us",
         "subtitle": "We are a group of dedicated, passionate and ambitious individuals aiming to contribute positively to the preservation of the EOS platform and its community.",
         "subtitleStyle": {
-          "textAlign": "center",
-          "marginLeft": "150px",
-          "marginRight": "150px"
+          "textAlign": "center"
         },
         "type": "default",
         "image": "mountains.jpg"
@@ -483,7 +397,7 @@
             "text": "local://protocol",
             "image": "start.png",
             "backgroundColor": "#ffffff",
-            "textColor": "#000",
+            "textColor": "#37474F",
             "animation": true,
             "reversed": true
           },
@@ -502,7 +416,7 @@
             "text": "local://vision",
             "image": "road.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#000",
+            "textColor": "#37474F",
             "animation": true,
             "reversed": true
           },
@@ -521,7 +435,7 @@
             "text": "local://transparency",
             "image": "cat.jpg",
             "backgroundColor": "#ffffff",
-            "textColor": "#000",
+            "textColor": "#37474F",
             "animation": true,
             "reversed": true
           },
@@ -533,143 +447,17 @@
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
-          },
-          {
-            "id": "foundation",
-            "source": "feature",
-            "text": "local://foundation",
-            "image": "prizes.jpg",
-            "backgroundColor": "#ffffff",
-            "textColor": "#000",
-            "animation": true,
-            "noBoxShadow": true,
-            "reversed": true
-          },
-          {
-            "source": "cover",
-            "title": "GOVERNANCE",
-            "subtitle": "Having good governance in a network is very important. The role of the constitution of EOS will aim to frame and indicate everything that will be done on the network. It will be the guideline that will structure the community, but also how it will be managed. It will allow the community to govern themselves and reduce inequalities among community members. It will therefore be important for us to follow it to the letter and apply it so that each of us is equal.",
-            "image": "governance.jpg",
-            "backgroundColor": "#ffffff",
-            "color": "#ffffff",
-            "type": "section",
-            "titleStyle": {
-              "display": "flex",
-              "alignSelf": "flex-end",
-              "paddingRight": "40%",
-              "marginRight": 0
-            },
-            "subtitleStyle": {
-              "paddingRight": "100px",
-              "display": "flex",
-              "alignSelf": "flex-end",
-              "paddingLeft": "40%"
-            }
-          },
-          {
-            "source": "cover",
-            "title": "EDUCATION",
-            "subtitle": "Our first goal is educating people about this new technology. As a Block Producer, we want to encourage the creation of events to inform the public about the good things that the EOS protocol will bring to our society. We want to encourage people in the community to contribute to the movement by hosting engagement sessions around the world. We also aim to create informative content that would be accessible to everyone, no matter where they reside, while being available in multiple languages so that everyone can promote the EOS ecosystem.",
-            "image": "education.jpg",
-            "backgroundColor": "#ffffff",
-            "color": "#ffffff",
-            "type": "section",
-            "titleStyle": {
-              "display": "flex",
-              "alignSelf": "flex-start",
-              "paddingLeft": "100px"
-            },
-            "subtitleStyle": {
-              "paddingLeft": "100px",
-              "display": "flex",
-              "alignSelf": "flex-start",
-              "paddingRight": "40%"
-            }
-          },
-          {
-            "source": "cover",
-            "title": "SUPPORT",
-            "subtitle": "Our second goal is community support. As a Block Producer, we want to support the development of projects that will be designed on the EOS protocol. It is therefore our intention to contribute financially to the production of Decentralized Applications (DApps) to foster innovation within our community. Moreover, we also aim to create different initiatives to encourage the promotion of EOS in their environment. Our educational and promotional content will be made public so that our community can access it at any time for use during community engagement events.",
-            "image": "prizes.jpg",
-            "backgroundColor": "#ffffff",
-            "color": "#ffffff",
-            "type": "section",
-            "titleStyle": {
-              "display": "flex",
-              "alignSelf": "flex-start",
-              "paddingLeft": "100px"
-            },
-            "subtitleStyle": {
-              "paddingLeft": "100px",
-              "display": "flex",
-              "alignSelf": "flex-start",
-              "paddingRight": "40%"
-            }
-          },
-          {
-            "source": "cover",
-            "title": "SHARING",
-            "subtitle": "Our last goal is sharing with the community. As Block Producers, we want to give back to the community and share our knowledge with them. Whether it is through the funding of projects, the creation of initiatives to promote EOS, or the redistribution of proceeds to token holders, we want to give the community recognition for making this unprecedented movement a reality. Being accessible to the community and putting you at the center of our thoughts is a way for us to seek your support in promoting this initiative in your communities.",
-            "image": "sharing.jpg",
-            "backgroundColor": "#ffffff",
-            "color": "#ffffff",
-            "type": "section",
-            "titleStyle": {
-              "display": "flex",
-              "alignSelf": "flex-end",
-              "paddingRight": "40%",
-              "marginRight": 0
-            },
-            "subtitleStyle": {
-              "paddingRight": "100px",
-              "display": "flex",
-              "alignSelf": "flex-end",
-              "paddingLeft": "40%"
-            }
-          },
-          {
-            "source": "cover",
-            "title": "COMMUNITY",
-            "subtitle": "The community is the focal point of EOS Nation, the strength of it is crucial to our success. Being resilient and united, the community must be dedicated to promoting our shared vision. Being a Block Producer means creating different initiatives that will have an impact on the entire community. Moreover, all that is beneficial for the community is beneficial for the Block Producer since both are reliant on each other. This reliance loop solicits each one of us to pour our hearts and souls in this project as guardians of this ecosystem.",
-            "image": "community.jpg",
-            "backgroundColor": "#ffffff",
-            "color": "#ffffff",
-            "type": "section",
-            "titleStyle": {
-              "display": "flex",
-              "alignSelf": "flex-end",
-              "paddingRight": "40%",
-              "marginRight": 0,
-              "marginLeft": 0
-            },
-            "subtitleStyle": {
-              "paddingRight": "100px",
-              "display": "flex",
-              "alignSelf": "flex-end",
-              "paddingLeft": "40%"
-            }
-          },
-          {
-            "source": "cover",
-            "title": "CONCLUSION",
-            "subtitle": "As a Block Producer we aim to defend your interests at the highest echelon of the EOS community. We, like you, are proud members of the EOS community and we share the same ambitions and vision for the future of our society. Join us. Be part of EOS Nation!",
-            "image": "road.jpg",
-            "backgroundColor": "#ffffff",
-            "color": "#ffffff",
-            "type": "section",
-            "titleStyle": {
-              "display": "flex",
-              "alignSelf": "flex-start",
-              "paddingLeft": "100px"
-            },
-            "subtitleStyle": {
-              "paddingLeft": "100px",
-              "display": "flex",
-              "alignSelf": "flex-start",
-              "paddingRight": "40%"
-            }
           }
         ],
+        "intro": {
+          "source": "summary",
+          "text": "local://foundation",
+          "image": "Venn.png",
+          "imageStyle": {
+            "width": "450px"
+          },
+          "textColor": "#37474F"
+        },
         "team": {
           "source": "team",
           "backgroundColor": "#2c4858",
@@ -910,7 +698,7 @@
           "source": "text",
           "textSource": "local://tech",
           "style": {
-            "margin": "40px"
+            "margin": "20px"
           }
         },
         "footer": {
@@ -957,13 +745,14 @@
           "source": "text",
           "textSource": "local://blog-title",
           "style": {
-            "margin": "40px",
+            "margin": "20px",
             "display": "flex",
             "alignItems": "flex-start"
           }
         },
         "blog": {
           "source": "blogSection",
+          "mediumProfile": "eosnationbp",
           "news": [
             {
               "title": "Why EOS Nation chose to go the Self-Funded",
@@ -1010,7 +799,7 @@
             {
               "title": "Pomelo - EOS Wallet/Voting App",
               "summary": "We would like to introduce a new EOS community driven project to develop an EOS Wallet/Voting Mobile application that will be compatible with iOS phones (Android coming) which will be built entirely public & open source.",
-              "image": "local://pomelo.jpg",
+              "image": "local://pomelo-wallet.jpeg",
               "date": "JUL 30 2017",
               "postUrl": "/blog-pomelo-eos-voting-app"
             }
@@ -1097,7 +886,7 @@
           "source": "text",
           "textSource": "local://why",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1155,7 +944,7 @@
           "source": "text",
           "textSource": "local://vote",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "video1": {
@@ -1182,7 +971,7 @@
           "source": "text",
           "textSource": "local://vote-commandline",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1240,7 +1029,7 @@
           "source": "text",
           "textSource": "local://privacy",
           "style": {
-            "padding": "80px"
+            "padding": "105"
           }
         },
         "footer": {
@@ -1298,7 +1087,7 @@
           "source": "text",
           "textSource": "local://ownership-disclosure",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "team": {
@@ -1411,7 +1200,7 @@
           "source": "text",
           "textSource": "local://blog/blog-producers-zero-cost",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1467,7 +1256,7 @@
           "source": "text",
           "textSource": "local://blog-producers-zero-cost",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1523,7 +1312,7 @@
           "source": "text",
           "textSource": "local://blog/self-funded",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1579,7 +1368,7 @@
           "source": "text",
           "textSource": "local://blog/diversity",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1635,7 +1424,7 @@
           "source": "text",
           "textSource": "local://blog/community-engagement",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1691,7 +1480,7 @@
           "source": "text",
           "textSource": "local://blog/scholar-testnet",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
           }
         },
         "footer": {
@@ -1740,14 +1529,70 @@
         "navigation": true,
         "title": "Blog - Pomelo - EOS Wallet/Voting App",
         "type": "default",
-        "image": "pomelo.jpg"
+        "image": "pomelo-wallet.jpeg"
       },
       "components": {
         "text": {
           "source": "text",
           "textSource": "local://blog/pomelo-app",
           "style": {
-            "padding": "80px"
+            "padding": "10%"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "ambassadors": {
+      "title": "Ambassadors",
+      "icon": "favorite",
+      "path": "/ambassadors",
+      "action": true,
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "cover": {
+        "backgroundColor": "#fff",
+        "align": "bottom",
+        "opacity": 0,
+        "navigation": true,
+        "title": "",
+        "type": "default",
+        "image": "ambassador-map.svg"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://ambassadors",
+          "style": {
+            "padding": "10%"
           }
         },
         "footer": {

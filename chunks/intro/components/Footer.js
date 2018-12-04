@@ -2,12 +2,12 @@ import React from 'react'
 import { Components } from 'react-dom-chunky'
 import { List, ListItem, ListItemText } from '@rmwc/list'
 import { Grid, GridCell, GridInner } from 'rmwc'
-import { Body2, Button, FooterWrapper } from './StyledComponents'
+import { Body2, FooterWrapper } from './StyledComponents'
 import footerLogo from '../../../assets/eosnation_footer_logo.png'
 
 class Footer extends React.PureComponent {
   render() {
-    const { links, theme } = this.props;
+    const { links, theme } = this.props
 
     return (
       <FooterWrapper backgroundColor={theme.primaryColor}>
@@ -46,7 +46,7 @@ class Footer extends React.PureComponent {
           <GridCell span="5" phone="12" tablet="12" laptop="12">
             <div>
               <img
-                src="../../../assets/certificate.jpg"
+                src="../../../assets/EOSNationCarbon.png"
                 style={{ width: '50%', display: 'block', margin: '0 auto' }}
               />
             </div>

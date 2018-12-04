@@ -2,7 +2,12 @@ import React from 'react'
 import { Component, Components } from 'react-dom-chunky'
 import { Button } from 'rmwc/Button'
 import { Typography } from '@rmwc/typography'
-import { Cover, CoverContent, CoverTitle, SocialLinks } from './StyledComponents'
+import {
+  Cover,
+  CoverContent,
+  CoverTitle,
+  SocialLinks
+} from './StyledComponents'
 
 export default class Intro extends Component {
   constructor(props) {
@@ -25,9 +30,13 @@ export default class Intro extends Component {
 
   main() {
     const {
-      hideSubtitle, backgroundImgURL, overlayBackground, backgroundSize,
-      backgroundPositionX, backgroundPositionY
-    } = this.props;
+      hideSubtitle,
+      backgroundImgURL,
+      overlayBackground,
+      backgroundSize,
+      backgroundPositionX,
+      backgroundPositionY
+    } = this.props
     return (
       <React.Fragment>
         <CoverContent>
@@ -36,8 +45,10 @@ export default class Intro extends Component {
           {this.icons()}
         </CoverContent>
         <Cover
-          backgroundImgURL={backgroundImgURL} overlayBackground={overlayBackground}
-          backgroundPositionX={backgroundPositionX} backgroundPositionY={backgroundPositionY}
+          backgroundImgURL={backgroundImgURL}
+          overlayBackground={overlayBackground}
+          backgroundPositionX={backgroundPositionX}
+          backgroundPositionY={backgroundPositionY}
           backgroundSize={backgroundSize}
         />
       </React.Fragment>
@@ -45,10 +56,8 @@ export default class Intro extends Component {
   }
 
   title() {
-    const {
-      title, theme, titleColor, fontFamilyTitle,
-    } = this.props;
-    console.log(this.props);
+    const { title, theme, titleColor, fontFamilyTitle } = this.props
+
     return (
       <div style={{ maxWidth: '652px' }}>
         <CoverTitle
@@ -63,7 +72,7 @@ export default class Intro extends Component {
   }
 
   subtitle() {
-    const { theme, btnText1, btnText2 } = this.props;
+    const { theme, btnText1, btnText2 } = this.props
     return (
       <div style={{ marginTop: '30px' }}>
         <Button
