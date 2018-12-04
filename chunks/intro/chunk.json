@@ -389,7 +389,7 @@
             "id": "members",
             "source": "feature",
             "text": "local://members",
-            "image": "tech.jpg",
+            "image": "technology.JPG",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -408,7 +408,7 @@
             "id": "producer",
             "source": "feature",
             "text": "local://producer",
-            "image": "climber.jpg",
+            "image": "application.JPG",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -427,7 +427,7 @@
             "id": "mission",
             "source": "feature",
             "text": "local://mission",
-            "image": "mountain.jpg",
+            "image": "conference.JPG",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
