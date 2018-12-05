@@ -27,7 +27,7 @@ class VerticalCard extends React.Component {
       <div className="btn-link align-center margin-top-medium width-1-1 text-uppercase" style={{ textAlign: "center" }}>
         <Button
           onClick={this.onClick.bind(this)}
-          component={<a />}
+          component={<span style={{cursor: 'pointer'}} />}
           backgroundColor={this.props.theme.secondaryColor}>
           {btnText}
         </Button>
@@ -46,7 +46,7 @@ class VerticalCard extends React.Component {
       const target = btnLink.includes('https://') ? '_blank' : ''
       window.open(btnLink, target)
     }
-    
+
     if (btnScroll) {
       document.getElementById(btnScroll).scrollIntoView({
         behavior: 'smooth'
