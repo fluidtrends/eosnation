@@ -56,7 +56,20 @@ export default class Intro extends Component {
   }
 
   title() {
-    const { title, theme, titleColor, fontFamilyTitle } = this.props
+    const {
+      title,
+      theme,
+      titleColor,
+      fontFamilyTitle,
+      translation,
+      strings,
+      selectedLanguage
+    } = this.props
+
+    const translatedTitle =
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage]['cover'][`title`] || title
+        : title
 
     return (
       <div style={{ maxWidth: '652px' }}>
@@ -65,14 +78,29 @@ export default class Intro extends Component {
           color={titleColor || theme.primaryColor}
           fontFamily={fontFamilyTitle}
         >
-          {title}
+          {translatedTitle}
         </CoverTitle>
       </div>
     )
   }
 
   subtitle() {
-    const { theme, btnText1, btnText2 } = this.props
+    const {
+      theme,
+      btnText1,
+      btnText2,
+      translation,
+      strings,
+      selectedLanguage
+    } = this.props
+    const translatedBtnText1 =
+        translation && strings && selectedLanguage
+          ? strings[selectedLanguage]['cover'][`btnText1`]
+          : btnText1,
+      translatedBtnText2 =
+        translation && strings && selectedLanguage
+          ? strings[selectedLanguage]['cover'][`btnText2`]
+          : btnText2
     return (
       <div style={{ marginTop: '30px' }}>
         <Button
@@ -87,7 +115,7 @@ export default class Intro extends Component {
             marginTop: '20px'
           }}
         >
-          {btnText1}
+          {translatedBtnText1}
         </Button>
         <Button
           raised
@@ -100,7 +128,7 @@ export default class Intro extends Component {
             marginTop: '20px'
           }}
         >
-          {btnText2}
+          {translatedBtnText2}
         </Button>
       </div>
     )

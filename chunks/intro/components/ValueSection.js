@@ -2,39 +2,34 @@ import React from 'react'
 import { Component } from 'react-dom-chunky'
 import * as StyledComponents from './StyledComponents'
 import VerticalCard from './VerticalCard'
-import { Data } from 'react-chunky'
 
 class ValueSection extends Component {
   constructor(props) {
     super(props)
     this._done = this.done.bind(this)
-    this.state = { ...super.state, selectedLanguage: null, strings: null }
+    this.state = { ...super.state }
   }
 
   componentDidMount() {
     super.componentDidMount()
-    Data.Cache.retrieveCachedItem('selectedLanguage')
-      .then(selectedLanguage => {
-        this.setState({ selectedLanguage })
-      })
-      .catch(() => {
-        return
-      })
-    fetch(this.props.theme.translatedStrings)
-      .then(response => response.json())
-      .then(translatedTexts => {
-        this.setState({ strings: translatedTexts['welcome'] })
-      })
-      .catch(() => '')
   }
 
   done() {}
 
   renderComponent() {
-    const { values, title, theme, imgPath, imgTitle, translation } = this.props
+    const {
+      values,
+      title,
+      theme,
+      imgPath,
+      imgTitle,
+      translation,
+      strings,
+      selectedLanguage
+    } = this.props
     const mainTranslatedTitle =
-      translation && this.state.strings && this.state.selectedLanguage
-        ? this.state.strings[this.state.selectedLanguage]['pillars'][`title`]
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage]['pillars'][`title`]
         : title
     return (
       <StyledComponents.ValuesSection>
@@ -45,24 +40,41 @@ class ValueSection extends Component {
           {mainTranslatedTitle}
         </h2>
         <div className="cards-wrapper">
-          {values.map(({ iconName, title, ...remainingProps }, index) => {
-            let translatedTitle =
-              translation && this.state.strings && this.state.selectedLanguage
-                ? this.state.strings[this.state.selectedLanguage]['pillars'][
-                    `title${index}`
-                  ]
-                : title
-            return (
-              <VerticalCard
-                image={() => {
-                  return <i className={`fas fa-${iconName} card-image-icon`} />
-                }}
-                theme={theme}
-                title={translatedTitle}
-                {...remainingProps}
-              />
-            )
-          })}
+          {values.map(
+            (
+              { iconName, title, description, btnText, ...remainingProps },
+              index
+            ) => {
+              let translatedTitle =
+                  translation && strings && selectedLanguage
+                    ? strings[selectedLanguage]['pillars'][`title${index}`]
+                    : title,
+                translatedDescription =
+                  translation && strings && selectedLanguage
+                    ? strings[selectedLanguage]['pillars'][
+                        `description${index}`
+                      ]
+                    : description,
+                translatedBtnText =
+                  translation && strings && selectedLanguage
+                    ? strings[selectedLanguage]['pillars'][`btnText${index}`]
+                    : btnText
+              return (
+                <VerticalCard
+                  image={() => {
+                    return (
+                      <i className={`fas fa-${iconName} card-image-icon`} />
+                    )
+                  }}
+                  theme={theme}
+                  title={translatedTitle}
+                  description={translatedDescription}
+                  btnText={translatedBtnText}
+                  {...remainingProps}
+                />
+              )
+            }
+          )}
         </div>
         {imgPath && imgTitle && (
           <div>
