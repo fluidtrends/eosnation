@@ -17,6 +17,25 @@
       "title": "EOSNation - EOS节点"
     }
   },
+  "welcome": {
+    "en": {
+      "cover": {
+        "btnText1": "Learn more",
+        "btnText2": "Vote"
+      },
+      "pillars": {
+        "title0": "Community",
+        "description0": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
+        "btnText0": "Learn more",
+        "title1": "Ambassadors",
+        "description1": "An EOS Nation Ambassador is an individual that is passionate about EOS projects and wants to play a part in that ecosystem.",
+        "btnText1": "Learn more",
+        "title2": "Tools",
+        "description2": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
+        "btnText2": "Learn more"
+      }
+    }
+  },
   "navigation": {
     "en": {
       "title0": "Welcome",
