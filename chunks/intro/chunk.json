@@ -50,10 +50,12 @@
           "fontFamilyTitle": "GAMECUBEN",
           "backgroundPositionX": "200px",
           "backgroundPositionY": "100px",
-          "backgroundSize": "90%"
+          "backgroundSize": "90%",
+          "translation": true
         },
         "pillars": {
           "source": "valueSection",
+          "translation": true,
           "values": [
             {
               "title": "Community",

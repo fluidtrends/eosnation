@@ -17,20 +17,64 @@ class ValueSection extends Component {
   done() {}
 
   renderComponent() {
-    const { values, title, theme, imgPath, imgTitle } = this.props
+    const {
+      values,
+      title,
+      theme,
+      imgPath,
+      imgTitle,
+      translation,
+      strings,
+      selectedLanguage
+    } = this.props
+    const mainTranslatedTitle =
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage]['pillars'][`title`]
+        : title
     return (
       <StyledComponents.ValuesSection>
-        <h2 className="section-header text-align-center" style={{paddingBottom: 50}}>{title}</h2>
+        <h2
+          className="section-header text-align-center"
+          style={{ paddingBottom: 50 }}
+        >
+          {mainTranslatedTitle}
+        </h2>
         <div className="cards-wrapper">
-          {values.map(({ iconName, ...remainingProps }) => (
-            <VerticalCard
-              image={() => {
-                return <i className={`fas fa-${iconName} card-image-icon`} />
-              }}
-              theme={theme}
-              {...remainingProps}
-            />
-          ))}
+          {values.map(
+            (
+              { iconName, title, description, btnText, ...remainingProps },
+              index
+            ) => {
+              let translatedTitle =
+                  translation && strings && selectedLanguage
+                    ? strings[selectedLanguage]['pillars'][`title${index}`]
+                    : title,
+                translatedDescription =
+                  translation && strings && selectedLanguage
+                    ? strings[selectedLanguage]['pillars'][
+                        `description${index}`
+                      ]
+                    : description,
+                translatedBtnText =
+                  translation && strings && selectedLanguage
+                    ? strings[selectedLanguage]['pillars'][`btnText${index}`]
+                    : btnText
+              return (
+                <VerticalCard
+                  image={() => {
+                    return (
+                      <i className={`fas fa-${iconName} card-image-icon`} />
+                    )
+                  }}
+                  theme={theme}
+                  title={translatedTitle}
+                  description={translatedDescription}
+                  btnText={translatedBtnText}
+                  {...remainingProps}
+                />
+              )
+            }
+          )}
         </div>
         {imgPath && imgTitle && (
           <div>

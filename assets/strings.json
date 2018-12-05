@@ -17,6 +17,44 @@
       "title": "EOSNation - EOS节点"
     }
   },
+  "welcome": {
+    "en": {
+      "cover": {
+        "btnText1": "Learn more",
+        "btnText2": "Vote"
+      },
+      "pillars": {
+        "title": "Why vote for us?",
+        "title0": "Community",
+        "description0": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
+        "btnText0": "Learn more",
+        "title1": "Ambassadors",
+        "description1": "An EOS Nation Ambassador is an individual that is passionate about EOS projects and wants to play a part in that ecosystem.",
+        "btnText1": "Learn more",
+        "title2": "Tools",
+        "description2": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
+        "btnText2": "Learn more"
+      }
+    },
+    "cn": {
+      "cover": {
+        "btnText1": "了解更多",
+        "btnText2": "投票"
+      },
+      "pillars": {
+        "title": "为什么给我们投票？",
+        "title0": "社区",
+        "description0": "我们致力于通过可靠、高效的块产出和社区承诺，来发展维护EOS平台。",
+        "btnText0": "了解更多",
+        "title1": "大使",
+        "description1": "EOS Nation 大使是对EOS项目充满热情的个体，通过举办或参与促进EOS生态系统的活动，参与到生态系统中，做出贡献。",
+        "btnText1": "了解更多",
+        "title2": "工具",
+        "description2": "如果EOSNation被选择成为节点，2个弹性计算云 Elastic Compute Cloud(EC2)实例将作为完备节点运行。",
+        "btnText2": "了解更多"
+      }
+    }
+  },
   "navigation": {
     "en": {
       "title0": "Welcome",

@@ -37,6 +37,10 @@ body a {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
+.card-container .paragraph {
+  min-height: 100px;
+}
+
 .card-description {
   min-width: 280px;
 }
@@ -792,5 +796,5 @@ main {
 
 .mdc-toolbar .mdc-select__native-control {
   width: 150px;
-  padding: 10px;
+  padding: 10px 10px 10px 20px;
 }

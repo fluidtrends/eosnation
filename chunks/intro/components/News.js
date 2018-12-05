@@ -109,7 +109,6 @@ class News extends React.PureComponent {
     const { news } = this.props
     return (
       <div style={{ marginTop: '20px' }}>
-        {news.map(post => this.renderNewsCard(post))}
         {this.state.loadingMediumPosts ? (
           <SpinnerWrapper>
             <Spin
@@ -127,6 +126,7 @@ class News extends React.PureComponent {
         ) : (
           this.state.importedNews.map(post => this.renderNewsCard(post))
         )}
+        {news.map(post => this.renderNewsCard(post))}
       </div>
     )
   }
