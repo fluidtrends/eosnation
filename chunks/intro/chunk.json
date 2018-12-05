@@ -381,7 +381,9 @@
           "textAlign": "center"
         },
         "type": "default",
-        "image": "about_us.jpg"
+        "image": "about_us.jpg",
+        "translation": true,
+        "translationKey": "about"
       },
       "components": {
         "features": [
@@ -694,7 +696,9 @@
         "navigation": true,
         "title": "EOS Nation - Block Producer",
         "type": "default",
-        "image": "tech.jpg"
+        "image": "tech.jpg",
+        "translation": true,
+        "translationKey": "tech"
       },
       "components": {
         "text": {
@@ -1032,7 +1036,7 @@
           "source": "text",
           "textSource": "local://privacy",
           "style": {
-            "padding": "105"
+            "padding": "10%"
           }
         },
         "footer": {

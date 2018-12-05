@@ -1,1 +1,1 @@
-We are members of the community. We strongly believe in this technology and the beneficial impact it will have on our society and each of us. Our goal is to represent each of you, to give you a say at the highest level. We will be your voice in the community, and we will take your projects to heart.
+我们是社区成员。我们坚信 EOS 技术，并相信它能为社会和我们每个人带来有益的影响。我们的目标，是通过自己的影响力，将每个社区成员的心声表达出来，让大家真正最大程度地行使发言权。我们将是大家在全球社区发声的窗口，我们将把大家的希望和规划放在心中，并为之奋斗。

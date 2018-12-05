@@ -45,7 +45,8 @@
       "fontSize": "16px"
     },
     "dropdownStyle": {
-      "marginLeft": "30px"
+      "marginLeft": "30px",
+      "borderRadius": "5px"
     },
     "languages": [
       {
@@ -56,7 +57,10 @@
         "label": "中文",
         "value": "cn"
       }
-    ]
+    ],
+    "headerTranslation": true,
+    "footerTranslation": true,
+    "translatedStrings": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/strings.json"
   },
   "info": {
     "copyright": "2018",

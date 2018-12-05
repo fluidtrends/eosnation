@@ -4,8 +4,31 @@ import { List, ListItem, ListItemText } from '@rmwc/list'
 import { Grid, GridCell, GridInner } from 'rmwc'
 import { Body2, FooterWrapper } from './StyledComponents'
 import footerLogo from '../../../assets/eosnation_footer_logo.png'
+import { Data } from 'react-chunky'
 
 class Footer extends React.PureComponent {
+  constructor(props) {
+    super(props)
+    this.state = {
+      selectedLanguage: null,
+      strings: null
+    }
+  }
+  componentDidMount() {
+    Data.Cache.retrieveCachedItem('selectedLanguage')
+      .then(selectedLanguage => {
+        this.setState({ selectedLanguage })
+      })
+      .catch(() => {
+        return
+      })
+    fetch(this.props.theme.translatedStrings)
+      .then(response => response.json())
+      .then(translatedTexts => {
+        this.setState({ strings: translatedTexts['footer'] })
+      })
+      .catch(() => '')
+  }
   render() {
     const { links, theme } = this.props
 
@@ -21,18 +44,28 @@ class Footer extends React.PureComponent {
           </GridCell>
           <GridCell span="5" phone="12" tablet="5" laptop="5">
             <GridInner>
-              {links.map(({ url, text }, index) => (
-                <GridCell span="6">
-                  <a
-                    key={index}
-                    href={url}
-                    target={url.includes('https://') ? '_blank' : ''}
-                    className="footer-link"
-                  >
-                    <Body2>{text}</Body2>
-                  </a>
-                </GridCell>
-              ))}
+              {links.map(({ url, text }, index) => {
+                const translatedTitle =
+                  theme.footerTranslation &&
+                  this.state.strings &&
+                  this.state.selectedLanguage
+                    ? this.state.strings[this.state.selectedLanguage][
+                        `text${index}`
+                      ]
+                    : this.props.title
+                return (
+                  <GridCell span="6">
+                    <a
+                      key={index}
+                      href={url}
+                      target={url.includes('https://') ? '_blank' : ''}
+                      className="footer-link"
+                    >
+                      <Body2>{translatedTitle}</Body2>
+                    </a>
+                  </GridCell>
+                )
+              })}
             </GridInner>
             <div style={{ marginTop: '36px', marginLeft: '-10px' }}>
               <Components.SocialIcons

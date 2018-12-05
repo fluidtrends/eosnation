@@ -1,24 +1,22 @@
-<h2>FOUNDATION</h2>
-<p class="m-p-m-t-b text-align-center">EOS is much more than a Blockchain protocol. EOS will redefine governance as we know it and has the potential to reduce inequalities in our society. Inequalities that have been shaped over centuries by a centralization of absolute power.</p>
+<h2>基础架构</h2>
+<p class="m-p-m-t-b text-align-center">EOS不仅仅是区块链协议。EOS将重新定义我们所熟知的传统意义上的治理，并有可能减少我们社会中的不平等。几个世纪以来，由于绝对权力的集中带来了很多不平等现象。</p>
 
-<h2>GOVERNANCE</h2>
-<p class="m-p-m-t-b text-align-center">Having good governance in a network is very important. The role of the constitution of EOS will aim to frame and indicate everything that will be done on the network. It will be the guideline that will structure the community, but also how it will be managed. It will allow the community to govern themselves and reduce inequalities among community members. It will therefore be important for us to follow it to the letter and apply it so that each of us is equal.</p>
+<h2>治理</h2>
+<p class="m-p-m-t-b text-align-center">在网络中，实现良好的治理是非常重要的。 EOS公约的作用，旨在构建并表明将在网络上完成的所有事情。 它将成为构建社区的指导方针，也是如何管理社区的指南。 它将使社区能够实现自治，并减少社区成员之间的不平等。 因此，我们必须遵循它、并应用它，这样一来，我们每个人都是平等的。</p>
 
-<h2>EDUCATION</h2>
-<p class="m-p-m-t-b text-align-center">Our first goal is educating people about this new technology. As a Block Producer, we want to encourage the creation of events to inform the public about the good things that the EOS protocol will bring to our society. We want to encourage people in the community to contribute to the movement by hosting engagement sessions around the world. We also aim to create informative content that would be accessible to everyone, no matter where they reside, while being available in multiple languages so that everyone can promote the EOS ecosystem.</p>
+<h2>教育</h2>
+<p class="m-p-m-t-b text-align-center">我们的首要目标，是让人们了解这项新技术。 作为节点之一，我们鼓励创建各样活动，从而让公众了解EOS协议可为社会带来的好处。 我们鼓励社区中的每个人，通过在世界各地举办、参与会议，来为活动做出贡献。 我们还致力于创建信息丰富的内容，每个人都有对这些内容的访问权，无论他们居住在何处，同时，我们提供多种语言版本，以便每个人都可以推广EOS生态。</p>
 
-<h2>SUPPORT</h2>
-<p class="m-p-m-t-b text-align-center">Our second goal is community support. As a Block Producer, we want to support the development of projects that will be designed on the EOS protocol. It is therefore our intention to contribute financially to the production of Decentralized Applications (DApps) to foster innovation within our community. Moreover, we also aim to create different initiatives to encourage the promotion of EOS in their environment. Our educational and promotional content will be made public so that our community can access it at any time for use during community engagement events.</p>
+<h2>支持</h2>
+<p class="m-p-m-t-b text-align-center">我们的第二个目标是社区支持。 作为节点之一，我们会支持基于EOS协议开发的项目发展。 因此，我们准备为去中心化应用程序（DApps）的生产提供财务支持，以促进我们社区内的创新。 此外，我们还旨在制定不同的措施，以鼓励在社区环境中推广EOS。 我们的教育和宣传内容将是公开的，以便我们的社区在社群活动期间，随时访问使用这些内容。</p>
 
-<h2>SHARING</h2>
-<p class="m-p-m-t-b text-align-center">Our last goal is sharing with the community. As Block Producers, we want to give back to the community and share our knowledge with them. Whether it is through the funding of projects, the creation of initiatives to promote EOS, or the redistribution of proceeds to token holders, we want to give the community recognition for making this unprecedented movement a reality.</p>
+<h2>共享</h2>
+<p class="m-p-m-t-b text-align-center">我们的最后的目标，是与社区共享。 作为节点（Block Producers），我们希望回馈社区，并与他们分享我们的知识。 无论是通过项目资金，创建促进EOS发展的举措，还是将收益再分配给代币持有者，我们都希望通过实现这一前所未有的行动，来给予社区认可。社区可访问程度，以及以社区每个成员为中心，是我们寻求大家支持的一种方式，也是在社区进行推广的一种方式。</p>
 
-<p class="m-p-m-t-b text-align-center">Being accessible to the community and putting you at the center of our thoughts is a way for us to seek your support in promoting this initiative in your communities.</p>
+<h2>社区</h2>
+<p class="m-p-m-t-b text-align-center">社区是柚子王国（EOS Nation）的焦点，它的力量对我们的成功至关重要。 作为一个有弹性和团结的社群，社区必须致力于促进我们的共同愿景达成。 作为节点之一，意味着承担“创建对整个社区产生影响的不同计划”这个使命。 此外，对社区有益的一切对节点都是有益的，因为两者都相互依赖。 这个依赖循环，要求我们每个人作为这个生态系统的守护者，都为项目尽心尽力。</p>
 
-<h2>COMMUNITY</h2>
-<p class="m-p-m-t-b text-align-center">The community is the focal point of EOS Nation, the strength of it is crucial to our success. Being resilient and united, the community must be dedicated to promoting our shared vision. Being a Block Producer means creating different initiatives that will have an impact on the entire community. Moreover, all that is beneficial for the community is beneficial for the Block Producer since both are reliant on each other. This reliance loop solicits each one of us to pour our hearts and souls in this project as guardians of this ecosystem.</p>
+<h2>结语</h2>
+<p class="m-p-m-t-b text-align-center">作为节点之一，我们的目标，是在EOS社区第一梯队中捍卫您的利益。</p>
 
-<h2>CONCLUSION</h2>
-<p class="m-p-m-t-b text-align-center">As a Block Producer we aim to defend your interests at the highest echelon of the EOS community.</p>
-
-<p class="m-p-m-t-b text-align-center">We, like you, are proud members of the EOS community and we share the same ambitions and vision for the future of our society.</p>
+<p class="m-p-m-t-b text-align-center">我们和您一样，作为EOS社区的成员，都很骄傲，而我们对未来怀有同样的抱负和愿景。加入我们。 成为EOS Nation的一员！</p>

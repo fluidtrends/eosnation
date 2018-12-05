@@ -1,1 +1,54 @@
-{}
+{
+  "about": {
+    "en": {
+      "title": "About us",
+      "subtitle": "We are a group of dedicated, passionate and ambitious individuals aiming to contribute positively to the preservation of the EOS platform and its community."
+    },
+    "cn": {
+      "title": "关于我们",
+      "subtitle": "我们的团队敬业、充满激情且怀有雄心壮志。团队一直致力于发展、维护EOS平台和EOS社区，为之做出积极贡献。"
+    }
+  },
+  "tech": {
+    "en": {
+      "title": "EOS Nation - Block Producer"
+    },
+    "cn": {
+      "title": "EOSNation - EOS节点"
+    }
+  },
+  "navigation": {
+    "en": {
+      "title0": "Welcome",
+      "title1": "About us",
+      "title2": "Tech",
+      "title3": "Why us",
+      "title4": "Blog",
+      "title5": "Vote EOS Nation"
+    },
+    "cn": {
+      "title0": "欢迎",
+      "title1": "关于我们",
+      "title2": "技术",
+      "title3": "为什么是我们",
+      "title4": "Blog",
+      "title5": "为EOS NATION投票"
+    }
+  },
+  "footer": {
+    "en": {
+      "text0": "Privacy Policy",
+      "text1": "Ownership Disclosure",
+      "text2": "BP Agreement Compliance Rating",
+      "text3": "BP.json",
+      "text4": "Code of Conduct"
+    },
+    "cn": {
+      "text0": "隐私权保护政策",
+      "text1": "所有权 批露",
+      "text2": "BP协议合规性评级",
+      "text3": "BP.json",
+      "text4": "行为准则"
+    }
+  }
+}
