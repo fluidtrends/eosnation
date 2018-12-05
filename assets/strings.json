@@ -50,7 +50,17 @@
           "btnText": "See more"
         }
       },
-      "events": {}
+      "events": {
+        "title": "EOS Nation Sponsored Projects & Events",
+        "subtitle": "View our eosnationdon account",
+        "btnText": "More info",
+        "calendarEvents": {
+          "name0": "Blockchain Hub in Nigeria",
+          "name1": "Blockchain Hub in Nigeria",
+          "name2": "Blockchain Hub in Nigeria",
+          "name3": "Blockchain Hub in Nigeria"
+        }
+      }
     },
     "cn": {
       "cover": {
@@ -82,6 +92,17 @@
         "btnText2": "探索更多",
         "cards": {
           "btnText": "了解更多"
+        }
+      },
+      "events": {
+        "title": "EOSNation赞助的项目和活动",
+        "subtitle": "查看我们的eosnationdon帐户",
+        "btnText": "更多信息",
+        "calendarEvents": {
+          "name0": "尼日利亚的区块链中心",
+          "name1": "尼日利亚的区块链中心",
+          "name2": "尼日利亚的区块链中心",
+          "name3": "尼日利亚的区块链中心"
         }
       }
     }
