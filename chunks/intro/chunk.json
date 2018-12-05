@@ -60,7 +60,7 @@
               "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
-              "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE"
+              "btnScroll": "community"
             },
             {
               "title": "Ambassadors",
@@ -74,7 +74,7 @@
               "description": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
               "iconName": "server",
               "btnText": "Learn more",
-              "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens"
+              "btnScroll": "tools"
             }
           ],
           "title": "Why vote for us?",
@@ -91,6 +91,7 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
               "btnText": "Explore more",
               "backgroundColor": "#000",
+              "scrollId": "community",
               "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE",
               "cards": [
                 {
@@ -128,18 +129,13 @@
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
               "btnColor": "#324856",
               "btnText": "Explore more",
+              "scrollId": "tools",
               "btnLink": "https://www.eosdocs.io/",
               "cards": [
                 {
                   "image": "https://steemitimages.com/0x0/https://preview.ibb.co/dwswhT/Logo2_A07042018c.png",
                   "title": "EOS Survival Guide",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
-                  "btnText": "Learn more"
-                },
-                {
-                  "image": "local://pomelo-wallet.jpeg",
-                  "title": "Pomelo Wallet",
-                  "btnLink": "https://meet.one/pomelo",
                   "btnText": "Learn more"
                 },
                 {
@@ -218,6 +214,8 @@
         "events": {
           "source": "eventsSection",
           "title": "EOS Nation Sponsored Projects & Events",
+          "subtitle": "View our eosnationdon account",
+          "action": "https://bloks.io/account/eosnationdon",
           "backgroundColor1": "",
           "backgroundColor2": "rgba(50,72,86,0.84)",
           "backgroundColor3": "",
@@ -286,7 +284,7 @@
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
                 },
                 {
-                  "name": "Daniel Keys",
+                  "name": "Daniel Keyes",
                   "title": "COO",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
@@ -481,7 +479,7 @@
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
                 },
                 {
-                  "name": "Daniel Keys",
+                  "name": "Daniel Keyes",
                   "title": "COO",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"
@@ -1115,7 +1113,7 @@
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/yves/README"
                 },
                 {
-                  "name": "Daniel Keys",
+                  "name": "Daniel Keyes",
                   "title": "COO",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DanielKeys.jpg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/daniel/README"

@@ -11,7 +11,6 @@ class VerticalCard extends React.Component {
       title,
       description,
       btnText,
-      btnLink,
       maxDescriptionLines
     } = this.props
 
@@ -27,12 +26,32 @@ class VerticalCard extends React.Component {
       </div>
       <div className="btn-link align-center margin-top-medium width-1-1 text-uppercase" style={{ textAlign: "center" }}>
         <Button
-          component={<a href={btnLink} target={this.props.btnLink.includes('https://') ? '_blank' : ''} />}
+          onClick={this.onClick.bind(this)}
+          component={<a />}
           backgroundColor={this.props.theme.secondaryColor}>
           {btnText}
         </Button>
       </div>
     </div>
+  }
+
+  
+  onClick() {
+    const {
+      btnLink,
+      btnScroll
+    } = this.props
+    
+    if (btnLink) {
+      const target = btnLink.includes('https://') ? '_blank' : ''
+      window.open(btnLink, target)
+    }
+    
+    if (btnScroll) {
+      document.getElementById(btnScroll).scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
   }
 }
 

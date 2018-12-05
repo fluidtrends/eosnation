@@ -6,6 +6,7 @@ import CarouselSlider from './CarouselSlider'
 class Carousel extends React.Component {
   render() {
     const { carousel, theme } = this.props
+
     return (
       <CarouselContainerWrapper
         backgroundColor={theme.primaryColor}
@@ -20,13 +21,14 @@ class Carousel extends React.Component {
               description,
               btnText,
               btnLink,
+              scrollId,
               cards,
               backgroundColor,
               btnColor
             },
             index
           ) => (
-            <div className="carousel-container" style={{ backgroundColor }}>
+            <div className="carousel-container" id={scrollId || ''} style={{ backgroundColor }}>
               <Row>
                 <Col lg={6} md={20} style={{ paddingTop: '20px' }}>
                   <Heading3
