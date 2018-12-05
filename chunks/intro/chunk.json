@@ -696,7 +696,9 @@
         "navigation": true,
         "title": "EOS Nation - Block Producer",
         "type": "default",
-        "image": "tech.jpg"
+        "image": "tech.jpg",
+        "translation": true,
+        "translationKey": "tech"
       },
       "components": {
         "text": {

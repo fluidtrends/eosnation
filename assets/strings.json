@@ -8,5 +8,13 @@
       "title": "关于我们",
       "subtitle": "我们的团队敬业、充满激情且怀有雄心壮志。团队一直致力于发展、维护EOS平台和EOS社区，为之做出积极贡献。"
     }
+  },
+  "tech": {
+    "en": {
+      "title": "EOS Nation - Block Producer"
+    },
+    "cn": {
+      "title": "EOSNation - EOS节点"
+    }
   }
 }
