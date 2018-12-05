@@ -35,15 +35,24 @@ class Carousel extends React.Component {
             index
           ) => {
             let translatedTitle =
-              translation && strings && selectedLanguage
+              translation &&
+              strings &&
+              selectedLanguage &&
+              strings[selectedLanguage]['carousel']
                 ? strings[selectedLanguage]['carousel'][`title${index}`]
                 : title
             let translatedDescription =
-              translation && strings && selectedLanguage && imgTitle && imgPath
+              translation &&
+              strings &&
+              selectedLanguage &&
+              strings[selectedLanguage]['carousel']
                 ? strings[selectedLanguage]['carousel'][`description${index}`]
                 : description
             let translatedBtnText =
-              translation && strings && selectedLanguage && imgTitle && imgPath
+              translation &&
+              strings &&
+              selectedLanguage &&
+              strings[selectedLanguage]['carousel']
                 ? strings[selectedLanguage]['carousel'][`btnText${index}`]
                 : btnText
             return (
