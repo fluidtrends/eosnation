@@ -33,7 +33,22 @@
         "btnText1": "Learn more",
         "title2": "Tools",
         "description2": "If EOS Nation is \"elected\" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.",
-        "btnText2": "Learn more"
+        "btnText2": "Learn more",
+        "imgTitle": "EOS Tech Map"
+      },
+      "carousel": {
+        "title0": "Community",
+        "description0": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+        "btnText0": "Learn more",
+        "title1": "Community",
+        "description1": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+        "btnText1": "Learn more",
+        "title2": "Community",
+        "description2": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+        "btnText3": "Learn more",
+        "cards": {
+          "btnText": "Learn more"
+        }
       }
     },
     "cn": {
@@ -51,7 +66,8 @@
         "btnText1": "了解更多",
         "title2": "工具",
         "description2": "如果EOSNation被选择成为节点，2个弹性计算云 Elastic Compute Cloud(EC2)实例将作为完备节点运行。",
-        "btnText2": "了解更多"
+        "btnText2": "了解更多",
+        "imgTitle": "EOS科技路线图"
       }
     }
   },

@@ -87,6 +87,7 @@
         },
         "gallery": {
           "source": "carouselSection",
+          "translation": true,
           "carousel": [
             {
               "title": "Community",
