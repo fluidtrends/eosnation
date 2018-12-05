@@ -16,5 +16,24 @@
     "cn": {
       "title": "EOSNation - EOS节点"
     }
-  }
+  },
+  "navigation": {
+    "en": {
+      "title0": "Welcome",
+      "title1": "About us",
+      "title2": "Tech",
+      "title3": "Why us",
+      "title4": "Blog",
+      "title5": "Vote EOS Nation"
+    },
+    "cn": {
+      "title0": "欢迎",
+      "title1": "关于我们",
+      "title2": "技术",
+      "title3": "为什么是我们",
+      "title4": "Blog",
+      "title5": "为EOS NATION投票"
+    }
+  },
+  "footer": {}
 }
