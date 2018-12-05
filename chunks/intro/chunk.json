@@ -219,6 +219,8 @@
           "title": "EOS Nation Sponsored Projects & Events",
           "subtitle": "View our eosnationdon account",
           "action": "https://bloks.io/account/eosnationdon",
+          "btnText": "See more",
+          "translation": true,
           "backgroundColor1": "",
           "backgroundColor2": "rgba(50,72,86,0.84)",
           "backgroundColor3": "",
