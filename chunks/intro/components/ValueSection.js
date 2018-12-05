@@ -23,7 +23,7 @@ class ValueSection extends Component {
     fetch(this.props.theme.translatedStrings)
       .then(response => response.json())
       .then(translatedTexts => {
-        this.setState({ strings: translatedTexts['welcome']['pillars'] })
+        this.setState({ strings: translatedTexts['welcome'] })
       })
       .catch(() => '')
   }
@@ -31,21 +31,38 @@ class ValueSection extends Component {
   done() {}
 
   renderComponent() {
-    console.log(this.state)
-    const { values, title, theme, imgPath, imgTitle } = this.props
+    const { values, title, theme, imgPath, imgTitle, translation } = this.props
+    const mainTranslatedTitle =
+      translation && this.state.strings && this.state.selectedLanguage
+        ? this.state.strings[this.state.selectedLanguage]['pillars'][`title`]
+        : title
     return (
       <StyledComponents.ValuesSection>
-        <h2 className="section-header text-align-center" style={{paddingBottom: 50}}>{title}</h2>
+        <h2
+          className="section-header text-align-center"
+          style={{ paddingBottom: 50 }}
+        >
+          {mainTranslatedTitle}
+        </h2>
         <div className="cards-wrapper">
-          {values.map(({ iconName, ...remainingProps }) => (
-            <VerticalCard
-              image={() => {
-                return <i className={`fas fa-${iconName} card-image-icon`} />
-              }}
-              theme={theme}
-              {...remainingProps}
-            />
-          ))}
+          {values.map(({ iconName, title, ...remainingProps }, index) => {
+            let translatedTitle =
+              translation && this.state.strings && this.state.selectedLanguage
+                ? this.state.strings[this.state.selectedLanguage]['pillars'][
+                    `title${index}`
+                  ]
+                : title
+            return (
+              <VerticalCard
+                image={() => {
+                  return <i className={`fas fa-${iconName} card-image-icon`} />
+                }}
+                theme={theme}
+                title={translatedTitle}
+                {...remainingProps}
+              />
+            )
+          })}
         </div>
         {imgPath && imgTitle && (
           <div>

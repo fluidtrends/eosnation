@@ -54,6 +54,7 @@
         },
         "pillars": {
           "source": "valueSection",
+          "translation": true,
           "values": [
             {
               "title": "Community",
