@@ -41,6 +41,7 @@ class Carousel extends React.Component {
               strings[selectedLanguage]['carousel']
                 ? strings[selectedLanguage]['carousel'][`title${index}`]
                 : title
+            console.log(strings)
             let translatedDescription =
               translation &&
               strings &&

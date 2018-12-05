@@ -45,7 +45,7 @@
         "btnText1": "Explore more",
         "title2": "Projects",
         "description2": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
-        "btnText3": "Explore more",
+        "btnText2": "Explore more",
         "cards": {
           "btnText": "See more"
         }
@@ -78,7 +78,7 @@
         "btnText1": "探索更多",
         "title2": "项目",
         "description2": "EOSNation是EOS社区中非常活跃的节点，致力于帮助推进发展生态建设的积极性方案。",
-        "btnText3": "探索更多",
+        "btnText2": "探索更多",
         "cards": {
           "btnText": "了解更多"
         }
