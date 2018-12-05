@@ -6,6 +6,28 @@ import { Body2, FooterWrapper } from './StyledComponents'
 import footerLogo from '../../../assets/eosnation_footer_logo.png'
 
 class Footer extends React.PureComponent {
+  constructor(props) {
+    super(props)
+    this.state = {
+      selectedLanguage: null,
+      strings: null
+    }
+  }
+  componentDidMount() {
+    Data.Cache.retrieveCachedItem('selectedLanguage')
+      .then(selectedLanguage => {
+        this.setState({ selectedLanguage })
+      })
+      .catch(() => {
+        return
+      })
+    fetch(this.props.theme.translatedStrings)
+      .then(response => response.json())
+      .then(translatedTexts => {
+        this.setState({ strings: translatedTexts['footer'] })
+      })
+      .catch(() => '')
+  }
   render() {
     const { links, theme } = this.props
 
