@@ -381,7 +381,7 @@
           "textAlign": "center"
         },
         "type": "default",
-        "image": "mountains.jpg",
+        "image": "about_us.jpg",
         "translation": true,
         "translationKey": "about"
       },
@@ -391,7 +391,7 @@
             "id": "members",
             "source": "feature",
             "text": "local://members",
-            "image": "tech.jpg",
+            "image": "technology.JPG",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -400,7 +400,7 @@
             "id": "protocol",
             "source": "feature",
             "text": "local://protocol",
-            "image": "start.png",
+            "image": "start.jpg",
             "backgroundColor": "#ffffff",
             "textColor": "#37474F",
             "animation": true,
@@ -410,7 +410,7 @@
             "id": "producer",
             "source": "feature",
             "text": "local://producer",
-            "image": "climber.jpg",
+            "image": "application.JPG",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -429,7 +429,7 @@
             "id": "mission",
             "source": "feature",
             "text": "local://mission",
-            "image": "mountain.jpg",
+            "image": "conference.JPG",
             "backgroundColor": "#2c4858",
             "textColor": "#FFFFFF",
             "animation": true
@@ -438,7 +438,7 @@
             "id": "transparency",
             "source": "feature",
             "text": "local://transparency",
-            "image": "cat.jpg",
+            "image": "transparency.jpg",
             "backgroundColor": "#ffffff",
             "textColor": "#37474F",
             "animation": true,

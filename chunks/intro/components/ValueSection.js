@@ -35,7 +35,7 @@ class ValueSection extends Component {
     const { values, title, theme, imgPath, imgTitle } = this.props
     return (
       <StyledComponents.ValuesSection>
-        <h2 className="section-header text-align-center">{title}</h2>
+        <h2 className="section-header text-align-center" style={{paddingBottom: 50}}>{title}</h2>
         <div className="cards-wrapper">
           {values.map(({ iconName, ...remainingProps }) => (
             <VerticalCard
