@@ -40,14 +40,14 @@
         "title0": "Community",
         "description0": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
         "btnText0": "Learn more",
-        "title1": "Community",
-        "description1": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+        "title1": "Tools",
+        "description1": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
         "btnText1": "Learn more",
-        "title2": "Community",
-        "description2": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+        "title2": "Projects",
+        "description2": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
         "btnText3": "Learn more",
         "cards": {
-          "btnText": "Learn more"
+          "btnText": "See more"
         }
       }
     },
@@ -68,6 +68,20 @@
         "description2": "如果EOSNation被选择成为节点，2个弹性计算云 Elastic Compute Cloud(EC2)实例将作为完备节点运行。",
         "btnText2": "了解更多",
         "imgTitle": "EOS科技路线图"
+      },
+      "carousel": {
+        "title0": "社区",
+        "description0": "我们致力于通过可靠、高效的块产出和社区承诺，来发展维护EOS平台。",
+        "btnText0": "了解更多",
+        "title1": "工具",
+        "description1": "如果EOSNation被选择成为节点，2个弹性计算云 Elastic Compute Cloud(EC2)实例将作为完备节点运行。",
+        "btnText1": "了解更多",
+        "title2": "项目",
+        "description2": "EOSNation是EOS社区中非常活跃的节点，致力于帮助推进发展生态建设的积极性方案。",
+        "btnText3": "了解更多",
+        "cards": {
+          "btnText": "了解更多"
+        }
       }
     }
   },
