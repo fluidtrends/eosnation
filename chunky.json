@@ -60,7 +60,8 @@
     ],
     "headerTranslation": true,
     "footerTranslation": true,
-    "translatedStrings": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/strings.json"
+    "translatedStrings": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/strings.json",
+    "keepNavigatorSticky": true
   },
   "info": {
     "copyright": "2018",
