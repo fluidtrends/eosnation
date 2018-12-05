@@ -13,7 +13,14 @@ class ArrowComponent extends React.PureComponent {
 
 class CarouselSlider extends Component {
   render() {
-    const { cards, theme, carouselNumber } = this.props
+    const {
+      cards,
+      theme,
+      carouselNumber,
+      strings,
+      selectedLanguage,
+      translation
+    } = this.props
     const settings = {
       dots: false,
       speed: 1500,
@@ -37,21 +44,31 @@ class CarouselSlider extends Component {
         }
       ]
     }
+
     return (
       <CarouselSliderStyle>
         <Slider {...settings}>
-          {cards.map(({ image, title, btnLink, btnText, eventDate }, index) => (
-            <div>
-              <CarouselCard
-                key={index}
-                image={image}
-                title={title}
-                btnLink={btnLink}
-                btnText={btnText}
-                date={eventDate}
-              />
-            </div>
-          ))}
+          {cards.map(({ image, title, btnLink, btnText, eventDate }, index) => {
+            let translatedBtnText =
+              translation &&
+              strings &&
+              selectedLanguage &&
+              strings[selectedLanguage]['carousel']
+                ? strings[selectedLanguage]['carousel']['cards'][`btnText`]
+                : btnText
+            return (
+              <div>
+                <CarouselCard
+                  key={index}
+                  image={image}
+                  title={title}
+                  btnLink={btnLink}
+                  btnText={translatedBtnText}
+                  date={eventDate}
+                />
+              </div>
+            )
+          })}
         </Slider>
       </CarouselSliderStyle>
     )

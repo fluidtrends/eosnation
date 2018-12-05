@@ -41,7 +41,7 @@ class Carousel extends React.Component {
               strings[selectedLanguage]['carousel']
                 ? strings[selectedLanguage]['carousel'][`title${index}`]
                 : title
-            console.log(strings)
+
             let translatedDescription =
               translation &&
               strings &&
@@ -86,6 +86,9 @@ class Carousel extends React.Component {
                       cards={cards}
                       theme={theme}
                       carouselNumber={index + 1}
+                      translation={translation}
+                      strings={strings}
+                      selectedLanguage={selectedLanguage}
                     />
                   </Col>
                 </Row>

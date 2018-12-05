@@ -49,7 +49,8 @@
         "cards": {
           "btnText": "See more"
         }
-      }
+      },
+      "events": {}
     },
     "cn": {
       "cover": {
