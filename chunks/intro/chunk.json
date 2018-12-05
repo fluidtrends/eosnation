@@ -350,7 +350,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -669,7 +669,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -727,7 +727,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -857,7 +857,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -915,7 +915,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1000,7 +1000,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1058,7 +1058,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1173,7 +1173,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1229,7 +1229,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1285,7 +1285,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1341,7 +1341,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1397,7 +1397,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1453,7 +1453,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1509,7 +1509,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1565,7 +1565,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
@@ -1621,7 +1621,54 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/text/bp.json",
+              "url": "bp,json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "bpJson": {
+      "title": "Bp.json",
+      "icon": "favorite",
+      "action": true,
+      "path": "/bp,json",
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://bp-json",
+          "style": {
+            "padding": "10%"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "bp,json",
               "text": "BP.json"
             },
             {
