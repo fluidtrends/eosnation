@@ -199,12 +199,6 @@
                   "btnText": "Learn more"
                 },
                 {
-                  "image": "local://pomelo-wallet.jpeg",
-                  "title": "Pomelo - EOS Wallet",
-                  "btnLink": "https://steemit.com/eos/@eosnation/eos-wallet-voting-mobile-app",
-                  "btnText": "Learn more"
-                },
-                {
                   "image": "local://ScholarTestnet.png",
                   "title": "Scholar Testnet (ended)",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-io-scholar-testnet",
@@ -226,9 +220,9 @@
           "backgroundColor3": "",
           "calendarEvents": [
             {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
+              "slug": "151.54 EOS",
+              "date": "Nov 28 2018",
+              "name": "Blockcathon - Campus Blockchain Sponsorships",
               "timeInterval": "10-12 pm",
               "location": "London, UK",
               "extraInfoLink": "extraInfoLink",
@@ -237,9 +231,9 @@
               "meetupLink": "meetupLink"
             },
             {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
+              "slug": "16 EOS",
+              "date": "Nov 17 2018",
+              "name": "EOSIOZEROCO2 - Make EOS carbon neutral",
               "timeInterval": "10-12 pm",
               "location": "London, UK",
               "extraInfoLink": "extraInfoLink",
@@ -248,9 +242,9 @@
               "meetupLink": "meetupLink"
             },
             {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
+              "slug": "175 EOS",
+              "date": "Nov 09 2018",
+              "name": "HUMANLOVEIO - End Child Poverty Now",
               "timeInterval": "10-12 pm",
               "location": "London, UK",
               "extraInfoLink": "extraInfoLink",
@@ -259,9 +253,75 @@
               "meetupLink": "meetupLink"
             },
             {
-              "slug": "82 EOS",
-              "date": "Jan 20 2017",
-              "name": "Blockchain Hub in Nigeria",
+              "slug": "50 EOS",
+              "date": "Nov 02 2018",
+              "name": "DUNYALABMAIN - Dunya Labs Catalyst Series",
+              "timeInterval": "10-12 pm",
+              "location": "London, UK",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "374 EOS",
+              "date": "Oct 30 2018",
+              "name": "EOS History Database",
+              "timeInterval": "10-12 pm",
+              "location": "London, UK",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "100 EOS",
+              "date": "Oct 05 2018",
+              "name": "EOS Statistics",
+              "timeInterval": "10-12 pm",
+              "location": "London, UK",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "30 EOS",
+              "date": "Sep 08 2018",
+              "name": "EOS Gift Exchange",
+              "timeInterval": "10-12 pm",
+              "location": "London, UK",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "251 EOS",
+              "date": "Aug 29 2018",
+              "name": "EOS Nigeria",
+              "timeInterval": "10-12 pm",
+              "location": "London, UK",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "582 EOS",
+              "date": "Aug 13 2018",
+              "name": "EOS Nation Blockchain Hub in Nigeria",
+              "timeInterval": "10-12 pm",
+              "location": "London, UK",
+              "extraInfoLink": "extraInfoLink",
+              "facebookLink": "facebookLink",
+              "twitterLink": "twitterLink",
+              "meetupLink": "meetupLink"
+            },
+            {
+              "slug": "197 EOS",
+              "date": "Aug 13 2018",
+              "name": "EOS Ignite",
               "timeInterval": "10-12 pm",
               "location": "London, UK",
               "extraInfoLink": "extraInfoLink",
@@ -782,7 +842,7 @@
               "title": "Through Diversity, Strength Emerges",
               "summary": "There has been pain and temptation in going through the iterations this way, the enticement to veer from this ideal has been a continuous challenge. But ours has been an exercise in keeping our values at the forefront of our vision, strengthening our core team in the process.",
               "image": "local://diversity.jpeg",
-              "date": "JAN 01 2017",
+              "date": "JAN 01 2018",
               "postUrl": "/blog-through-diversity-strength-emerges"
             },
             {
@@ -805,13 +865,6 @@
               "image": "local://pawns.jpg",
               "date": "MAR 11 2018",
               "postUrl": "https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote"
-            },
-            {
-              "title": "Pomelo - EOS Wallet/Voting App",
-              "summary": "We would like to introduce a new EOS community driven project to develop an EOS Wallet/Voting Mobile application that will be compatible with iOS phones (Android coming) which will be built entirely public & open source.",
-              "image": "local://pomelo-wallet.jpeg",
-              "date": "JUL 30 2017",
-              "postUrl": "/blog-pomelo-eos-voting-app"
             }
           ],
           "featured": [
@@ -829,14 +882,8 @@
             },
             {
               "rank": "03",
-              "title": "Pomelo - EOS Wallet/Voting App",
-              "date": "JUL 30 2017",
-              "postUrl": "/blog-pomelo-eos-voting-app"
-            },
-            {
-              "rank": "04",
               "title": "Through Diversity, Strength Emerges",
-              "date": "JAN 01 2017",
+              "date": "JAN 01 2018",
               "postUrl": "/blog-through-diversity-strength-emerges"
             }
           ]
@@ -1489,62 +1536,6 @@
         "text": {
           "source": "text",
           "textSource": "local://blog/scholar-testnet",
-          "style": {
-            "padding": "10%"
-          }
-        },
-        "footer": {
-          "source": "footerSection",
-          "links": [
-            {
-              "url": "privacy-policy",
-              "text": "Privacy Policy"
-            },
-            {
-              "url": "ownership-disclosure",
-              "text": "Ownership Disclosure"
-            },
-            {
-              "url": "https://www.eoswire.org/i/password",
-              "text": "BP Agreement Compliance Rating"
-            },
-            {
-              "url": "bp,json",
-              "text": "BP.json"
-            },
-            {
-              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
-              "text": "Code of Conduct"
-            }
-          ],
-          "title": "Why vote for us?",
-          "textColor": "#ffcc000",
-          "backgroundColor": "#FAFAFA"
-        }
-      }
-    },
-    "pomeloApp": {
-      "title": "Post",
-      "icon": "favorite",
-      "path": "/blog-pomelo-eos-voting-app",
-      "action": true,
-      "noFooter": "true",
-      "events": {
-        "cover": "system://team"
-      },
-      "cover": {
-        "backgroundColor": "#61AFE1",
-        "align": "bottom",
-        "opacity": 0.6,
-        "navigation": true,
-        "title": "Blog - Pomelo - EOS Wallet/Voting App",
-        "type": "default",
-        "image": "pomelo-wallet.jpeg"
-      },
-      "components": {
-        "text": {
-          "source": "text",
-          "textSource": "local://blog/pomelo-app",
           "style": {
             "padding": "10%"
           }

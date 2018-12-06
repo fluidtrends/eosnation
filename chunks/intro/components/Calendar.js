@@ -79,7 +79,7 @@ export class CalendarItem extends Component {
           </div>
         </CalenderItemDate>
         <CalenderItemContent>
-          <Grid className="padding-remove">
+          <Grid xclassName="padding-remove">
             <GridCell span="12">
               <GridInner>
                 <GridCell span="2">
@@ -90,7 +90,7 @@ export class CalendarItem extends Component {
                 </GridCell>
               </GridInner>
             </GridCell>
-            <GridCell span="12">
+            {/* <GridCell span="12">
               <GridInner>
                 <GridCell span="2">
                   {metaInfo.length ? metaInfo[0] : <Body2>-</Body2>}
@@ -149,7 +149,7 @@ export class CalendarItem extends Component {
                   ) : null}
                 </GridCell>
               </GridInner>
-            </GridCell>
+            </GridCell> */}
           </Grid>
         </CalenderItemContent>
       </CalenderItemWrapper>
