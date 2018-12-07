@@ -227,17 +227,20 @@ export const Arrow = styled.div`
   margin-left: -20px;
   margin-right: -20px;
   font-family: 'Roboto', sans-serif;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  :before{    
-    content: "${props => (props.left ? '⮘' : '⮚')}";
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  :before {
+    display: inline-block;
+    content: '\\27a2';
     font-size: 1.6rem;
     color: #fff;
     line-height: initial;
-    padding-left: 8px;
-    padding-top: 6px;
+    margin-left: 10px;
+    margin-top: 6px;
+    transform: rotate(${props => (props.left ? '180deg' : '0')});
   }
-  :hover{
-    background: rgba(50,72,86,0.67);
+  :hover {
+    background: rgba(50, 72, 86, 0.67);
     opacity: 20%;
   }
 `
