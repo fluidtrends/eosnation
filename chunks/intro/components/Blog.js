@@ -6,7 +6,24 @@ import { BlogTitle, Line } from './StyledComponents'
 
 class Blog extends React.PureComponent {
   render() {
-    const { news, featured, mediumProfile } = this.props
+    const {
+      news,
+      featured,
+      mediumProfile,
+      translation,
+      strings,
+      selectedLanguage,
+      newsTitle,
+      featuredTitle
+    } = this.props
+    const translatedNewsTitle =
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage][`newsTitle`]
+        : newsTitle
+    const translatedFeaturedTitle =
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage][`featuredTitle`]
+        : featuredTitle
     return (
       <Row
         style={{
@@ -16,12 +33,12 @@ class Blog extends React.PureComponent {
         }}
       >
         <Col xl={{ span: 17 }} xs={{ span: 24 }}>
-          <BlogTitle>Latest News</BlogTitle>
+          <BlogTitle>{translatedNewsTitle}</BlogTitle>
           <Line />
           <News mediumProfile={mediumProfile} news={news} />
         </Col>
         <Col xl={{ span: 6, offset: 1 }} xs={{ span: 24 }}>
-          <BlogTitle>Featured</BlogTitle>
+          <BlogTitle>{translatedFeaturedTitle}</BlogTitle>
           <Line />
           <FeaturedNews news={featured} />
         </Col>

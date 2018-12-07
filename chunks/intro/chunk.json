@@ -816,6 +816,9 @@
       "path": "/blog",
       "action": true,
       "noFooter": "true",
+      "translation": true,
+      "newsTitle": "Latest News",
+      "featuredTitle": "Featured",
       "events": {
         "cover": "system://team"
       },
