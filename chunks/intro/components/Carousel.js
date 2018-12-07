@@ -30,7 +30,8 @@ class Carousel extends React.Component {
               scrollId,
               cards,
               backgroundColor,
-              btnColor
+              btnColor,
+              id
             },
             index
           ) => {
@@ -83,6 +84,7 @@ class Carousel extends React.Component {
                   <Col md={0} lg={1} />
                   <Col md={24} sm={24} lg={17}>
                     <CarouselSlider
+                      id={id}
                       cards={cards}
                       theme={theme}
                       carouselNumber={index + 1}

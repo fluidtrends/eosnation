@@ -82,7 +82,13 @@ class Footer extends React.PureComponent {
               />
             </div>
           </GridCell>
-          <GridCell span="5" phone="12" tablet="12" laptop="12">
+          <GridCell
+            span="5"
+            phone="12"
+            tablet="12"
+            laptop="12"
+            style={{ textAlign: 'center' }}
+          >
             <div>
               <img
                 src="../../../assets/EOSNationCarbon.png"

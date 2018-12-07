@@ -19,7 +19,8 @@ class CarouselSlider extends Component {
       carouselNumber,
       strings,
       selectedLanguage,
-      translation
+      translation,
+      id
     } = this.props
     const settings = {
       dots: false,
@@ -48,39 +49,37 @@ class CarouselSlider extends Component {
     return (
       <CarouselSliderStyle>
         <Slider {...settings}>
-          {cards.map(
-            ({ image, title, btnLink, btnText, eventDate, id }, index) => {
-              let translatedBtnText =
-                translation &&
-                strings &&
-                selectedLanguage &&
-                strings[selectedLanguage]['carousel']
-                  ? strings[selectedLanguage]['carousel']['cards'][`btnText`]
-                  : btnText
-              let translatedTitle =
-                translation &&
-                strings &&
-                selectedLanguage &&
-                strings[selectedLanguage]['carousel'] &&
-                strings[selectedLanguage]['carousel']['cards'][id]
-                  ? strings[selectedLanguage]['carousel']['cards'][id][
-                      `title${index}`
-                    ]
-                  : title
-              return (
-                <div>
-                  <CarouselCard
-                    key={index}
-                    image={image}
-                    title={translatedTitle}
-                    btnLink={btnLink}
-                    btnText={translatedBtnText}
-                    date={eventDate}
-                  />
-                </div>
-              )
-            }
-          )}
+          {cards.map(({ image, title, btnLink, btnText, eventDate }, index) => {
+            let translatedBtnText =
+              translation &&
+              strings &&
+              selectedLanguage &&
+              strings[selectedLanguage]['carousel']
+                ? strings[selectedLanguage]['carousel']['cards'][`btnText`]
+                : btnText
+            let translatedTitle =
+              translation &&
+              strings &&
+              selectedLanguage &&
+              strings[selectedLanguage]['carousel'] &&
+              strings[selectedLanguage]['carousel']['cards'][id]
+                ? strings[selectedLanguage]['carousel']['cards'][id][
+                    `title${index}`
+                  ] || title
+                : title
+            return (
+              <div>
+                <CarouselCard
+                  key={index}
+                  image={image}
+                  title={translatedTitle}
+                  btnLink={btnLink}
+                  btnText={translatedBtnText}
+                  date={eventDate}
+                />
+              </div>
+            )
+          })}
         </Slider>
       </CarouselSliderStyle>
     )
