@@ -31,7 +31,8 @@ class Carousel extends React.Component {
               cards,
               backgroundColor,
               btnColor,
-              id
+              id,
+              socialStats
             },
             index
           ) => {
@@ -71,6 +72,8 @@ class Carousel extends React.Component {
                       {translatedTitle}
                     </Heading3>
                     <Body3>{translatedDescription}</Body3>
+                    {socialStats &&
+                      socialStats.map(stat => <Body3>{stat}</Body3>)}
                     <a
                       className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large
                 width-1-1 text-uppercase"

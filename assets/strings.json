@@ -139,6 +139,16 @@
       }
     }
   },
+  "blog": {
+    "en": {
+      "newsTitle": "Latest News",
+      "featuredTitle": "Featured"
+    },
+    "cn": {
+      "newsTitle": "最新消息",
+      "featuredTitle": "精选"
+    }
+  },
   "navigation": {
     "en": {
       "title0": "Welcome",

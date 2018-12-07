@@ -97,6 +97,12 @@
               "backgroundColor": "#000",
               "scrollId": "community",
               "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE",
+              "socialStats": [
+                "Facbook 3300+",
+                "Twitter 2900+",
+                "Telegram 1000+",
+                "Meetups"
+              ],
               "cards": [
                 {
                   "image": "https://cdn-images-1.medium.com/max/1600/1*vdUq_xrxVzlfGFNnm1UsIA.jpeg",
