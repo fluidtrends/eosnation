@@ -68,7 +68,7 @@ export default class Intro extends Component {
 
     const translatedTitle =
       translation && strings && selectedLanguage
-        ? strings[selectedLanguage]['cover'][`title`] || title
+        ? strings[selectedLanguage]['cover'][`title`]
         : title
 
     return (

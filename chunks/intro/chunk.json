@@ -90,6 +90,7 @@
           "translation": true,
           "carousel": [
             {
+              "id": "community",
               "title": "Community",
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
               "btnText": "Explore more",
@@ -102,32 +103,33 @@
                   "title": "EOS Nation Ambassador Sam Joseph",
                   "eventDate": "Sep 27 2018",
                   "btnLink": "https://medium.com/@eosnationbp/ambassador-spotlight-samuel-joseph-nigeria-7913904c950b",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "https://cdn-images-1.medium.com/max/1600/1*lFSNUpq6HwGJ9v-fmjEpvQ.jpeg",
                   "title": "EOS Nation Ambassador Rory Mapstone",
                   "eventDate": "Nov 24 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-rory-mapstone-e34778219a1b",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "https://cdn-images-1.medium.com/max/1600/1*Xu9W3WRQuMjQ1c4Ig6bhHA.jpeg",
                   "title": "EOS Nation Ambassador Patrick Schmid",
                   "eventDate": "Nov 15 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassador-patrick-schmid-95b9a495d27d",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "https://cdn-images-1.medium.com/max/1600/1*qo9udBthh0ntfsF0oLpG7Q.jpeg",
                   "title": "EOS Nation Ambassadors India",
                   "eventDate": "Sep 30 2018",
                   "btnLink": "https://medium.com/@eosnationbp/introducing-eos-nation-ambassadors-india-ffc7b4325e89",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 }
               ]
             },
             {
+              "id": "tools",
               "title": "Tools",
               "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
               "btnColor": "#324856",
@@ -139,41 +141,42 @@
                   "image": "https://steemitimages.com/0x0/https://preview.ibb.co/dwswhT/Logo2_A07042018c.png",
                   "title": "EOS Survival Guide",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-survival-guide-everything-you-need-to-know-to-access-your-tokens",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://EOSDOCS.png",
                   "title": "EOS Docs",
                   "btnLink": "https://www.eosdocs.io/",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://eos-toolkit.jpg",
                   "title": "EOS Toolkit",
                   "btnLink": "https://eostoolkit.io/home",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://MYEOSKIT.jpg",
                   "title": "My EOS Kit",
                   "btnLink": "https://www.myeoskit.com/#/blocks",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://BLOKSIO.jpg",
                   "title": "Bloks.io Block Explorer",
                   "btnLink": "https://bloks.io/",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://EOSEOULVOTING.png",
                   "title": "EOSeoul Voting Portal",
                   "btnLink": "https://portal.eoseoul.io/",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 }
               ]
             },
             {
+              "id": "projects",
               "title": "Projects",
               "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
               "btnText": "Explore more",
@@ -184,25 +187,25 @@
                   "image": "local://EOSReferenedumRoadmap.jpeg",
                   "title": "EOS Referendum Roadmap",
                   "btnLink": "https://medium.com/@eosnationbp/eos-referendum-roadmap-b0417ff8a934",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://CommunityEngamentFund.jpg",
                   "title": "Community Engagement Fund",
                   "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://AMBASSADOR_LOGO.png",
                   "title": "Ambassador Program",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 },
                 {
                   "image": "local://ScholarTestnet.png",
                   "title": "Scholar Testnet (ended)",
                   "btnLink": "https://steemit.com/eos/@eosnation/eos-io-scholar-testnet",
-                  "btnText": "Learn more"
+                  "btnText": "See more"
                 }
               ]
             }

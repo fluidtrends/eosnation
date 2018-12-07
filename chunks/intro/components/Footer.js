@@ -31,7 +31,13 @@ class Footer extends React.PureComponent {
   }
   render() {
     const { links, theme } = this.props
-
+    const translatedCertifiedText =
+      theme.footerTranslation &&
+      this.state.strings &&
+      this.state.selectedLanguage
+        ? this.state.strings[this.state.selectedLanguage][`certifiedText`]
+        : 'Certified Carbon Neutral Block Producer'
+    // hardcode above text for now
     return (
       <FooterWrapper backgroundColor={theme.primaryColor}>
         <Grid>
@@ -82,6 +88,7 @@ class Footer extends React.PureComponent {
                 src="../../../assets/EOSNationCarbon.png"
                 style={{ width: '50%', display: 'block', margin: '0 auto' }}
               />
+              <span>{translatedCertifiedText}</span>
             </div>
           </GridCell>
           <GridCell span="12" phone="12" tablet="12">

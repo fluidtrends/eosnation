@@ -20,6 +20,7 @@
   "welcome": {
     "en": {
       "cover": {
+        "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME",
         "btnText1": "Learn more",
         "btnText2": "Vote"
       },
@@ -47,7 +48,22 @@
         "description2": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
         "btnText2": "Explore more",
         "cards": {
-          "btnText": "See more"
+          "btnText": "See more",
+          "community": {},
+          "tools": {
+            "title0": "EOS Survival Guide",
+            "title1": "EOS Docs",
+            "title2": "EOS Toolkit",
+            "title3": "My EOS Kit",
+            "title4": "Bloks.io Block Explorer",
+            "title5": "EOSeoul Voting Portal"
+          },
+          "projects": {
+            "title0": "EOS Referendum Roadmap",
+            "title1": "Community Engagement Fund",
+            "title2": "Ambassador Program",
+            "title3": "Scholar Testnet (ended)"
+          }
         }
       },
       "events": {
@@ -64,6 +80,7 @@
     },
     "cn": {
       "cover": {
+        "title": "一次一块，建立我们的未来",
         "btnText1": "了解更多",
         "btnText2": "投票"
       },
@@ -91,7 +108,22 @@
         "description2": "EOSNation是EOS社区中非常活跃的节点，致力于帮助推进发展生态建设的积极性方案。",
         "btnText2": "探索更多",
         "cards": {
-          "btnText": "了解更多"
+          "btnText": "了解更多",
+          "community": {},
+          "tools": {
+            "title0": "EOS生存指南",
+            "title1": "EOS文件",
+            "title2": "EOS工具箱",
+            "title3": "我的EOS工具包",
+            "title4": "Bloks.io Block资源管理器",
+            "title5": "EOSeoul 投票门户网站"
+          },
+          "projects": {
+            "title0": "EOS公投路线图",
+            "title1": "社区参与基金",
+            "title2": "大使项目",
+            "title3": "学者测试网（已结束"
+          }
         }
       },
       "events": {
