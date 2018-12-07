@@ -35,31 +35,46 @@
 	<li> Operating System Ubuntu Server 16.10</li>
 </ul>
 
-<h3 class='m-p-m-t-b'> <span class='markdown-bold'>BP "appointed"</span></h3>
-<h3 class='m-p-m-t-b'>>
-	If EOS Nation is "appointed" as Block Producer, only 1 Elastic Compute Cloud (EC2) instance will be running the main BP for the duration of the first election
+<h3 class='m-p-m-t-b'>
+<span class='markdown-bold'>
+	Current hardware specifications:
+</span>
+</h3>
+
+<h3 class='m-p-m-t-b'>
+	EOS Nation Server Architecture
 </h3>
 
 <ul class='markdown-list'>
-	<li> Nodes 1x EC2 (x1.32xlarge)</li>
-	<li> vCPUs 128 Cores</li>
-	<li> Memory 2TB RAM</li>
-	<li> Storage (IPFS) 2 x 1920GB (SSD)</li>
-	<li> Network 25 Gigabit</li>
+	<li>Global Load Balancer for EOSIO HTTP API</li>
+	<li>Private Docker Registry</li>
+	<li>3x Full Nodes for Public HTTP/SSL API</li>
+	<li>3x Full Nodes for P2P seeding</li>
+	<li>2x Web Firewalls (Reverse Proxies)</li>
+	<li>2x Producing Node (Main & Backup)</li>
+	<li>1x Full Node with MongoDB enabled</li>
 </ul>
 
-<h3 class='m-p-m-t-b'> <span class='markdown-bold'>BP "elected"</span></h3>
-<h3 class='m-p-m-t-b'>>
-	If EOS Nation is "elected" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes. In the event of a failure of the main BP node, the secondary BP node will act as a backup and will become the main node. Minimal downtime shall be the main priority in case of a full node failure.
+<p class='m-p-m-t-b'>
+	Total of 9 EOSIO full nodes
+</p>
+
+<h3 class='m-p-m-t-b'>
+	EOSIO Producing Full Node Hardware Specification
 </h3>
 
 <ul class='markdown-list'>
-	<li> Nodes 2x EC2 (x1.32xlarge)</li>
-	<li> vCPUs 128 Cores</li>
-	<li> Memory 2TB RAM</li>
-	<li> Storage (IPFS) 2 x 1920GB (SSD)</li>
-	<li> Network 25 Gigabit</li>
+	<li>20 vCPUs - Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz</li>
+	<li>Bandwidth connection Hosted by FibreStream (Toronto, ON)</li>
+	<li>Download: 3383.00 Mbit/s</li>
+	<li>Upload: 1800.49 Mbit/s</li>
+	<li>96GB RAM</li>
+	<li>2TB SSD</li>
 </ul>
+
+<p class='m-p-m-t-b'>
+	Please note: EOS Nation is currently working towards hosting their own bare-metal servers in a Tier 3 Data Center located in Ottawa, Canada.
+</p>
 
 <h3 class='m-p-m-t-b'> <span class='markdown-bold'>Scaling Plan</span></h3>
 

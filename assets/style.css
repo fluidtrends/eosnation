@@ -798,3 +798,9 @@ main {
   width: 150px;
   padding: 10px 10px 10px 20px;
 }
+
+/* select from drawer ( responsive content) */
+.mdc-drawer .mdc-select__native-control {
+  width: 150px;
+  padding: 10px 10px 10px 20px;
+}

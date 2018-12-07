@@ -52,7 +52,7 @@ class Footer extends React.PureComponent {
                     ? this.state.strings[this.state.selectedLanguage][
                         `text${index}`
                       ]
-                    : this.props.title
+                    : text
                 return (
                   <GridCell span="6">
                     <a
