@@ -4,6 +4,7 @@
     "main": {
       "title": "Welcome",
       "icon": "home",
+      "navigationLogo": true,
       "noFooter": "true",
       "forceNavigation": true,
       "path": "/",
