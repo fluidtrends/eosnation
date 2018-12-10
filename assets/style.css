@@ -805,3 +805,77 @@ main {
   width: 150px;
   padding: 10px 10px 10px 20px;
 }
+
+/* SUBSCRIBE FORM */
+
+div.ctct-form-embed div.ctct-form-defaults {
+  color: #323232;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 24px;
+  font: 16px 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+div.ctct-form-embed form.ctct-form-custom {
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100px;
+}
+
+div.ctct-form-embed div.ctct-form-defaults h2.ctct-form-header {
+  color: #323232;
+  font: 16px 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+div.ctct-form-embed div.ctct-form-defaults p.ctct-form-text {
+  color: #323232;
+  font: 16px 'Helvetica Neue', Arial, sans-serif;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 24px 0;
+}
+div.ctct-form-embed form.ctct-form-custom div.ctct-form-field {
+  margin: 0 0 24px 0;
+  text-align: left;
+}
+.ctct-form-embed.form_0 .ctct-form-custom .ctct-form-button {
+  background-color: #d66c44;
+  border: 1px solid #d66c44;
+  color: #ffffff;
+}
+div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 16px;
+  line-height: 1;
+  background-image: none;
+  background-color: #0078c1;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  border-radius: 3px;
+  text-transform: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #0078c1;
+}
+/* END OF SUBSCRIPE CSS */
