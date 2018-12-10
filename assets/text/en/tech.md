@@ -1,3 +1,5 @@
+<img src='assets/EOSNTechMap.svg' style='width: 100%; height: 100%'>
+
 <h2 class='m-p-m-t-b text-align-left'>EOS Nation - Block Producer</h2>
 
 <h3 class='m-p-m-t-b'><span class='markdown-bold'>Official block producer</span> candidate name EOS Nation Location of company headquarters Canada. Expected location of servers. Hybrid approach - Cloud (AWS) for main full node & backup/secondary full nodes located in different geographical regions using bare metal.</h3>

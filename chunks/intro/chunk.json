@@ -470,6 +470,7 @@
           "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
           "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
           "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "imageClickable": true,
           "sections": [
             {
               "title": "Meet the Team",
@@ -665,6 +666,7 @@
           "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
           "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
           "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "imageClickable": true,
           "sections": [
             {
               "title": "Meet the Team",
@@ -1289,6 +1291,7 @@
           "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
           "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
           "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",
+          "imageClickable": true,
           "sections": [
             {
               "title": "The Team",
