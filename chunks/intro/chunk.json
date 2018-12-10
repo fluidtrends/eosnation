@@ -677,6 +677,7 @@
           "source": "team",
           "backgroundColor": "#2c4858",
           "textColor": "#D66C44",
+          "translation": true,
           "linkedinIcon": "https://github.com/fluidtrends/carmel/raw/content/images/linkedin.png",
           "githubIcon": "https://github.com/fluidtrends/carmel/raw/content/images/github.png",
           "webIcon": "https://github.com/fluidtrends/carmel/raw/content/images/web.png",

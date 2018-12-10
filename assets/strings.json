@@ -148,10 +148,27 @@
         "subtitle": "查看我们的eosnationdon帐户",
         "btnText": "更多信息",
         "calendarEvents": {
-          "name0": "尼日利亚的区块链中心",
-          "name1": "尼日利亚的区块链中心",
-          "name2": "尼日利亚的区块链中心",
-          "name3": "尼日利亚的区块链中心"
+          "name0": "blockathon12 - Campus Blockchain Sponsorships",
+          "name1": "eosiozeroco2 - contribution to make EOS carbon neutral",
+          "name2": "humaneloveio - Donation to \"End Child Poverty Now\"",
+          "name3": "dunyalabmain  - Contribution to the Dunya Labs Catalyst Series sponsorship",
+          "name4": "EOS历史数据库",
+          "name5": "EOS统计资料",
+          "name6": "EOS Gift 交易所",
+          "name7": "EOS 尼日利亚",
+          "name8": "EOS Nation 尼日利亚区块工坊",
+          "name9": "EOS Ignite",
+          "name10": "EOS 文档储存",
+          "name11": "eosiowecured - WeCured.com",
+          "name12": "eoscomconfkr - 赞助 - EOS社区 （韩国区域会议",
+          "name13": "eosdevconllc - EOS DevCon Tampa, FL. 2019",
+          "name14": "WyoHackathon https://wyominghackathon.devpost.com",
+          "name15": "iRespo.com",
+          "name16": "EOS 文档储存",
+          "name17": "eoscomconfkr - 赞助 - EOS社区 （韩国区域会议）",
+          "name18": "eoscomconfkr - 赞助 - EOS社区 （韩国区域会议）",
+          "name19": "irespooracle - iRespo.com",
+          "name20": "xfeexplorerx - eos.feexplorer.io"
         }
       }
     }
@@ -200,6 +217,34 @@
       "text3": "BP.json",
       "text4": "行为准则",
       "certifiedText": "经认证碳中性节点"
+    }
+  },
+  "team": {
+    "en": {
+      "section0": {
+        "title": "Meet the Team"
+      },
+      "section1": {
+        "title": "Staff"
+      },
+      "section2": {
+        "title": "Ambassadors"
+      },
+      "btnTextDetails": "See more",
+      "btnTextGoBack": "Back"
+    },
+    "cn": {
+      "section0": {
+        "title": "认识团队"
+      },
+      "section1": {
+        "title": "员工"
+      },
+      "section2": {
+        "title": "大使"
+      },
+      "btnTextDetails": "了解更多",
+      "btnTextGoBack": "返回"
     }
   }
 }
