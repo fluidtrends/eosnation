@@ -849,6 +849,7 @@ div.ctct-form-embed form.ctct-form-custom div.ctct-form-field {
   background-color: #d66c44;
   border: 1px solid #d66c44;
   color: #ffffff;
+  margin-top: 20px;
 }
 div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
   display: block;

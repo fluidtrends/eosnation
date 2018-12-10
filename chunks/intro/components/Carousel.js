@@ -74,7 +74,11 @@ class Carousel extends React.Component {
                     </Heading3>
                     <Body3>{translatedDescription}</Body3>
                     {socialStats &&
-                      socialStats.map(stat => <Body3>{stat}</Body3>)}
+                      socialStats.map(stat => (
+                        <a href={stat.link} target={'_blank'}>
+                          <Body3>{stat.name}</Body3>
+                        </a>
+                      ))}
                     {hideButton ? null : (
                       <a
                         className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large

@@ -36,6 +36,11 @@ class ValueSection extends Component {
         ? strings[selectedLanguage]['pillars'][`imgTitle`]
         : imgTitle
 
+    const translatedImg =
+      translation && strings && selectedLanguage && imgPath
+        ? imgPath.replace('/assets/', `/assets/${selectedLanguage}/`)
+        : imgPath
+
     return (
       <StyledComponents.ValuesSection>
         <h2
@@ -86,7 +91,10 @@ class ValueSection extends Component {
             <h2 className="section-header text-align-center">
               {translatedImgTitle}
             </h2>
-            <img style={{ width: '100%', height: '100%' }} src={imgPath} />
+            <img
+              style={{ width: '100%', height: '100%' }}
+              src={translatedImg}
+            />
           </div>
         )}
       </StyledComponents.ValuesSection>

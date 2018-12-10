@@ -1,4 +1,4 @@
-<img src='assets/EOSNTechMap.svg' style='width: 100%; height: 100%'>
+<img src='assets/en/EOSNTechMap.svg' style='width: 100%; height: 100%'>
 
 <h2 class='m-p-m-t-b text-align-left'>EOS Nation - Block Producer</h2>
 

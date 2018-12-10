@@ -97,7 +97,12 @@ class Footer extends React.PureComponent {
               <span>{translatedCertifiedText}</span>
             </div>
           </GridCell>
-          <GridCell span="12" phone="12" tablet="12">
+          <GridCell
+            span="6"
+            phone="12"
+            tablet="6"
+            style={{ gridColumnStart: 4 }}
+          >
             <div
               dangerouslySetInnerHTML={{
                 __html: `<div class="html-embed w-embed w-script"><!-- Begin Constant Contact Active Forms -->

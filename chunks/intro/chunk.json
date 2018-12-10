@@ -60,7 +60,7 @@
           "values": [
             {
               "title": "Community",
-              "description": "We're dedicated to fostering the EOS platform through reliable and efficient block production and community engagement.",
+              "description": "We're dedicated to foster the EOS platform through reliable and efficient block production and community engagement.",
               "iconName": "users",
               "btnText": "Learn more",
               "btnScroll": "community"
@@ -93,16 +93,29 @@
             {
               "id": "community",
               "title": "Community",
-              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools",
+              "description": "To explore and help the ecosystem grow, tools need be to developed.  EOS Nation helps users with the needed tools.",
               "btnText": "Explore more",
+              "hideButton": true,
               "backgroundColor": "#000",
               "scrollId": "community",
               "btnLink": "https://www.youtube.com/watch?v=tUw8oWyFfeE",
               "socialStats": [
-                "Facbook 3300+",
-                "Twitter 2900+",
-                "Telegram 1000+",
-                "Meetups"
+                {
+                  "link": "https://www.facebook.com/EOSNATIONBP/",
+                  "name": "Facebook 3300+"
+                },
+                {
+                  "link": "https://twitter.com/EOS_Nation/",
+                  "name": "Twitter 2900+"
+                },
+                {
+                  "link": "https://t.me/EOSNation",
+                  "name": "Telegram 1000+"
+                },
+                {
+                  "link": "/ambassadors",
+                  "name": "Meetups"
+                }
               ],
               "cards": [
                 {
@@ -138,10 +151,11 @@
             {
               "id": "tools",
               "title": "Tools",
-              "description": "To explore and help the eccosystem grow, tools need be developed.  EOS Nation helps users with the need tools.",
+              "description": "To explore and help the ecosystem grow, tools need to be developed.  EOS Nation helps users with the needed tools.",
               "btnColor": "#324856",
               "btnText": "Explore more",
               "scrollId": "tools",
+              "hideButton": true,
               "btnLink": "https://www.eosdocs.io/",
               "cards": [
                 {
