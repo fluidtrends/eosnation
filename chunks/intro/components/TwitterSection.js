@@ -17,11 +17,15 @@ class TwitterSection extends Component {
   }
 
   renderComponent() {
-    const { title } = this.props
+    const { title, translation, strings, selectedLanguage } = this.props
+    const translatedTitle =
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage][`twitter`].title
+        : title
     return (
       <TwitterSectionContainer>
         <h2 className="section-header text-align-center margin-bottom-large">
-          {title}
+          {translatedTitle}
         </h2>
         <link
           href="https://assets.juicer.io/embed.css"

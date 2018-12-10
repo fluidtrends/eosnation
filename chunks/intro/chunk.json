@@ -540,6 +540,7 @@
           "source": "twitterSection",
           "title": "Why we love EOSNation",
           "textColor": "#2b4957",
+          "translation": true,
           "backgroundColor": "#FAFAFA"
         },
         "footer": {
