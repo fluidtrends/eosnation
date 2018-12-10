@@ -27,9 +27,17 @@ export default class WhySection extends Screen {
   }
 
   loadCustomComponent(props) {
+    const { selectedLanguage, strings } = this.state
+
     return props => {
       const CustomComponent = CustomComponents[props.source]
-      return <CustomComponent {...props} />
+      return (
+        <CustomComponent
+          {...props}
+          selectedLanguage={selectedLanguage}
+          strings={strings}
+        />
+      )
     }
   }
 
