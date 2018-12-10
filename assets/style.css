@@ -30,6 +30,7 @@ body a {
 }
 
 .card-container {
+  cursor: pointer;
   max-width: 350px;
   background: #ebedee;
   padding: 20px 40px;

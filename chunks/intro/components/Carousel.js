@@ -32,7 +32,8 @@ class Carousel extends React.Component {
               backgroundColor,
               btnColor,
               id,
-              socialStats
+              socialStats,
+              hideButton
             },
             index
           ) => {
@@ -74,15 +75,17 @@ class Carousel extends React.Component {
                     <Body3>{translatedDescription}</Body3>
                     {socialStats &&
                       socialStats.map(stat => <Body3>{stat}</Body3>)}
-                    <a
-                      className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large
-                width-1-1 text-uppercase"
-                      href={btnLink}
-                      target={btnLink.includes('https://') ? '_blank' : ''}
-                      style={{ background: btnColor || theme.secondaryColor }}
-                    >
-                      {translatedBtnText}
-                    </a>
+                    {hideButton ? null : (
+                      <a
+                        className="btn btn-primary btn-link flex-center margin-top-medium margin-bottom-large
+              width-1-1 text-uppercase"
+                        href={btnLink}
+                        target={btnLink.includes('https://') ? '_blank' : ''}
+                        style={{ background: btnColor || theme.secondaryColor }}
+                      >
+                        {translatedBtnText}
+                      </a>
+                    )}
                   </Col>
                   <Col md={0} lg={1} />
                   <Col md={24} sm={24} lg={17}>

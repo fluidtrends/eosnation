@@ -43,7 +43,7 @@ export class CalendarItem extends Component {
         </Body2>
       )
     }
-    if (extraInfoLink) {
+    if (extraInfoLink && extraInfoLink !== 'extraInfoLink') {
       metaInfo.push(
         <a href={extraInfoLink} target="_blank">
           <Body2 link>
@@ -90,7 +90,7 @@ export class CalendarItem extends Component {
                 </GridCell>
               </GridInner>
             </GridCell>
-            {/* <GridCell span="12">
+            <GridCell span="12">
               <GridInner>
                 <GridCell span="2">
                   {metaInfo.length ? metaInfo[0] : <Body2>-</Body2>}
@@ -114,7 +114,7 @@ export class CalendarItem extends Component {
                   className="text-align-right calendar-social-links"
                   style={{ marginLeft: '-20px' }}
                 >
-                  {facebookLink ? (
+                  {facebookLink && facebookLink !== 'facebookLink' ? (
                     <span>
                       <a
                         className="margin-left-medium"
@@ -125,7 +125,7 @@ export class CalendarItem extends Component {
                       </a>
                     </span>
                   ) : null}
-                  {twitterLink ? (
+                  {twitterLink && twitterLink !== 'twitterLink' ? (
                     <span>
                       <a
                         className="margin-left-medium"
@@ -136,7 +136,7 @@ export class CalendarItem extends Component {
                       </a>
                     </span>
                   ) : null}
-                  {meetupLink ? (
+                  {meetupLink && meetupLink !== 'meetupLink' ? (
                     <span>
                       <a
                         className="margin-left-medium"
@@ -149,7 +149,7 @@ export class CalendarItem extends Component {
                   ) : null}
                 </GridCell>
               </GridInner>
-            </GridCell> */}
+            </GridCell>
           </Grid>
         </CalenderItemContent>
       </CalenderItemWrapper>

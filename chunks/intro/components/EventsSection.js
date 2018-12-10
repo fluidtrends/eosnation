@@ -34,7 +34,7 @@ class EventsSection extends Component {
           translation && strings && selectedLanguage
             ? strings[selectedLanguage]['events']['calendarEvents'][
                 `name${index}`
-              ]
+              ] || name
             : name,
         ...remainingProps
       })
