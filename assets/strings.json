@@ -17,6 +17,18 @@
       "title": "EOSNation - EOS节点"
     }
   },
+  "why": {
+    "en": {
+      "cover": {
+        "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME"
+      }
+    },
+    "cn": {
+      "cover": {
+        "title": "为什么是我们？"
+      }
+    }
+  },
   "welcome": {
     "en": {
       "cover": {
