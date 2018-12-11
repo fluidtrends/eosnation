@@ -1,3 +1,5 @@
-**DENIS CARRIERE - CTO**
+**首席技术官（CTO），丹尼斯·卡里埃（Denis Carrière）**
 
-As a full-stack web & GIS developer and a strong advocate for open source software & open data, Denis is our Chief Technology Officer and is responsible for our node infrastructure. Before focusing all his efforts on EOS and EOS Nation, Denis was one of the core developers for TurfJS (Advanced geospatial analysis for browsers and Node.js) and a developer for SharedStreets.io (A shared language for the world's streets). Denis is living and breathing open source with over 4,800+ GitHub commits this year alone. He is also the event organizer for OpenStreetMap and travels internationally/locally attending technology conferences. Denis also served with the Canadian Armed Forces as a Geospatial Engineer and deployed overseas for two operational missions, one of which was providing humanitarian relief efforts during the 2015 Nepal earthquake.
+作为一个全栈 web 和 GIS 开发人员，以及开源软件和开放数据的强烈倡导者，丹尼斯（Denis）是我们的首席技术官，负责我们的节点基础架构建设。在完全投身于 EOS 和 EOSNation 之前，丹尼斯是 TurfJS（针对浏览器和 Node.js 的高级地理空间分析）的核心开发人员之一，也是 SharedStreets.io（world's streets 的一个共享语言）的开发者之一。达尼斯在开发过程中，一直保持开源的精神，一年时间，就在 GitHub 提交了超过了 4800 项代码。他也是 OpenStreetMap 活动的组织者，经常参加游走于国际以及当地的技术会议。
+
+丹尼斯也在加拿大军队担任过地理空间工程师，并被派往海外执行过两项任务，其中一项任务，是在 2015 年尼泊尔地震期间，提供人道主义援救。

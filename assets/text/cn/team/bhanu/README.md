@@ -1,3 +1,10 @@
-**Bhanu Prakash Katukojwala - EOS NATION AMBASSADOR**
+**巴努·普拉卡什 -坐标：孟加拉国，印度**
 
-I was graduated in 2015 from Jawaharlal Nehru Technological University, Hyderabad, India. Started career as a CAD designer in an MNC. Being enthusiastic to do business, I came across crypto currencies in June 2017. Knowing the potential of digital currencies in coming years, I invested in some projects like Ripple and Ethereum which would change the banking system and signing of contracts digitally across the globe. After quitting my job in march 2018, I have been a full time crypto trader and investor in new blockchain start-ups(ICOs). Recently, I have been certified in blockchain for businesses (hyper ledger technologies) online course from Linux foundation. Even more enthusiastic to gain knowledge on upcoming blockchain projects.
+2018 年 9 月加入柚子王国  (EOS Nation)大使计划
+
+巴努·普拉卡什于 2015 年毕业于印度海德拉巴的贾瓦哈拉尔尼赫鲁科技大学。 他在 2017 年初遇到了区块链技术，并对分散式分类帐技术及其可能的应用程序充满热情。 Bhanu 认为，区块链可以帮助他的祖国印度打击旧世界的腐败和集中系统，并希望他的国家成为这一区块链革命的积极参与者。
+
+在 2018 年初，巴努发现了 EOSIO 协议。 作为一个开源的分散经济体，EOSIO 旨在通过解决和解决当今区块链模型中，存在的扩展和治理问题，创建自由市场解决方案，来保护生命，自由和财产。 Bhanu 坚信，EOSIO 在分散式应用创新方面处于领先地位。 他很高兴有机会加入柚子王国（EOS Nation）大使团队，并且，能够为他的祖国印度的新兴分散经济做出贡献。 巴努很高兴有机会教育他人，并为能够帮助当地社区参与 EOSIO 生态系统感到自豪。
+
+Email: bhanu.kattukojwala93@gmail.com
+Linkedin: https://www.linkedin.com/in/bhanu-prakash-katukojwala-494221a8/

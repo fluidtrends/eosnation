@@ -1,3 +1,11 @@
-**ELIM HERR - Community Manager**
+**社交媒体经理 Elim Herr （埃利姆·赫尔）**
 
-My Beliefs: I am a libertarian, crypto enthusiast, husband, father, free thinker. I believe in decentralizing the world, by empowering communities and ideas through DAC’s. We as people around the world are moving away from big government control through financial oppression, to building a world of value for everyone, not just the top of the pyramid. We as early adopters to this revolutionary technology need to do our part in educating people on the power blockchain has to move the world forward into this new paradigm. I believe we are on the forefront of an historic shift in power, money, and most importantly, TRUST. The next 5-10 years we will possibly see a complete shift from an old, outdated, corrupt system, into what I believe to be a much more pure, trustless, world-wide experiment in value creation, transaction, and most importantly GROWTH. I value this chance to do my part in spreading awareness of the possibilities we as people have, to build this new system for ourselves and our children. As a new father, it inspires me to do everything I can, to ensure my child has a bright, promising future. I am grateful for the opportunity to join EOS NATION as an ambassador. Exciting times are ahead, let's all build this future we envision together!
+埃利姆，一个自由主义者，加密货币爱好者，丈夫，父亲，也是一个自由思想家。 他相信通过 DAC’s 赋予社区以思想，从而发展去中心化的世界。
+
+“来自世界各地的我们，正在从政府金融压迫形式的大规模控制中走出来，为每个人建立一个有价值的世界，而不仅仅是为那些金字塔顶端的人。我们作为这种革命性技术的早期采用者，需要在教育方面尽自己的一份力量，让人们了解区块链将世界推向新的时代的力量。“
+
+埃利姆拥有 Cal State Fullerton 的通讯学士学位。 他专注于 EOS Nation 的社区参与和内容创建，埃利姆通过视频内容，社交媒体互动和积极的社区讨论，向人们介绍快速发展的 EOSIO 生态系统。 埃利姆空闲的时候，当有人帮忙照看孩子的时候，他喜欢在科罗拉多落基山脉滑雪，也偶尔打高尔夫球。
+
+Email: elim@eosnation.io
+Facebook: https://www.facebook.com/elim.herr.568
+Twitter: https://twitter.com/elimherr

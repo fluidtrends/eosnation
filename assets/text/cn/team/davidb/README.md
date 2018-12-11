@@ -1,5 +1,10 @@
-**DAVID BIGLEY - CMO**
+**大卫·比格利 - 坐标：宾夕法尼亚州费城**
 
-Being a lover of freedom and entrepreneurship, I started a landscaping business in 2013 after earning my bachelor’s degree in Criminal Justice with a minor in Business Studies. Intrigued with Bitcoin and the implications of a decentralized, trustless monetary system, I began pursuing a deeper understanding in the blockchain space beginning in the summer of ’17. A new passion had been ignited. The implications of Moore’s Law revealed to me the importance and urgency of steering technology in a positive direction to empower people and enrich the human experience.
+2018 年 11 月加入柚子王国  (EOS Nation)大使计划
 
-Before long, I came across an interview with EOS’ founder Dan Larimer. Dan’s philosophy of voluntary association and life mission “to find free market solutions to secure life, liberty, and property for all” greatly resonated with me. Not only was Dan’s philosophy aligned with my own, but his expertise and success in building other projects like Bitshares & Steemit was incredibly promising. His implementation of solutions to the problems in scalability, governance, adaptability, and incentive structures in the EOS platform made it apparent that EOS was in a unique position to be the leading infrastructure for innovation of decentralized applications. I am happy to be working with EOS Nation to grow the EOS community in the Philadelphia region. My purpose backed with passion is to educate others on all things EOS!
+作为自由和创业的爱好者，大卫·比格利在获得刑事司法学士学位，并兼修商务专业后，于 2013 年开始从事园林业务。 对比特币以及去中心化的，无信托货币体系的兴趣，使得他在 2017 年夏天开始对区块链空间进行更深入的了解。 一种新的激情就在那时被点燃了。 摩尔定律的含义，让他了解了转向技术在积极方面，比如向人们赋权和丰富人类经验方面的重要性和紧迫性。
+
+不久，大卫接受了 EOSIO 创作者丹·拉里默的采访。 丹的自愿联合和生命使命的理念“寻找自由市场解决方案以确保所有人的生命，自由和财产”，这使他产生了极大的共鸣。 丹的理念不仅与他自己的理念一致，而且 丹在 Bitshares＆Steemit 等其他项目中的专业知识和获得的成功，也令人难以置信。 EOSIO 实施的方案，解决了 EOSIO 平台上存在的可延展性、治理、适应性和激励结构方面的问题，这使得 EOSIO 显然处于独特的地位，成为分散式应用创新的领先基础设施。 大卫很高兴与 EOS Nation 合作，在费城地区发展 EOS 社区。 大卫的热情支持的目的，是教育别人所有关于 EOSIO 的东西！
+
+Email: bigsbigley@gmail.com
+Steemit: @biggs
