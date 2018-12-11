@@ -1,49 +1,49 @@
-<h2 class='m-p-m-t-b text-align-left'> How has EOS Nation demonstrated its ability to generate value for the EOS ecosystem?</h2>
+<h2 class='m-p-m-t-b text-align-left'>柚子王国（EOS Nation）是如何展示其为EOS生态系统创造价值的能力的？</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation's mission is to add value to the EOS ecosystem by focusing our efforts on education through community engagement. EOS Nation has been one of the most active Block Producer candidates, establishing a strong presence online in the various public EOS chats (most notably, in the Governance and Infrastructure channels) as well as across many cities around the world.Here are some examples that demonstrate EOS Nation’s capacity to generate value for the network, which translates into value for all EOS token holders across the world.</h3>
+<h3 class='m-p-m-t-b'> EOS Nation的使命，是通过社区参与，重点开展普及教育工作，从而为EOS生态系统增添价值。 EOS Nation是最活跃的节点之一，活跃于EOS话题讨论中，有着很高的参与度和存在感（尤其是在，治理和基础架构建设方面）， 并且，EOS Nation的活跃范围是在世界各地的许多城市。这里有一些例子可以向大家展示EOS Nation为网络创造价值的能力，这可以转化为全球所有EOS持币者的价值。</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> EOS Nation Meetups</h2>
+<h2 class='m-p-m-t-b text-align-left'> EOS Nation 线下见面会</h2>
 
-<h3 class='m-p-m-t-b'> In the last few weeks, EOS Nation has hosted more than twenty EOS Nation Meetups in various countries including Canada, China, Nigeria, Ukraine, Kosovo, Switzerland and the USA. Our meetups vary in style and size, but all of them allow us to spread some EOS knowledge and build new relationships, which leads to a healthy and growing EOS community.</h3>
+<h3 class='m-p-m-t-b'> 在过去的几周里，EOS Nation在加拿大，中国，尼日利亚，乌克兰，科索沃，瑞士和美国等国家举办了20多场EOS Nation聚会。 我们的聚会在风格和大小上各不相同，但这些见面会，都让我们能够传播一些EOS知识并建立新的关系，从而带来健康和不断发展的EOS社区。</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> Constitution & Governance</h2>
+<h2 class='m-p-m-t-b text-align-left'> 公约与治理</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation’s co-founder, Yves La Rose, has been very active in the constitution and governance discussions. Staying up-to-date on those conversations was a full-time effort in the last few months, and we are proud that EOS Nation was able to participate fully. We have engaged in many respectful and interesting conversations that have explored various aspects of EOS governance. Our efforts were always focused on prioritizing the interests of the community to make sure each and every one of you are represented at the highest level of EOS governance.Listen to Yves La Rose giving us a quick governance update (filmed June 1st)</h3>
+<h3 class='m-p-m-t-b'> EOS Nation的联合创始人伊夫·拉·罗斯(Yves La Rose)在公约和治理讨论中, 一直非常积极。“在EOS各项话题中保持活跃，是我们在过去的几个月中所努力做的事情，EOS Nation能够充分参与到社区当中，能够参与许多值得重视和有趣的话题讨论是十分值得自豪的，跟大家一同探讨EOS治理的各个方面。 我们始终侧重于优先考虑社区的利益，以确保每个人都能在EOS治理的最高层面得到代表。”大家来听听Yves La Rose关于治理消息更新的简述（采集于”6月1日）</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> Infrastructure</h2>
+<h2 class='m-p-m-t-b text-align-left'> 基础架构</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation has been a leader in EOS-BIOS launch stages. We’ve proven to have a secure and robust BP infrastructure, using a secure meshed network topology using multiple layers of security.We also created and maintained the Scholar Test Net with the goal of providing a secure network where aspiring Block Producers could practice and learn how to configure an EOS block producing node. Block Producer candidates from around the world joined our testnet, and our lead engineer, Denis Carriere, was always there to help them connect and produce blocks. Time and time again, Denis has proven that EOS Nation has the technical expertise required to reliably produce blocks for the network.Read more about our Scholar Test Net and check out our GitHub repo.</h3>
+<h3 class='m-p-m-t-b'> EOS Nation一直是EOS-BIOS发布阶段的领导者。 已经经过证明，我们拥有安全可靠的BP基础架构，使用多层安全性的网状网络拓扑结构。我们还创建并维护了学术测试网（Scholar Test Net），旨在提供一个安全的网络，让有抱负的节点们可以练习和学习如何配置生成节点的EOS区块。 来自世界各地的节点加入了我们的测试网络，我们的首席工程师Denis Carriere一直在帮助他们连接和生产区块。 Denis一次又一次地证明了，EOS Nation拥有为网络生产区块所需的技术专业知识。想了解更多，欢迎阅读我们的学术测试网，并查看我们的GitHub报告。</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> Ambassadors Program</h2>
+<h2 class='m-p-m-t-b text-align-left'> 大使项目</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation created the Ambassador Program in an effort to grow a worldwide EOS community. We have built a strong team of 13 entrepreneurial individuals who are also passionate fans of EOS. If you would like to join the team, please fill out an application! Our Ambassadors provide value to EOS Nation through various efforts like hosting meetups, writing articles, translating articles, making educational videos, representing us at various conferences or contributing to various blockchain and EOS related efforts. The ambassadors share our values and help us educate various communities around the world. In return, EOS Nation amplifies their voices by sharing their content on our platforms, increasing their personal exposure in the blockchain space. This allows them to grow their own networks and bring awareness to different projects they are working on.</h3>
+<h3 class='m-p-m-t-b'> EOS Nation创建了大使项目，旨在发展全球EOS社区。 我们已经建立了一支由13名企业家组成的强大团队，他们也是EOS的热情粉丝。 如果您想加入该团队，请填写申请表吧！ 我们的大使通过举办聚会，撰写文章，翻译文章，制作教育视频，代表我们参加各种会议或为各种区块链和EOS相关工作做出各种努力，为EOS Nation创造价值。 大使们分享我们的价值观，并帮助我们教育世界各地的社区。 作为回报，EOS Nation通过在我们的平台上分享他们的内容，来扩大他们影响力，增加他们在区块链领域的个人曝光率。 这使他们能够发展自己的网络，并将成果带到他们正在进行的不同项目中。</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> Content Creation</h2>
+<h2 class='m-p-m-t-b text-align-left'> 内容创作</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation has produced educational and informative content for the EOS community, including the largest repository of educational links named “Awesome EOS.” We’ve done interviews with a variety of media outlets, from crypto podcasts, to youtubers and even mainstream media in Canada and China. We’ve also written some excellent articles, one of which was even resteemed by Dan Larimer himself!Also, through our Ambassadors, EOS Nation has built up the capacity to translate documents into 8 different languages. We have translated not only articles written by us but also articles written by different BPs. We are happy to contribute value to the EOS ecosystem by translating any article that we think will benefit the EOS community as a whole.</h3>
+<h3 class='m-p-m-t-b'> EOS Nation为EOS社区制作了教育干货，包括名为“Awesome EOS”的最大教育链接库。我们已经接受了各种媒体的采访，从加密播客到youtuber，甚至是加拿大和中国的主流媒体。 我们还撰写了一些优秀的文章，其中一篇甚至得到了Dan Larimer本人的青睐！此外，通过我们的大使们，EOS Nation已经拥有了将文档翻译成8种不同语言的能力。 我们不仅翻译了我们撰写的文章，还翻译了不同BP撰写的文章。 通过翻译我们认为将有利于EOS社区整体的任何文章，来为EOS生态系统贡献价值，我们很高兴。</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> EOS Nation Community</h2>
+<h2 class='m-p-m-t-b text-align-left'> EOS Nation社区</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation is also one of the largest english-speaking EOS Facebook communities. It is known as a very active and well-moderated group. Members are respectful and helpful as we are all EOS enthusiasts excited to share our passion for the project! We are currently over 2,500 members, and the group continues to grow. Being at the center of this community, being able to listen to you guys and interact with our members, allows us to better understand and identify your interests and concerns. Please join us if you have not already done so!</h3>
+<h3 class='m-p-m-t-b'> EOS Nation也是最大的EOS英语交流Facebook社区之一。 EOS Nation是一个非常活跃和发展平稳的集体。 成员们都很懂得尊重和乐于助人，这是因为，我们所有的EOS爱好者都很兴奋地分享我们对项目的热情！ 目前，我们有超过2,500名会员，而该团队仍在继续发展壮大。 处于这个社区的中心，能够听取您的意见并与我们的成员互动，能使我们更好地了解和识别您的兴趣和关注点。 如果您还没有加入我们，请即刻加入！</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> Strengthen the links between the West and the East</h2>
+<h2 class='m-p-m-t-b text-align-left'> 加强西方与东方之间的联系</h2>
 
-<h3 class='m-p-m-t-b'> From the very beginning, EOS Nation has committed to bringing the whole global community together. We worked hard to make it strong and united. Even at this very moment, we are touring Asia to build bridges between the Western and Eastern communities. The purpose of this trip is to strengthen the links between our two cultures for the well-being of the EOS community. Follow us on Youtube where Yves is posting daily vlogs about his adventure in Asia!</h3>
+<h3 class='m-p-m-t-b'> 从一开始，EOS Nation就致力于将整个全球社区团结在一起。 我们努力使其变得强大和团结。 这个时刻，我们正在亚洲巡回，以建立西方和东方社区之间的联系。 这次旅行的目的是加强我们两种文化之间的联系，以促进EOS社区的福祉。 在Youtube上关注我们，Yves会每天发布关于他在亚洲的旅行视频博客！</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> Supports Community Projects</h2>
+<h2 class='m-p-m-t-b text-align-left'> 支持社区项目</h2>
 
-<h3 class='m-p-m-t-b'> EOS Nation is committed to supporting a number of community-initiated projects. Whether EOS Index, Chintai, Pomelo or Hack-Til-dawn, we believe that it is important to encourage projects that benefit the community.</h3>
+<h3 class='m-p-m-t-b'> EOS Nation致力于支持一些社区发起的项目。 无论是EOS Index, Chintai，Pomelo还是Hack-Til-dawn，我们认为，鼓励有利于社区的项目非常重要。</h3>
 
-<h2 class='m-p-m-t-b text-align-left'> A Vote for EOS Nation …</h2>
+<h2 class='m-p-m-t-b text-align-left'> 为EOS Nation投票......</h2>
 
-<h3 class='m-p-m-t-b'> Is a vote to support 7 passionate and dedicated co-founders that have worked hard for months to help grow the EOS ecosystem. As a self-funded group of individuals, we are very proud of what we have accomplished so far with limited resources. We are thrilled and excited to continue to work to provide value for EOS token holders across the world. We can assure you that what you have seen so far from EOS Nation is only the beginning. Our goal is to continue to add value to the network, and therefore to each of you. EOS Nation will never stop working hard to maintain the privilege of representing all of you at the highest level of blockchain governance, with a seat at the EOS Block Producers table.</h3>
+<h3 class='m-p-m-t-b'> 就是投票支持8位热情而专注的联合创始人，这些联合创始人已经努力工作数月，以帮助发展EOS生态系统。作为一个自筹资金的个人团体，迄今为止，我们为用有限的资源所取得的成就感到自豪。我们很高兴能够继续努力为全球的EOS代币持有者创造价值。我们可以向您保证，您迄今为止从EOS Nation看到的，仅仅是开始。我们的目标是继续为网络增加价值，因此也为每个人增加价值。 EOS Nation将永远不会懈怠，维持所有代表在区块链治理的最高层面的特权，并在EOS 节点表中占有一席之地。</h3>
 
-<h3 class='m-p-m-t-b'> We thank you for your support.
+<h3 class='m-p-m-t-b'> 我们感谢您的支持。</h3>
 
-<h3 class='m-p-m-t-b'> EOS Nation is firmly committed to building our future one block at a time!</h3>
+<h3 class='m-p-m-t-b'> EOSNation坚定地履行一步一区块，稳步建立我们的未来！</h3>
 
-<h3 class='m-p-m-t-b'> Avoid Scams!</h3>
+<h3 class='m-p-m-t-b'> 避免诈骗！</h3>
 
-<h3 class='m-p-m-t-b'> Don’t import your private key anywhere until you’ve seen statements released from at least a few Block Producers you trust stating that it’s safe to do so. Sharing your key with the wrong platform could result in loss of tokens. Learn more about BP candidates.Stay tuned for more on how to vote and when it’s safe to do so. Subscribe to our newsletter or keep your eyes peeled on our social channels.‍</h3>
+<h3 class='m-p-m-t-b'> 如果您没有看到至少几个您信任的节点发布的声明表明这样做是安全的，请不要将您的私钥导入任何地方。使用错误的平台共享密钥，可能会导致代币丢失。了解有关BP候选人的更多信息。请详细了解如何投票以及何时安全投票。欢迎订阅我们的时事通讯、或留意我们的社交渠道。‍‍</h3>
 
 <h3 class='m-p-m-t-b'> https://steemit.com/eos/@eosnation/eos-it-s-time-to-vote</h3>

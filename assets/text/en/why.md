@@ -38,7 +38,7 @@
 
 <h3 class='m-p-m-t-b'> Is a vote to support 7 passionate and dedicated co-founders that have worked hard for months to help grow the EOS ecosystem. As a self-funded group of individuals, we are very proud of what we have accomplished so far with limited resources. We are thrilled and excited to continue to work to provide value for EOS token holders across the world. We can assure you that what you have seen so far from EOS Nation is only the beginning. Our goal is to continue to add value to the network, and therefore to each of you. EOS Nation will never stop working hard to maintain the privilege of representing all of you at the highest level of blockchain governance, with a seat at the EOS Block Producers table.</h3>
 
-<h3 class='m-p-m-t-b'> We thank you for your support.
+<h3 class='m-p-m-t-b'> We thank you for your support. </h3>
 
 <h3 class='m-p-m-t-b'> EOS Nation is firmly committed to building our future one block at a time!</h3>
 
