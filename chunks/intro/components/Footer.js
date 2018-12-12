@@ -54,14 +54,14 @@ class Footer extends React.PureComponent {
     return (
       <FooterWrapper backgroundColor={theme.primaryColor}>
         <Grid>
-          <GridCell span="2" phone="12" tablet="3" laptop="3">
+          <GridCell span="2" phone="12" tablet="12" laptop="3">
             <img
               src={footerLogo}
               className="footer-logo"
               style={{ width: '168px', height: '176px' }}
             />
           </GridCell>
-          <GridCell span="5" phone="12" tablet="5" laptop="5">
+          <GridCell span="5" phone="12" tablet="12" laptop="5">
             <GridInner>
               {links.map(({ url, text }, index) => {
                 const translatedTitle =
@@ -73,7 +73,12 @@ class Footer extends React.PureComponent {
                       ]
                     : text
                 return (
-                  <GridCell span="6">
+                  <GridCell
+                    span="6"
+                    tablet="12"
+                    phone="12"
+                    className="responsive-footer-items"
+                  >
                     <a
                       key={index}
                       href={url}
@@ -86,22 +91,34 @@ class Footer extends React.PureComponent {
                 )
               })}
             </GridInner>
-            <div style={{ marginTop: '36px', marginLeft: '-10px' }}>
-              <Components.SocialIcons
-                iconColor={'#ffffff'}
-                iconColorHover={'#607D8B'}
-                socialMediaLinks={this.props.footer.socialMediaLinks}
-                size={24}
+            <GridInner>
+              <GridCell
+                span="6"
+                tablet="12"
+                phone="12"
+                className="responsive-footer-items"
+                style={{ marginTop: '36px' }}
               >
-                <img
-                  src="assets/wechat-logo.png"
-                  onClick={() => {
-                    this.setState({ detailDialogOpen: true })
-                  }}
-                  style={{ width: '24px', height: '24px', cursor: 'pointer' }}
-                />
-              </Components.SocialIcons>
-            </div>
+                <Components.SocialIcons
+                  iconColor={'#ffffff'}
+                  iconColorHover={'#607D8B'}
+                  socialMediaLinks={this.props.footer.socialMediaLinks}
+                  size={24}
+                >
+                  <img
+                    src="assets/wechat-logo.png"
+                    onClick={() => {
+                      this.setState({ detailDialogOpen: true })
+                    }}
+                    style={{
+                      width: '24px',
+                      height: '24px',
+                      cursor: 'pointer'
+                    }}
+                  />
+                </Components.SocialIcons>
+              </GridCell>
+            </GridInner>
             <Dialog
               open={this.state.detailDialogOpen}
               onClose={() => {

@@ -887,4 +887,15 @@ div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
     grid-column-start: 2;
   }
 }
-/* END OF SUBSCRIPE CSS */
+
+@media (max-width: 440px) {
+  .subscribe-cell-wrapper {
+    grid-column-start: 1;
+  }
+}
+/* END OF SUBSCRIBE CSS */
+@media (max-width: 839px) {
+  .responsive-footer-items {
+    margin: 0 auto;
+  }
+}
