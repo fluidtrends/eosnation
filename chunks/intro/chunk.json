@@ -115,6 +115,14 @@
                 {
                   "link": "/ambassadors",
                   "name": "Meetups"
+                },
+                {
+                  "link": "https://bihu.com/people/560575",
+                  "name": "Bihu"
+                },
+                {
+                  "link": "http://koreos.io/EOSNation",
+                  "name": "KOREOS"
                 }
               ],
               "cards": [
@@ -200,7 +208,7 @@
               "id": "projects",
               "hideButton": true,
               "title": "Projects",
-              "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem",
+              "description": "EOS Nation is an active BP in the EOS community that helps forward the best initiatives in the ecosystem.",
               "btnText": "Explore more",
               "backgroundColor": "#000",
               "btnLink": "https://steemit.com/eos/@eosnation/eos-nation-ambassador",
