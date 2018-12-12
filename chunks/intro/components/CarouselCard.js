@@ -12,9 +12,15 @@ class CarouselCard extends React.Component {
         : image
     return (
       <div className="carousel-card-container">
-        <div>
-          <img src={imageURL} className="carousel-card-img" />
-        </div>
+        <div
+          style={{
+            backgroundImage: `url(${imageURL})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'contain',
+            backgroundRepeat: 'no-repeat',
+            height: '200px'
+          }}
+        />
         <div className="carousel-card-info flex-col-space-between">
           <div className="paragraph">
             <Truncate

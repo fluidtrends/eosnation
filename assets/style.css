@@ -68,12 +68,6 @@ body a {
   margin-left: 10px;
 }
 
-.carousel-card-img {
-  width: 100%;
-  object-fit: cover;
-  height: 200px;
-}
-
 .carousel-card-info {
   height: 120px;
   padding: 20px;
