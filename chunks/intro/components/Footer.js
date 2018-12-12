@@ -5,13 +5,20 @@ import { Grid, GridCell, GridInner } from 'rmwc'
 import { Body2, FooterWrapper } from './StyledComponents'
 import footerLogo from '../../../assets/eosnation_footer_logo.png'
 import { Data } from 'react-chunky'
+import {
+  Dialog,
+  DialogContent,
+  DialogActions,
+  DialogButton
+} from '@rmwc/dialog'
 
 class Footer extends React.PureComponent {
   constructor(props) {
     super(props)
     this.state = {
       selectedLanguage: null,
-      strings: null
+      strings: null,
+      detailDialogOpen: false
     }
   }
   componentDidMount() {
@@ -32,11 +39,17 @@ class Footer extends React.PureComponent {
   render() {
     const { links, theme } = this.props
     const translatedCertifiedText =
-      theme.footerTranslation &&
+      this.props.theme.footerTranslation &&
       this.state.strings &&
       this.state.selectedLanguage
         ? this.state.strings[this.state.selectedLanguage][`certifiedText`]
         : 'Certified Carbon Neutral Block Producer'
+    const translatedBtnModal =
+      this.props.theme.footerTranslation &&
+      this.state.strings &&
+      this.state.selectedLanguage
+        ? this.state.strings[this.state.selectedLanguage][`modalBtn`]
+        : 'Back'
     // hardcode above text for now
     return (
       <FooterWrapper backgroundColor={theme.primaryColor}>
@@ -79,8 +92,34 @@ class Footer extends React.PureComponent {
                 iconColorHover={'#607D8B'}
                 socialMediaLinks={this.props.footer.socialMediaLinks}
                 size={24}
-              />
+              >
+                <img
+                  src="assets/wechat-logo.png"
+                  onClick={() => {
+                    this.setState({ detailDialogOpen: true })
+                  }}
+                  style={{ width: '24px', height: '24px', cursor: 'pointer' }}
+                />
+              </Components.SocialIcons>
             </div>
+            <Dialog
+              open={this.state.detailDialogOpen}
+              onClose={() => {
+                this.setState({ detailDialogOpen: false })
+              }}
+            >
+              <DialogContent>
+                <img
+                  src="assets/wechat-qr.jpg"
+                  style={{ width: '100%', height: '100%' }}
+                />
+              </DialogContent>
+              <DialogActions
+                style={{ display: 'flex', justifyContent: 'center' }}
+              >
+                <DialogButton action="close">{translatedBtnModal}</DialogButton>
+              </DialogActions>
+            </Dialog>
           </GridCell>
           <GridCell
             span="5"
