@@ -79,7 +79,7 @@ export class CalendarItem extends Component {
           </div>
         </CalenderItemDate>
         <CalenderItemContent>
-          <Grid xclassName="padding-remove">
+          <Grid xclassname="padding-remove">
             <GridCell span="12">
               <GridInner>
                 <GridCell span="2">
