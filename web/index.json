@@ -42,7 +42,17 @@
       "github": "https://github.com/EOS-Nation",
       "youtube": "https://www.youtube.com/channel/UCXgAY9DyooykrubRXw3xK1g",
       "linkedin": " https://www.linkedin.com/company/eos-nation/",
-      "twitter": "https://twitter.com/EOS_Nation/"
+      "twitter": "https://twitter.com/EOS_Nation/",
+      "customItems": [
+        {
+          "title": "Bihu",
+          "link": "https://bihu.com/people/560575"
+        },
+        {
+          "title": "KOREOS",
+          "link": "http://koreos.io/EOSNation"
+        }
+      ]
     }
   }
 }
