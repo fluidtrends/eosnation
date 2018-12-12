@@ -99,9 +99,9 @@ class Footer extends React.PureComponent {
           </GridCell>
           <GridCell
             span="6"
-            phone="12"
+            phone="4"
             tablet="6"
-            style={{ gridColumnStart: 4 }}
+            className="subscribe-cell-wrapper"
           >
             <div
               dangerouslySetInnerHTML={{

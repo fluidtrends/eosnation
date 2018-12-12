@@ -879,4 +879,18 @@ div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
   transition: all 0.1s ease-in-out;
   border: 1px solid #0078c1;
 }
+
+.ctct-form-element {
+  border: 1px solid #000;
+}
+
+.subscribe-cell-wrapper {
+  grid-column-start: 4;
+}
+
+@media (max-width: 839px) {
+  .subscribe-cell-wrapper {
+    grid-column-start: 2;
+  }
+}
 /* END OF SUBSCRIPE CSS */
