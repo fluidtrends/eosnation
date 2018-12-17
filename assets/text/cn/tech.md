@@ -1,5 +1,3 @@
-<img src='assets/cn/EOSNTechMap.svg' style='width: 100%; height: 100%'>
-
 <h2 class='m-p-m-t-b text-align-left'>EOSNation - EOS节点</h2>
 
 <h3 class='m-p-m-t-b'><span class='markdown-bold'>官方节点备选名 EOSNation EOS Nation</span> 公司总部所在地 Canada

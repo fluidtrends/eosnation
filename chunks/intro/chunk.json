@@ -42,7 +42,7 @@
       "components": {
         "cover": {
           "source": "coverSection",
-          "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME",
+          "title": "BUILDING OUR FUTURE ONE BLOCK AT A TIME",
           "image": "cover.r.png",
           "backgroundImgURL": "../../assets/cover.r.png",
           "btnText1": "Learn more",
@@ -80,11 +80,10 @@
               "btnScroll": "tools"
             }
           ],
+          "additionalInfo": "EOS Nation is a standby Block Producer. Our mission is to secure the EOS blockchain with reliable infrastructure and to build a global community empowered with the tools and resources to thrive. We're committed to leading and contributing to projects that add value to the community.",
           "title": "Why vote for us?",
           "textColor": "#ffcc000",
-          "backgroundColor": "#FAFAFA",
-          "imgPath": "../../assets/EOSNTechMap.svg",
-          "imgTitle": "EOS Tech Map"
+          "backgroundColor": "#FAFAFA"
         },
         "gallery": {
           "source": "carouselSection",

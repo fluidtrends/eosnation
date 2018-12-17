@@ -23,6 +23,7 @@ class ValueSection extends Component {
       theme,
       imgPath,
       imgTitle,
+      additionalInfo,
       translation,
       strings,
       selectedLanguage
@@ -40,9 +41,23 @@ class ValueSection extends Component {
       translation && strings && selectedLanguage && imgPath
         ? imgPath.replace('/assets/', `/assets/${selectedLanguage}/`)
         : imgPath
-
+    const translatedAdditionalInfo =
+      translation && strings && selectedLanguage
+        ? strings[selectedLanguage]['pillars'][`additionalInfo`]
+        : additionalInfo
     return (
       <StyledComponents.ValuesSection>
+        <h3
+          className="section-header text-align-center"
+          style={{
+            paddingBottom: 50,
+            fontSize: '26px',
+            lineHeight: '36px',
+            margin: '0 50px'
+          }}
+        >
+          {translatedAdditionalInfo}
+        </h3>
         <h2
           className="section-header text-align-center"
           style={{ paddingBottom: 50 }}

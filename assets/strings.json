@@ -20,7 +20,7 @@
   "why": {
     "en": {
       "cover": {
-        "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME"
+        "title": "BUILDING OUR FUTURE ONE BLOCK AT A TIME"
       }
     },
     "cn": {
@@ -32,11 +32,12 @@
   "welcome": {
     "en": {
       "cover": {
-        "title": "BUILDING OUR FUTURE ONE BLOCK AT THE TIME",
+        "title": "BUILDING OUR FUTURE ONE BLOCK AT A TIME",
         "btnText1": "Learn more",
         "btnText2": "Vote"
       },
       "pillars": {
+        "additionalInfo": "EOS Nation is a standby Block Producer. Our mission is to secure the EOS blockchain with reliable infrastructure and to build a global community empowered with the tools and resources to thrive. We're committed to leading and contributing to projects that add value to the community.",
         "title": "Why vote for us?",
         "title0": "Community",
         "description0": "We're dedicated to foster the EOS platform through reliable and efficient block production and community engagement.",
@@ -117,6 +118,7 @@
         "btnText2": "投票"
       },
       "pillars": {
+        "additionalInfo": "EOS Nation is a standby Block Producer. Our mission is to secure the EOS blockchain with reliable infrastructure and to build a global community empowered with the tools and resources to thrive. We're committed to leading and contributing to projects that add value to the community.",
         "title": "为什么给我们投票？",
         "title0": "社区",
         "description0": "我们致力于通过可靠、高效的块产出和社区承诺，来发展维护EOS平台。",
