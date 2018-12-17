@@ -899,3 +899,7 @@ div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
     margin: 0 auto;
   }
 }
+
+.responsive-footer-items img:hover {
+  opacity: 0.5;
+}
