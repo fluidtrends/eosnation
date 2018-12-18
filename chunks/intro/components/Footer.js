@@ -97,7 +97,7 @@ class Footer extends React.PureComponent {
                 tablet="12"
                 phone="12"
                 className="responsive-footer-items"
-                style={{ marginTop: '36px' }}
+                style={{ marginTop: '36px', maxWidth: '100%' }}
               >
                 <Components.SocialIcons
                   iconColor={'#ffffff'}
