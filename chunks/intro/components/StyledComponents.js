@@ -167,8 +167,8 @@ export const Cover = styled.div`
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-position-y: ${props => props.backgroundPositionY || '60px'};
-  background-position-x: ${props => props.backgroundPositionX || 'inherit'};
+  background-position-y: center;
+  background-position-x: center;
   background-size: ${props => props.backgroundSize || '100%'};
   height: 700px;
   :before {
