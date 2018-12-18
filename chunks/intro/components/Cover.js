@@ -146,7 +146,44 @@ export default class Intro extends Component {
             size={24}
             isSmallScreen={this.props.isSmallScreen}
             socialMediaLinks={socialMediaLinks}
-          />
+          >
+            <img
+              src="assets/bihu.png"
+              onClick={() => {
+                window.open('https://bihu.com/people/560575', '_blank')
+              }}
+              style={{
+                width: '24px',
+                height: '24px',
+                cursor: 'pointer',
+                margin: '10px'
+              }}
+            />
+            <img
+              src="assets/koreos.png"
+              onClick={() => {
+                window.open('http://koreos.io/EOSNation', '_blank')
+              }}
+              style={{
+                width: '24px',
+                height: '24px',
+                cursor: 'pointer',
+                margin: '10px'
+              }}
+            />
+            <img
+              src="assets/wechat.png"
+              onClick={() => {
+                this.setState({ detailDialogOpen: true })
+              }}
+              style={{
+                width: '24px',
+                height: '24px',
+                cursor: 'pointer',
+                margin: '10px'
+              }}
+            />
+          </Components.SocialIcons>
         </SocialLinks>
       </div>
     )
