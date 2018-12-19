@@ -166,11 +166,10 @@ export const Cover = styled.div`
   background-image: url(${props => props.backgroundImgURL});
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-position-y: center;
-  background-position-x: center;
+  background-position-y: ${props => props.backgroundPositionY || 'center'};
+  background-position-x: ${props => props.backgroundPositionX || 'center'};
   background-size: ${props => props.backgroundSize || '100%'};
-  height: 700px;
+  height: 100vh;
   :before {
     content: '';
     position: absolute;

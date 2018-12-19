@@ -49,9 +49,9 @@
           "btnText2": "Vote",
           "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
           "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX": "200px",
-          "backgroundPositionY": "100px",
-          "backgroundSize": "90%",
+          "backgroundPositionX": "center",
+          "backgroundPositionY": "130px",
+          "backgroundSize": "85%",
           "translation": true
         },
         "pillars": {
@@ -1112,9 +1112,9 @@
           "hideSubtitle": true,
           "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
           "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX": "200px",
-          "backgroundPositionY": "100px",
-          "backgroundSize": "90%",
+          "backgroundPositionX": "center",
+          "backgroundPositionY": "130px",
+          "backgroundSize": "85%",
           "translation": true
         },
         "text": {
@@ -1175,9 +1175,9 @@
           "hideSubtitle": true,
           "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
           "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX": "200px",
-          "backgroundPositionY": "100px",
-          "backgroundSize": "90%"
+          "backgroundPositionX": "center",
+          "backgroundPositionY": "130px",
+          "backgroundSize": "85%"
         },
         "text": {
           "source": "text",
@@ -1264,9 +1264,9 @@
           "hideSubtitle": true,
           "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
           "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX": "200px",
-          "backgroundPositionY": "100px",
-          "backgroundSize": "90%"
+          "backgroundPositionX": "center",
+          "backgroundPositionY": "130px",
+          "backgroundSize": "85%"
         },
         "text": {
           "source": "text",
@@ -1326,9 +1326,9 @@
           "hideSubtitle": true,
           "overlayBackground": "linear-gradient(90deg, #EEEEEE 18.96%, #000000 100%)",
           "fontFamilyTitle": "GAMECUBEN",
-          "backgroundPositionX": "200px",
-          "backgroundPositionY": "100px",
-          "backgroundSize": "90%"
+          "backgroundPositionX": "center",
+          "backgroundPositionY": "130px",
+          "backgroundSize": "85%"
         },
         "text": {
           "source": "text",
@@ -1864,6 +1864,7 @@
           "source": "text",
           "textSource": "local://bp-json",
           "style": {
+            "marginTop": "50px",
             "padding": "10%"
           }
         },
@@ -1915,6 +1916,7 @@
           "source": "text",
           "textSource": "local://subscribe",
           "style": {
+            "marginTop": "100px",
             "padding": "10%",
             "maxWidth": ""
           }

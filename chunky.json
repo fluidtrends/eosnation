@@ -13,6 +13,7 @@
   "theme": {
     "logoImage": "header-logo.png",
     "logoLightImage": "header-logo.png",
+    "logoOnMobile": true,
     "headerColor": "#FF5722",
     "textColor": "#546E7A",
     "linkColor": "#0288D1",
