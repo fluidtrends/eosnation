@@ -8,10 +8,13 @@ import {
   CoverTitle,
   SocialLinks
 } from './StyledComponents'
+import Shake from 'react-reveal/Shake'
+import RubberBand from 'react-reveal/RubberBand'
 
 export default class Intro extends Component {
   constructor(props) {
     super(props)
+    this.state = { hoverBtn1: false, hoverBtn2: false }
 
     this._onStart = this.onStart.bind(this)
   }
@@ -103,33 +106,43 @@ export default class Intro extends Component {
           : btnText2
     return (
       <div style={{ marginTop: '30px' }}>
-        <Button
-          raised
-          onClick={() => this.goTo('/about')}
-          style={{
-            background: theme.secondaryColor,
-            cursor: 'pointer',
-            height: 60,
-            width: 196,
-            marginRight: 20,
-            marginTop: '20px'
-          }}
-        >
-          {translatedBtnText1}
-        </Button>
-        <Button
-          raised
-          onClick={() => this.goTo('/vote')}
-          style={{
-            background: theme.primaryColor,
-            cursor: 'pointer',
-            height: 60,
-            width: 196,
-            marginTop: '20px'
-          }}
-        >
-          {translatedBtnText2}
-        </Button>
+        <Shake spy={this.state.hoverBtn1}>
+          <Button
+            onMouseEnter={() =>
+              this.setState({ hoverBtn1: !this.state.hoverBtn1 })
+            }
+            raised
+            onClick={() => this.goTo('/about')}
+            style={{
+              background: theme.secondaryColor,
+              cursor: 'pointer',
+              height: 60,
+              width: 196,
+              marginRight: 20,
+              marginTop: '20px'
+            }}
+          >
+            {translatedBtnText1}
+          </Button>
+        </Shake>
+        <RubberBand spy={this.state.hoverBtn2}>
+          <Button
+            onMouseEnter={() =>
+              this.setState({ hoverBtn2: !this.state.hoverBtn2 })
+            }
+            raised
+            onClick={() => this.goTo('/vote')}
+            style={{
+              background: theme.primaryColor,
+              cursor: 'pointer',
+              height: 60,
+              width: 196,
+              marginTop: '20px'
+            }}
+          >
+            {translatedBtnText2}
+          </Button>
+        </RubberBand>
       </div>
     )
   }

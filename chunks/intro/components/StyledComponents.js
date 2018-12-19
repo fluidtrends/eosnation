@@ -210,7 +210,7 @@ export const CoverContent = styled.div`
 
 export const SocialLinks = styled.div`
   position: absolute;
-  top: -250px;
+  top: -400px;
   right: 0;
   margin-right: 20px;
   @media (max-width: 840px) {
