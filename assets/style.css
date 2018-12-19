@@ -904,3 +904,6 @@ div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
 .responsive-footer-items img:hover {
   opacity: 0.5;
 }
+.social-wrapper img:hover {
+  opacity: 0.5;
+}

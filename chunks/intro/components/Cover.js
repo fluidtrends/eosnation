@@ -137,7 +137,7 @@ export default class Intro extends Component {
   icons() {
     const socialMediaLinks = this.props.footer.socialMediaLinks
     return (
-      <div style={{ position: 'relative' }}>
+      <div style={{ position: 'relative' }} className={'social-wrapper'}>
         <SocialLinks>
           <Components.SocialIcons
             iconColor={'#ffffff'}
