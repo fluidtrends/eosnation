@@ -1,15 +1,11 @@
 import React from 'react'
 import Truncate from 'react-truncate'
 import { Button, CardImageWrapper } from './StyledComponents'
-import HeadShake from 'react-reveal/HeadShake'
+import Fade from 'react-reveal/Fade'
 
 const DEFAULT_MAX_DESCRIPTION_LINES = 5
 
 class VerticalCard extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { hover: false }
-  }
   render() {
     const {
       image,
@@ -20,12 +16,8 @@ class VerticalCard extends React.Component {
     } = this.props
 
     return (
-      <div
-        className="card-container"
-        onMouseEnter={() => this.setState({ hover: !this.state.hover })}
-        onClick={this.onClick.bind(this)}
-      >
-        <HeadShake spy={this.state.hover}>
+      <div className="card-container" onClick={this.onClick.bind(this)}>
+        <Fade left>
           <CardImageWrapper
             className="align-center"
             backgroundColor={this.props.theme.primaryColor}
@@ -53,7 +45,7 @@ class VerticalCard extends React.Component {
               {btnText}
             </Button>
           </div>
-        </HeadShake>
+        </Fade>
       </div>
     )
   }

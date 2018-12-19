@@ -8,13 +8,11 @@ import {
   CoverTitle,
   SocialLinks
 } from './StyledComponents'
-import Shake from 'react-reveal/Shake'
-import RubberBand from 'react-reveal/RubberBand'
+import Fade from 'react-reveal/Fade'
 
 export default class Intro extends Component {
   constructor(props) {
     super(props)
-    this.state = { hoverBtn1: false, hoverBtn2: false }
 
     this._onStart = this.onStart.bind(this)
   }
@@ -106,11 +104,8 @@ export default class Intro extends Component {
           : btnText2
     return (
       <div style={{ marginTop: '30px' }}>
-        <Shake spy={this.state.hoverBtn1}>
+        <Fade left>
           <Button
-            onMouseEnter={() =>
-              this.setState({ hoverBtn1: !this.state.hoverBtn1 })
-            }
             raised
             onClick={() => this.goTo('/about')}
             style={{
@@ -124,8 +119,8 @@ export default class Intro extends Component {
           >
             {translatedBtnText1}
           </Button>
-        </Shake>
-        <RubberBand spy={this.state.hoverBtn2}>
+        </Fade>
+        <Fade right>
           <Button
             onMouseEnter={() =>
               this.setState({ hoverBtn2: !this.state.hoverBtn2 })
@@ -142,7 +137,7 @@ export default class Intro extends Component {
           >
             {translatedBtnText2}
           </Button>
-        </RubberBand>
+        </Fade>
       </div>
     )
   }
