@@ -572,6 +572,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -893,6 +897,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -951,6 +959,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1071,6 +1083,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1130,6 +1146,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1215,6 +1235,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1273,6 +1297,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1390,6 +1418,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1446,6 +1478,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1502,6 +1538,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1558,6 +1598,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1614,6 +1658,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1670,6 +1718,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1726,6 +1778,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1782,6 +1838,10 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",
@@ -1829,6 +1889,65 @@
             {
               "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
               "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "subscribe": {
+      "title": "Subscribe",
+      "icon": "favorite",
+      "action": true,
+      "path": "/subscribe",
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://subscribe",
+          "style": {
+            "padding": "10%",
+            "maxWidth": ""
+          }
+        },
+        "form": {
+          "source": "form"
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "bp,json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
             }
           ],
           "title": "Why vote for us?",

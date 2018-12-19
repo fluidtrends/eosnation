@@ -228,6 +228,7 @@
       "text2": "BP Agreement Compliance Rating",
       "text3": "BP.json",
       "text4": "Code of Conduct",
+      "text5": "Subscribe",
       "certifiedText": "Certified Carbon Neutral Block Producer",
       "modalBtn": "Back"
     },
@@ -237,6 +238,7 @@
       "text2": "BP协议合规性评级",
       "text3": "BP.json",
       "text4": "行为准则",
+      "text5": "Subscribe",
       "certifiedText": "经认证碳中性节点",
       "modalBtn": "背部"
     }
