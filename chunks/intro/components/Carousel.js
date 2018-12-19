@@ -94,6 +94,7 @@ class Carousel extends React.Component {
                     window.innerWidth > 1224 ? animationType : 'slideFromLeft'
                   }
                   startAnimation={this.state.startAnimation}
+                  config={{ tension: 30, friction: 80 }}
                 >
                   <Row>
                     <Col lg={6} md={20} style={{ paddingTop: '20px' }}>
