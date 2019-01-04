@@ -35,6 +35,7 @@
     "vivus": "^0.4.4"
   },
   "devDependencies": {
+    "chunky-cli": "1.0.0-alpha.3",
     "react-savor": "0.x"
   }
 }
