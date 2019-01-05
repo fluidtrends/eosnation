@@ -54,8 +54,7 @@ class VerticalCard extends React.Component {
     const { btnLink, btnScroll } = this.props
 
     if (btnLink) {
-      const target = btnLink.includes('https://') ? '_blank' : ''
-      window.open(btnLink, target)
+      window.open(btnLink)
     }
 
     if (btnScroll) {
