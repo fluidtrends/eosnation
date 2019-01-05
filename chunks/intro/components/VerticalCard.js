@@ -51,10 +51,10 @@ class VerticalCard extends React.Component {
   }
 
   onClick() {
-    const { btnLink, btnScroll } = this.props
+    const { btnLink, btnScroll, goTo } = this.props
 
     if (btnLink) {
-      window.open(btnLink)
+      goTo(btnLink)
     }
 
     if (btnScroll) {

@@ -19,6 +19,10 @@ export default class ValueSection extends Component {
     window.removeEventListener('scroll', this.handleScrollToElement, true)
   }
 
+  goTo(link) {
+    this.props.history.push(link)
+  }
+
   handleScrollToElement() {
     if (
       Utils.isAnyPartOfElementInViewport(this.wrapperRef) &&
@@ -112,6 +116,7 @@ export default class ValueSection extends Component {
                     title={translatedTitle}
                     description={translatedDescription}
                     btnText={translatedBtnText}
+                    goTo={link => this.goTo(link)}
                     {...remainingProps}
                   />
                 )
