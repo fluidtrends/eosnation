@@ -1957,6 +1957,57 @@
           "backgroundColor": "#FAFAFA"
         }
       }
+    },
+    "yvesPage": {
+      "title": "Yves La Rose",
+      "icon": "favorite",
+      "action": true,
+      "path": "/team/yves-la-rose",
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://team/yves/README",
+          "style": {
+            "padding": "5%"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "bp,json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
     }
   }
 }
