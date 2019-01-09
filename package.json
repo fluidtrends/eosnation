@@ -20,7 +20,6 @@
   },
   "homepage": "http://eosnation.carmel.io",
   "dependencies": {
-    "antd": "^3.12.1",
     "font-awesome": "^4.7.0",
     "raw-loader": "^0.5.1",
     "react": "^16.6.0",
