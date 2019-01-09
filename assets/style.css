@@ -907,3 +907,7 @@ div.ctct-form-embed form.ctct-form-custom button.ctct-form-button {
 .social-wrapper img:hover {
   opacity: 0.5;
 }
+
+.anticon svg {
+  display: none;
+}
