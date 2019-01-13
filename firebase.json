@@ -11,6 +11,13 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "headers": [{
+      "source": "bp.json",
+      "headers": [{
+        "key": "Access-Control-Allow-Origin",
+        "value": "*"
+      }]
+    }]
   }
 }
