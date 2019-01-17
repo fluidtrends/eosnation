@@ -1,5 +1,5 @@
 {
-    "producer_account_name": "eosnationftw",
+    "producer_account_name": "bosnationftw",
     "org": {
       "candidate_name": "EOS Nation",
       "website": "https://eosnation.io",
@@ -38,8 +38,8 @@
           "longitude": -75.700269
         },
         "node_type": "full",
-        "api_endpoint": "http://api.eosn.io",
-        "ssl_endpoint": "https://api.eosn.io"
+        "api_endpoint": "http://bos.eosn.io",
+        "ssl_endpoint": "https://bos.eosn.io"
       },
       {
         "location": {
@@ -49,7 +49,7 @@
           "longitude": -75.700269
         },
         "node_type": "seed",
-        "p2p_endpoint": "peer.eosn.io:9876"
+        "p2p_endpoint": "bos.eosn.io:9876"
       },
       {
         "location": {
