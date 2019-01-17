@@ -13,7 +13,7 @@
       }
     ],
     "headers": [{
-      "source": "bp.json",
+      "source": "**/*.@(json)",
       "headers": [{
         "key": "Access-Control-Allow-Origin",
         "value": "*"
