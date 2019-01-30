@@ -747,12 +747,6 @@
               "title": "Staff",
               "members": [
                 {
-                  "name": "Elim Herr",
-                  "title": "Community Manager",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/ElimHerr.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/elim/README"
-                },
-                {
                   "name": "Heinz Martin Breuer",
                   "title": "Regional Director",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Martin.jpg",
