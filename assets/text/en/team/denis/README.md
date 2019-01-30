@@ -1,3 +1,5 @@
 **DENIS CARRIERE - CTO**
 
 As a full-stack web & GIS developer and a strong advocate for open source software & open data, Denis is our Chief Technology Officer and is responsible for our node infrastructure. Before focusing all his efforts on EOS and EOS Nation, Denis was one of the core developers for TurfJS (Advanced geospatial analysis for browsers and Node.js) and a developer for SharedStreets.io (A shared language for the world's streets). Denis is living and breathing open source with over 4,800+ GitHub commits this year alone. He is also the event organizer for OpenStreetMap and travels internationally/locally attending technology conferences. Denis also served with the Canadian Armed Forces as a Geospatial Engineer and deployed overseas for two operational missions, one of which was providing humanitarian relief efforts during the 2015 Nepal earthquake.
+
+- [Twitter: @DenisCarriere](https://twitter.com/DenisCarriere)
