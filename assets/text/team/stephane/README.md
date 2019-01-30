@@ -1,3 +1,0 @@
-**STEPHANE BISSON - CDO**
-
-In early 2017, after a deep dive into cryptoassets, Stéphane became an evangelist for Bitcoin, blockchain and decentralization. Through his constant efforts, he was able to grab people’s attention and educate them through casual conversations about these new concepts. Driven by his beliefs in the potential of decentralization, Stéphane was able to get many people interested in this new emerging asset class.  Some of these people, like Denis Carrière and Yves La Rose, eventually left their old industries to join the blockchain revolution.  Stéphane is honored to be able to continue his blockchain education efforts by working with a worldwide team of passionate EOSIO advocates through the EOS Nation Ambassador program.  

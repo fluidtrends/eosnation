@@ -1,5 +1,3 @@
-**P.Eng - 财务总监（CFO），文森特·格勒尼耶（Vincent Grenier）**
+**VINCENT GRENIER, P.Eng - CFO**
 
-F 全职投入，职责包括：法律、财务、法国社区参与
-
-文森特（Vincent）对企业财务、管理和系统充满热情，曾担任建筑工程师，帮助开发会计和管理软件。他对投资的兴趣最终把他带到了比特币、EOSIO 的世界。文森特将自己的热情与教育广泛大众 EOSIO 发展潜力的事业相结合，是早期 EOS 在线社区的主要成员。甚至在 EOS Nation 概念诞生之前，文森特就已经组织开展线上建立和教育 EOS 社区，并组织当地的聚会。虽然文森特管理 EOS Nation 重要的法律方面，他也仍然领导着各种教育倡议。目前，他正与其他节点进行线上合作，建立一个具有凝聚 EOSIO 教育平台，同时，继续为法国社区提供教育内容。他在魁北克、法国和瑞士主持了 10 多次会议，多次访问法国社区，并在 EOSNation 的 FR YouTube 页面上制作了教程视频。 (https://tinyurl.com/y9z2jmd8)
+Passionate about business finance, management and systems, Vincent Grenier worked as a structural engineer where he helped build the accounting and management software.  His interest in investing eventually led him to Bitcoin and then EOSIO.  Combining his enthusiasm with his desire to educate the public about the vast potential of EOSIO, Vincent was a staple of the early online EOS communities. Before the idea of EOS Nation was even born, Vincent was already building and educating EOS communities online and organising local meetups.  While Vincent manages important legal and financial aspects of EOS Nation, he is also still leading various education initiatives.  He is currently working online with other Block Producers to build a cohesive EOSIO educational platform while at the same time continuing to generate educational content for the French community.  He has hosted over 10 meetups across Quebec, France and Switzerland, done multiple interviews with various French communities and created tutorial videos on our EOS Nation FR YouTube page. 

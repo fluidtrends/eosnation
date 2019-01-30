@@ -1,3 +1,0 @@
-**Masenko Yaroslav - EOS NATION AMBASSADOR**
-
-Graduating with a Master of Business Administration from the President's Academy of Ukraine, Masenko Yaroslav is an entrepreneur that runs his own bakery and sneakers shop in Odessa. As an artist, he is in the process of building a cartoon studio while maintain his passion for writing and listening to music. Masenko believes in a decentralized future and want to make sure his country is an active participant in the blockchain revolution.  Masenko believes Joining the EOS Nation Ambassador team is a great opportunity for him to build the future of his country through blockchain education.

@@ -1,3 +1,3 @@
-**首席多元化官（CDO），史蒂芬·比松（Stéphane Bisson）**
+**STEPHANE BISSON - CDO**
 
-在 2017 年初，在深入钻研加密资产后，史蒂芬成为比特币、区块链和去中心化的倡导者。通过不断的努力，他能够吸引大家的注意力，在交谈过程中普及这些新概念。在去中心化信念下，史蒂芬能够让很多人对这种新兴的资产类别感兴趣。其中一些人，比如 Denis Carrière 和 Yves La Rose，都最终离开自己的老行业，加入了区块链革命。能够继续他的区块链教育普及工作，通过 EOS Nation 大使项目，与一个由对 EOSIO 充满激情的倡导者组成的全球性组织进行合作，史蒂芬感到很荣幸。
+In early 2017, after a deep dive into cryptoassets, Stéphane became an evangelist for Bitcoin, blockchain and decentralization. Through his constant efforts, he was able to grab people’s attention and educate them through casual conversations about these new concepts. Driven by his beliefs in the potential of decentralization, Stéphane was able to get many people interested in this new emerging asset class.  Some of these people, like Denis Carrière and Yves La Rose, eventually left their old industries to join the blockchain revolution.  Stéphane is honored to be able to continue his blockchain education efforts by working with a worldwide team of passionate EOSIO advocates through the EOS Nation Ambassador program.  

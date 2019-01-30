@@ -1,3 +1,0 @@
-**ADAM DORFMAN - EOS NATION AMBASSADOR**
-
-Adam Dorfman is an international speaker on the future of jobs and blockchain platform business models. Adam has over 10 years working in the capital markets, software and blockchain, collectively. He is the founder of an early stage platform called IF WHEN THEN which will be the first EOS Blockchain Platform to decentralize higher education into non formal learning communities. He is based on the Ukraine and is the local Ambassador to the EOS Nation Block Producer.

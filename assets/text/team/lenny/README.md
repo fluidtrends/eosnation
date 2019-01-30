@@ -1,3 +1,0 @@
-**LENNY GOUDREAULT - PMO**
-
-While working in construction project management, Lenny Gaudreault completed his master’s degree in architecture and is now working as an Architect graduate for Lapalme Rheault Architects & associates in Gatineau, Quebec.  More recently, his strong passion for building a better future through decentralization have motivated him to become an early leader of EOS communities, both online and at local meetups he organized. Lenny was an early and vocal proponent of EOSIO in various communities and now as a founding member of EOS Nation he continues to pursue his passion of educating others on the power and potential of the EOSIO framework.

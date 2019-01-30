@@ -1,3 +1,3 @@
-**社区负责人，莱尼·古德瑞特（Lenny Goudreault）**
+**LENNY GOUDREAULT - PMO**
 
-在建筑项目管理工作期间，莱尼获得了建筑学硕士学位，现在，是魁北克加蒂诺的 Lapalme Rheault 建筑事务所的建筑师研究生。近期，对去中心化下，建设更美好未来的强烈热情，促使他成为 EOS 社区的早期领导者，活跃在网上、他组织的地方聚会上。莱尼是早期支持 EOSIO 社区的人，现在，作为 EOS Nation 的创始成员，他继续保持着他普及 EOSIO 力量和潜力的激情。
+While working in construction project management, Lenny Gaudreault completed his master’s degree in architecture and is now working as an Architect graduate for Lapalme Rheault Architects & associates in Gatineau, Quebec.  More recently, his strong passion for building a better future through decentralization have motivated him to become an early leader of EOS communities, both online and at local meetups he organized. Lenny was an early and vocal proponent of EOSIO in various communities and now as a founding member of EOS Nation he continues to pursue his passion of educating others on the power and potential of the EOSIO framework.
