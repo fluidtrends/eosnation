@@ -1,8 +1,7 @@
-**DANIEL KEYES - COO**
+**首席运营官（COO），（丹尼尔·凯斯）Daniel Keyes**
 
-Prior to founding the first EOS community in Toronto and co-founding EOS Nation, Daniel spent a decade in the financial technology industry working several diverse roles. His extensive experience in customer service, sales, sales coaching, agent training, digital marketing, digital process management (lean green belt), and product management (certified scrum master, certified product owner) eventually lead him to consulting for a blockchain dev shop.
+在多伦多创建第一个 EOS 社区，并合作创建 EOSNation 之前，丹尼尔（Daniel） 在金融技术行业工作了 10 年，他担任了多个不同的角色。他在客户服务、销售、销售指导、代理培训、数字营销、数字流程管理（lean green belt）和产品管理（获得 CSM 认证, 经认证的产品负责人）方面的丰富经验，也使他成为一项区块链开发商店的顾问。
 
-Daniel earned a Bachelor of Journalism from Ryerson University in 2009 and worked as a chase producer intern at Global TV.
+2009 年，丹尼尔在瑞尔森大学（加拿大安大略省高等院校之一）获得了新闻学学士学位，并在全球电视公司 Global TV 担任 chase producer 实习生。
 
-Daniel lives by the principles of Truth, Love, and Freedom.
-
+丹尼尔一直以真诚、爱和自由为原则生活。
