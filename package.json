@@ -8,6 +8,7 @@
     "coverage": "react-savor coverage",
     "codeclimate": "react-savor codeclimate",
     "deploy": "npm run build && firebase deploy",
+    "web": "chunky start web —release",
     "build": "chunky package web && ./scripts/bpjson.sh",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
