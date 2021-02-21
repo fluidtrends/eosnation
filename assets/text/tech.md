@@ -1,6 +1,6 @@
 # Block Producer
 
-EOSN is using a Hybrid approach for their Block Producer infrastructure. Our primary bare metal servers are located in Ottawa, Canada and our backup servers are hosted using Amazon Web Services (AWS) in various different geographical regions. Both cloud & bare metal servers are fully optimized for CPU performance and high available memory.
+EOSN is using a Hybrid approach for their Block Producer infrastructure. Both cloud & bare metal servers are fully optimized for CPU performance and high available memory.
 
 ## Technical Specifications
 
@@ -10,11 +10,8 @@ Our cloud infrastructure is using [Amazon's latest EC2 z1d instances](https://aw
 
 ### Bare Metal
 
-- Ottawa, ON
-- Gatineau, QC
+- Canada
 
 ### Cloud
 
-- North Virginia, US East
-- Ireland, EU
-- Singapore, Asia Pacific
+- Amazon Web Services

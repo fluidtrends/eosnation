@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": ".chunky/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [{
+      "source": "**/*.@(json)",
+      "headers": [{"key": "Access-Control-Allow-Origin","value": "*"}]
+    }, {
+      "source":"/service-worker.js",
+      "headers": [{"key": "Cache-Control", "value": "no-cache"}]
+    }]
+  }
+}

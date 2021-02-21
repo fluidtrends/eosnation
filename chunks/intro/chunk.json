@@ -221,7 +221,7 @@
                 {
                   "image": "local://CommunityEngamentFund.jpg",
                   "title": "Community Engagement Fund",
-                  "btnLink": "https://www.eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
+                  "btnLink": "https://eosnation.io/post/eos-nation-active-stance-who-should-you-vote-for",
                   "btnText": "See more"
                 },
                 {
@@ -566,7 +566,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -747,12 +747,6 @@
               "title": "Staff",
               "members": [
                 {
-                  "name": "Elim Herr",
-                  "title": "Community Manager",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/ElimHerr.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/elim/README"
-                },
-                {
                   "name": "Heinz Martin Breuer",
                   "title": "Regional Director",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/Martin.jpg",
@@ -764,34 +758,16 @@
               "title": "Ambassadors",
               "members": [
                 {
-                  "name": "Dallas Rushing",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DallasRushing.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/dallas/README"
-                },
-                {
-                  "name": "Grace Anajuba",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/GraceAnajuba.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/grace/README"
-                },
-                {
                   "name": "Thierry Stoudmann",
                   "title": "EOS NATION AMBASSADOR",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/ThierryStoudmann.jpg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/thierry/README"
                 },
                 {
-                  "name": "Kaka Blessing Toritseju",
+                  "name": "Toritseju \"TojuKaka\"",
                   "title": "EOS NATION AMBASSADOR",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/KakaToritseju.jpg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/kaka/README"
-                },
-                {
-                  "name": "Michael Jedamski",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/MichaelJedamski.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/wayne/README"
                 },
                 {
                   "name": "Wayne Lloyd",
@@ -812,24 +788,6 @@
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/emmanuel/README"
                 },
                 {
-                  "name": "Samuel Joseph",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/SamuelJoseph.jpeg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/samuel/README"
-                },
-                {
-                  "name": "Adam Dorfman",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/AdamDorfman.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/adam/README"
-                },
-                {
-                  "name": "Tony Rose",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/TonyRose.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/tony/README"
-                },
-                {
                   "name": "Masenko Yaroslav",
                   "title": "EOS NATION AMBASSADOR",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/MasenkoYaroslav.png",
@@ -840,12 +798,6 @@
                   "title": "EOS NATION AMBASSADOR",
                   "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/DavidBigley.jpeg",
                   "text": "github://fluidtrends/eosnation/master/assets/text/team/davidb/README"
-                },
-                {
-                  "name": "Bhanu Prakash Katukojwala",
-                  "title": "EOS NATION AMBASSADOR",
-                  "image": "https://raw.githubusercontent.com/fluidtrends/eosnation/master/assets/bhanu.jpg",
-                  "text": "github://fluidtrends/eosnation/master/assets/text/team/bhanu/README"
                 },
                 {
                   "name": "Debraj Ghosh",
@@ -891,7 +843,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -953,7 +905,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1077,7 +1029,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1140,7 +1092,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1229,7 +1181,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1291,7 +1243,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1412,7 +1364,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1472,7 +1424,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1532,7 +1484,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1592,7 +1544,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1652,7 +1604,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1712,7 +1664,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1772,7 +1724,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1832,7 +1784,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1854,7 +1806,7 @@
       "title": "Bp.json",
       "icon": "favorite",
       "action": true,
-      "path": "/bp,json",
+      "path": "/bp.json",
       "noFooter": "true",
       "events": {
         "cover": "system://team"
@@ -1884,7 +1836,7 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
@@ -1940,7 +1892,58 @@
               "text": "BP Agreement Compliance Rating"
             },
             {
-              "url": "bp,json",
+              "url": "bp.json",
+              "text": "BP.json"
+            },
+            {
+              "url": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+              "text": "Code of Conduct"
+            },
+            {
+              "url": "subscribe",
+              "text": "Subscribe"
+            }
+          ],
+          "title": "Why vote for us?",
+          "textColor": "#ffcc000",
+          "backgroundColor": "#FAFAFA"
+        }
+      }
+    },
+    "yvesPage": {
+      "title": "Yves La Rose",
+      "icon": "favorite",
+      "action": true,
+      "path": "/team/yves-la-rose",
+      "noFooter": "true",
+      "events": {
+        "cover": "system://team"
+      },
+      "components": {
+        "text": {
+          "source": "text",
+          "textSource": "local://team/yves/README",
+          "style": {
+            "padding": "5%"
+          }
+        },
+        "footer": {
+          "source": "footerSection",
+          "links": [
+            {
+              "url": "privacy-policy",
+              "text": "Privacy Policy"
+            },
+            {
+              "url": "ownership-disclosure",
+              "text": "Ownership Disclosure"
+            },
+            {
+              "url": "https://www.eoswire.org/i/password",
+              "text": "BP Agreement Compliance Rating"
+            },
+            {
+              "url": "bp.json",
               "text": "BP.json"
             },
             {
